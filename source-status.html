@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Source status · African Capital Source</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&family=Source+Serif+4:wght@400;600&display=swap">
+<style>
+*{box-sizing:border-box}body{margin:0;color:#151515;background:white;font:16px Archivo,Arial,sans-serif}
+main{max-width:1120px;margin:auto;padding:32px 24px}header{display:flex;justify-content:space-between;align-items:center;gap:24px;border-bottom:3px solid #151515;padding-bottom:24px;margin-bottom:40px}
+a{color:#0d3550}header a{text-decoration:none;font-weight:800}h1{font:600 clamp(32px,5vw,48px) "Source Serif 4",Georgia,serif;margin:0 0 16px}
+.muted{color:#6b6b6b;line-height:1.6}.stats{display:flex;gap:40px;padding:24px 0;margin:20px 0;border-block:1px solid #e4e4e4}
+.stats strong{display:block;font-size:32px;margin-bottom:8px}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;text-align:left}
+th{padding:16px 12px;border-bottom:2px solid #151515;font-size:14px}td{padding:18px 12px;border-bottom:1px solid #e4e4e4;vertical-align:top;line-height:1.5}
+td:first-child{font-weight:600;min-width:190px}.ok{color:#226544}.error{color:#9e1b1f}button{border:1px solid #151515;background:#fff;border-radius:3px;padding:10px 16px;font:inherit;cursor:pointer}
+footer{margin-top:32px;font-size:14px;line-height:1.6}#message{line-height:1.6}@media(max-width:600px){main{padding:24px 16px}.stats{gap:24px}.stats strong{font-size:26px}}
+</style>
+<script src="assets/site-config.js"></script>
+</head>
+<body><main>
+<header><a href="./">African Capital Source</a><button id="refresh">Refresh status</button></header>
+<h1>Source status</h1>
+<p class="muted">Collection health for the publishers connected to ACS.</p>
+<p id="message" role="status">Loading collection status…</p>
+<div class="stats"><div><strong id="healthy">—</strong>Sources responding</div><div><strong id="added">—</strong>New stories this run</div><div><strong id="total">—</strong>Published stories</div></div>
+<div class="scroll"><table><thead><tr><th>Publisher</th><th>Status</th><th>Last successful check</th><th>Details</th></tr></thead><tbody id="rows"></tbody></table></div>
+<footer class="muted">Checks are scheduled every 30 minutes. Scheduled runs and public data caching can introduce delays. Source availability is separate from permission to republish content. Edit sources in the repository; this page is read-only.</footer>
+</main><script>
+const fmt=value=>value?new Date(value).toLocaleString("en-ZA",{timeZone:"Africa/Johannesburg",dateStyle:"medium",timeStyle:"short"})+" SAST":"Not yet checked";
+async function load(){
+  const message=document.getElementById("message"), button=document.getElementById("refresh");
+  button.disabled=true;
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
+  try{
+    const response=await fetch(ACS_CONFIG.statusUrl,{cache:"no-cache",signal:controller.signal});
+    if(!response.ok)throw new Error("Unavailable");
+    const data=await response.json();
+    if(!Array.isArray(data.sources))throw new Error("Invalid status");
+    message.textContent="Last run: "+fmt(data.checkedAt)+(data.status==="error"?". Collection failed; saved stories remain available.":data.status==="partial"?". Some sources need attention.":".");
+    if(data.checkedAt&&Date.now()-Date.parse(data.checkedAt)>6*60*60*1000)message.textContent+=" Scheduled updates appear delayed. Check GitHub Actions.";
+    document.getElementById("healthy").textContent=data.healthySources+" / "+data.totalSources;
+    document.getElementById("added").textContent=data.newArticles;
+    document.getElementById("total").textContent=data.totalArticles;
+    const rows=document.getElementById("rows");rows.replaceChildren();
+    for(const source of data.sources){
+      const row=document.createElement("tr");
+      for(const value of [source.name,source.status==="ok"?"Responding":"Needs attention",fmt(source.lastSuccess),source.error||source.new+" new stories"]){
+        const cell=document.createElement("td");cell.textContent=value;row.append(cell);
+      }
+      row.children[1].className=source.status==="ok"?"ok":"error";rows.append(row);
+    }
+  }catch{message.textContent="Collection status is not available yet. Run “Collect news” in GitHub Actions after installing the update."}
+  finally{clearTimeout(timer);button.disabled=false}
+}
+document.getElementById("refresh").addEventListener("click",load);load();
+</script></body></html>

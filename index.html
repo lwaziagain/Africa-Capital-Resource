@@ -878,6 +878,8 @@ footer.site .nl label{gap:8px}
   </div>
 </div></footer>
 
+<script src="assets/site-config.js"></script>
+<script src="assets/news-data.js"></script>
 <script>
 const CATS=[
  {id:"markets",name:"Markets"},{id:"companies",name:"Companies"},{id:"banking",name:"Banking and fintech"},
@@ -904,6 +906,7 @@ const CATDESC={
  opinion:"ACS analysis and commentary, clearly labelled."};
 const REGIONS=["Southern Africa","East Africa","West Africa","North Africa","Central Africa","Pan-African"];
 const PAGE=15;
+let LOAD_ERROR="", DATA_STATUS=null, DATA_FALLBACK=false;
 let CURCAT="", ARTICLES=[], RATES=[], FX=null, LOADED=false, DB=null, searchQ="", pageNo=1, lastRoute="";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -914,7 +917,7 @@ const catOf=id=>id==="protection"?"learn":id;
 const catName=id=>(CATS.find(c=>c.id===catOf(id))||{}).name||id;
 const FINTECH_RE=/fintech|payment|wallet|mobile money|m-pesa|lend|loan|card|remittance|bank|neobank|stablecoin|money transfer|pay\b/i;
 const inCat=(a,c)=>{if(c==="latest")return true;const t=[a.category,...(a.also||[])].map(catOf);if(t.includes(catOf(c)))return true;if(catOf(c)==="banking"&&t.includes("tech")&&FINTECH_RE.test((a.headline||"")+" "+(a.companies||[]).join(" ")))return true;return false};
-const pubKey=a=>a.historical?(a.eventDate||""):(a.acsDate||a.eventDate||"");
+const pubKey=a=>a.kind==="syndicated"?(a.publishedAt||a.collectedAt||a.acsDate||""):a.historical?(a.eventDate||""):(a.acsDate||a.eventDate||"");
 const sorted=list=>[...list].sort((a,b)=>pubKey(b).localeCompare(pubKey(a))||(b.eventDate||"").localeCompare(a.eventDate||""));
 
 $("#today").textContent=new Date().toLocaleDateString("en-ZA",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"Africa/Johannesburg"});
@@ -931,7 +934,7 @@ function kick(a){
 }
 const ctry=a=>a.country==="Pan-African"||!a.country?"Africa":a.country;
 const DEMO={"South Africa":"South African",Nigeria:"Nigerian",Kenya:"Kenyan",Egypt:"Egyptian",Ghana:"Ghanaian",Morocco:"Moroccan",Zambia:"Zambian",Uganda:"Ugandan",Tanzania:"Tanzanian",Rwanda:"Rwandan",Ethiopia:"Ethiopian",Mozambique:"Mozambican",Namibia:"Namibian",Zimbabwe:"Zimbabwean",Senegal:"Senegalese",Tunisia:"Tunisian",Algeria:"Algerian",Angola:"Angolan",Cameroon:"Cameroonian",Gabon:"Gabonese",Mauritius:"Mauritian","Côte d'Ivoire":"Ivorian",Malawi:"Malawian",Togo:"Togolese",Mali:"Malian",Chad:"Chadian","Cape Verde":"Cape Verdean",Niger:"Nigerien",Libya:"Libyan",Sudan:"Sudanese",Botswana:"Botswana",Benin:"Beninese",Liberia:"Liberian","Sierra Leone":"Sierra Leonean"};
-const HL=a=>{const c=ctry(a),h=a.headline||"";if(c==="Africa")return h;const n=[c,DEMO[c]].filter(Boolean).map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));if(new RegExp("\\b("+n.join("|")+")","i").test(h))return h;return `${c}: ${h}`};
+const HL=a=>{const c=ctry(a),h=a.headline||"";if(a.kind==="syndicated")return h;if(c==="Africa")return h;const n=[c,DEMO[c]].filter(Boolean).map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));if(new RegExp("\\b("+n.join("|")+")","i").test(h))return h;return `${c}: ${h}`};
 const hd=(a,tag="h3")=>`<${tag} class="hd"><a href="#a-${esc(a.id)}">${esc(HL(a))}</a></${tag}>`;
 /* illustrative photos (Pexels licence), chosen by section, then country */
 const IMG_CAT={crypto:"crypto",startups:"startup",banking:"payments","personal-finance":"payments",learn:"cardphone",protection:"cardphone",markets:"exchange",etfs:"charts",tech:"charts",infrastructure:"solar"};
@@ -952,9 +955,10 @@ function row(a){
 }
 function emptyState(msg){return `<div class="empty"><p>${msg}</p></div>`}
 function loadingOrEmpty(){
-  return LOADED? emptyState("No ACS reports have been published here yet. New coverage appears as the daily editorial run verifies it.")
-               : emptyState(DB===false? "Articles are stored in the ACS database, which needs a signed-in claude.ai viewer to load. Sign in to read the archive." : "Loading today's edition…");
+  if(LOAD_ERROR)return emptyState("News is temporarily unavailable. Please try again shortly.");
+  return LOADED? emptyState(ARTICLES.length?"No stories match this section yet.":"News updates are being prepared. Please check back soon.") : emptyState("Loading the latest news…");
 }
+
 function moveOf(r){const bp=Math.round((r.value-r.prev)*100);return{bp,cls:bp>0?"mv-up":bp<0?"mv-down":"mv-flat",short:bp>0?`+${bp}bp`:bp<0?`${bp}bp`:"hold",long:bp>0?`Hike, +${bp} bp`:bp<0?`Cut, ${bp} bp`:"Unchanged"}}
 function ratesTable(full){
   if(!RATES.length) return "";
@@ -963,7 +967,7 @@ function ratesTable(full){
   return `<section class="mod" style="margin-top:22px"><div class="colh">African policy rates <span>as at each decision date</span></div><div class="tbl"><table><thead><tr><th>Country</th><th>Rate</th><th class="r">Level</th><th class="r">Last move</th><th class="r">Decided</th></tr></thead><tbody>${list.map(r=>{const m=moveOf(r);return `<tr><td><a href="#a-${esc(r.article)}"><strong>${esc(r.country)}</strong></a><div class="src-meta">${esc(r.bank)}</div></td><td>${esc(r.instrument)}</td><td class="r num">${r.value.toFixed(2)}%</td><td class="r num ${m.cls}">${m.long}</td><td class="r num">${fmtS(r.date)}</td></tr>`}).join("")}</tbody></table></div><p class="fine">Not live data. Source: central bank decisions as reported in the linked ACS articles.</p></section>`;
 }
 function archiveMod(){
-  const c={}; ARTICLES.forEach(a=>{const m=(a.eventDate||"").slice(0,7); if(m>="2022-02") c[m]=(c[m]||0)+1});
+  const c={}; ARTICLES.forEach(a=>{const m=(a.kind==="syndicated"?newsDate(a):(a.eventDate||a.acsDate||"")).slice(0,7); if(m>="2022-02") c[m]=(c[m]||0)+1});
   const ms=Object.keys(c).sort().reverse(); if(!ms.length) return "";
   return `<section class="mod"><div class="colh">Archive <span>by event month</span></div><div class="links">${ms.map(m=>`<a href="#month-${m}">${monthName(m)} <span class="src-meta">(${c[m]})</span></a>`).join("")}</div></section>`;
 }
@@ -1043,7 +1047,7 @@ function viewCat(id){
   return viewList(NAV[id]||c.name,CATDESC[id],ARTICLES.filter(a=>inCat(a,id)),extra,id).replace('<div class="page-h">',`<div class="page-h">`).replace('<div style="min-width:0"><div class="page-h">',`<div style="min-width:0"><div class="page-h">`);
 }
 const readMins=a=>Math.max(1,Math.round([a.summary,...(a.body||[]),a.explanation,a.whyItMatters,a.investorRelevance,a.risks,a.watchNext].join(" ").split(/\s+/).length/220));
-const SITE="https://claude.ai/artifact/2VJSfTieDmQod2EfVKzDoU";
+const SITE=location.origin+location.pathname;
 function shareRow(a){const u=encodeURIComponent(SITE+"#a-"+a.id), t=encodeURIComponent(HL(a));
   return `<div class="share"><span>Share</span><a href="https://wa.me/?text=${t}%20${u}" target="_blank" rel="noopener">WhatsApp</a><a href="https://www.linkedin.com/sharing/share-offsite/?url=${u}" target="_blank" rel="noopener">LinkedIn</a><a href="https://x.com/intent/post?text=${t}&url=${u}" target="_blank" rel="noopener">X</a><button type="button" data-copy="${esc(SITE+"#a-"+a.id)}">Copy link</button></div>`}
 function viewArticle(id){
@@ -1092,11 +1096,11 @@ function viewSearch(){
   ${hits.length?paged(sorted(hits)):""}</div>${rail()}</div>`;
 }
 const P={
-about:["About African Capital Source",`<p>African Capital Source (ACS) is a written financial news publication covering companies, markets, capital and economic policy across Africa. Each report pairs the news with an explanation of what it means and why it matters for investors, businesses and households.</p>
+about:["About African Capital Source",`<p>African Capital Source (ACS) is a written financial news publication covering companies, markets, capital and economic policy across Africa. It includes automatically collected source stories alongside original ACS reports. Original reports can include context for investors, businesses and households.</p>
 <p>ACS covers Southern, East, West, North and Central Africa. South Africa and the JSE are an important part of the coverage, alongside Nigeria, Kenya, Ghana, Egypt, Morocco and other markets where credible source material is available.</p>
 <h2>Ownership</h2><p>ACS is owned and published by Dream Afrika Group (Pty) Ltd, Johannesburg, founded by Lwazi Nongauza, whose publishing work includes Showbiz Scope, Gauteng Lifestyle Magazine, South African Lifestyle Magazine, Sandton Lifestyle Magazine and Post Express Africa.</p>
-<h2>How ACS works</h2><p>ACS is produced by an AI-assisted editorial process that researches published reports, regulatory notices, exchange announcements and company statements, then writes original reports that credit every source.</p>`],
-standards:["Editorial standards",`<p>Every ACS report is based on identifiable sources: official statements, regulatory notices, exchange announcements, filings or reports by credited publishers. ACS does not publish anonymous allegations, invented quotations or figures it cannot trace.</p>
+<h2>How ACS works</h2><p>ACS brings together news from selected publishers and official sources. Automated collection organises new entries into topics and links readers to the original reporting. Source stories are labelled separately from original ACS reports; collection does not independently verify a publisher’s claims.</p>`],
+standards:["Editorial standards",`<h2>Source stories</h2><p>Entries labelled “Source story” are collected automatically from publisher feeds. Headlines remain attributed to their publisher. Excerpts appear only where reuse has been approved. These entries are not original ACS reporting or independently fact-checked analysis. Publication and collection times are shown separately; related stories can appear from more than one publisher.</p><h2>ACS reporting</h2><p>Every ACS report is based on identifiable sources: official statements, regulatory notices, exchange announcements, filings or reports by credited publishers. ACS does not publish anonymous allegations, invented quotations or figures it cannot trace.</p>
 <h2>Attribution</h2><p>Each article ends with a sources section listing the publisher, title, original publication date, the date ACS checked it, the source type and a visible link. Where ACS relies on another publisher's reporting, it says so and names the journalist where identified.</p>
 <h2>Quotations</h2><p>Quotations are used only where the exact original wording is available, are kept short, and name the speaker, their role and where the quote first appeared. ACS does not conduct interviews and never implies that it did.</p>
 <h2>Financial accuracy</h2><p>ACS distinguishes between announced, proposed, agreed, approved and completed transactions, and between reported, forecast and audited figures. Calculations made by ACS are labelled as such. Where sources conflict, ACS reports the conflict or leaves the figure out.</p>
@@ -1310,8 +1314,8 @@ function imgFor(a){
   if(IMGS){const f=c.find(x=>!IMGS.has(x))||c[0];IMGS.add(f);return f}
   return c[0];
 }
-const newsDate=a=>a.historical?(a.eventDate||a.acsDate):(a.acsDate||a.eventDate);
-const whenL=a=>`<div class="when">${a.historical?`<b>From the archive</b><span>${fmt(a.eventDate)}</span>`:`<span>${fmtS(newsDate(a))}</span><span>${esc(ctry(a))}</span>`}</div>`;
+const newsDate=a=>a.kind==="syndicated"?(a.publishedAt||a.collectedAt||a.acsDate||"").slice(0,10):a.historical?(a.eventDate||a.acsDate):(a.acsDate||a.eventDate);
+const whenL=a=>`<div class="when">${a.kind==="syndicated"?`<span>${esc(a.sources?.[0]?.name||"Source story")}</span>`:""}${a.historical?`<b>From the archive</b><span>${fmt(a.eventDate)}</span>`:`<span>${fmtS(newsDate(a))}</span><span>${esc(ctry(a))}</span>`}</div>`;
 function by(a){return `<div class="by"><span>${esc(a.country)}</span><span>${a.historical?"From the archive":fmtS(newsDate(a))}</span></div>`}
 function row(a){
   return `<article class="row">${pic(a,"pic thumb")}<div style="min-width:0">${kick(a)}${hd(a)}<p class="dek">${esc(a.standfirst)}</p>
@@ -1326,12 +1330,13 @@ function chg3(v,p){const c=(v-p)/p*100;return{c,cls:c>0?"up":c<0?"down":"flat",t
 let MKTAB="mk";
 function mkPanel(){
   if(!FX&&!RATES.length) return "";
+  if(!FX)MKTAB="rt";
   let rows="";
   const asof=FX?(FX.markets||[]).reduce((m,p)=>p.date>m?p.date:m,""):"";
   if(MKTAB==="mk"&&FX) rows=(FX.markets||[]).map(p=>{if(mkOff(p))return offRow(p);const m=chg3(p.value,p.prev);return `<tr><td>${esc(p.name)}<small>Close ${fmtS(p.date)}, ${esc(p.unit==="pts"?"points":p.unit)}</small></td><td class="v num">${mkVal(p)}</td><td class="r num ${m.cls}">${m.t}</td></tr>`}).join("");
   else if(MKTAB==="fx"&&FX) rows=FX.pairs.map(p=>{const m=chg3(p.value,p.prev);const w=m.c>0?"weaker":m.c<0?"firmer":"flat";if(mkOff(p))return offRow({name:FXN[p.code]||p.code,date:p.date});return `<tr><td>${esc(FXN[p.code]||p.code)}<small>${esc(p.code)} per US dollar, ${fmtS(p.date)}</small></td><td class="v num">${p.value.toLocaleString("en-ZA",{maximumFractionDigits:p.value>100?2:3})}</td><td class="r num">${w}</td></tr>`}).join("");
   else rows=[...RATES].sort((a,b)=>b.value-a.value).map(r=>{const m=moveOf(r);return `<tr><td><a href="#a-${esc(r.article)}">${esc(r.country)}</a><small>${esc(r.bank)}, ${fmtS(r.date)}</small></td><td class="v num">${r.value.toFixed(2)}%</td><td class="r num">${m.bp>0?"hike "+m.bp+"bp":m.bp<0?"cut "+Math.abs(m.bp)+"bp":"held"}</td></tr>`}).join("");
-  const note=MKTAB==="fx"?`Local currency per US dollar on the date shown. Delayed, not live. Source: ${esc(FX.source||"")}.`:MKTAB==="rt"?"Policy rates at each central bank's last decision.":`Delayed closing levels; each line shows its own date. Not live.${FX.retrieved?` Retrieved ${new Date(FX.retrieved).toLocaleString("en-ZA",{timeZone:"Africa/Johannesburg",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})} SAST.`:""}`;
+  const note=MKTAB==="fx"?`Local currency per US dollar on the date shown. Delayed, not live. Source: ${esc(FX?.source||"")}.`:MKTAB==="rt"?"Policy rates at each central bank's last decision.":`Delayed closing levels; each line shows its own date. Not live.${FX?.retrieved?` Retrieved ${new Date(FX.retrieved).toLocaleString("en-ZA",{timeZone:"Africa/Johannesburg",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})} SAST.`:""}`;
   return `<section class="mkp" aria-label="Markets"><div class="head"><h2>Markets</h2><a href="#cat-markets">All market data</a></div>
    <div class="tabs" role="tablist">${[["mk","Indices"],["fx","Currencies"],["rt","Rates"]].map(([k,l])=>`<button type="button" role="tab" data-mk3="${k}" aria-selected="${k===MKTAB}">${l}</button>`).join("")}</div>
    <table><tbody>${rows}</tbody></table><p class="fine">${note}</p></section>`;
@@ -1384,6 +1389,7 @@ function viewHome(){
   if(!ARTICLES.length){IMGS=null;return `<div class="front"><div>${loadingOrEmpty()}</div><aside class="col-r"><div data-mkp>${mkPanel()}</div></aside></div>`}
   const today=new Date().toLocaleDateString("en-CA",{timeZone:"Africa/Johannesburg"});
   const all=sorted(ARTICLES.filter(a=>newsDate(a)<=today)), fresh=all.filter(a=>!a.historical);
+  if(!all.length){IMGS=null;return loadingOrEmpty()}
   const top2=[...new Set(fresh.map(newsDate))].sort().reverse().slice(0,2);
   const pool=fresh.filter(a=>top2.includes(newsDate(a)));
   const lead=[...pool].sort((a,b)=>newsScore(b)-newsScore(a)||newsDate(b).localeCompare(newsDate(a)))[0]||all[0];
@@ -1445,7 +1451,7 @@ function rail(exclude,sec){
 }
 function viewDay(d){const l=ARTICLES.filter(a=>newsDate(a)===d&&!a.historical);return viewList(`${dayName(d)} ${dayLong(d)}`,`The news from ${dayLong(d)}, newest first.`,l)}
 function archiveMod(){
-  const c={}; ARTICLES.forEach(a=>{const m=(a.eventDate||"").slice(0,7); if(m>="2022-02") c[m]=1});
+  const c={}; ARTICLES.forEach(a=>{const m=(a.kind==="syndicated"?newsDate(a):(a.eventDate||a.acsDate||"")).slice(0,7); if(m>="2022-02") c[m]=1});
   const ms=Object.keys(c).sort().reverse(); if(!ms.length) return "";
   return `<section class="mod"><div class="colh">Archive</div><div class="links">${ms.map(m=>`<a href="#month-${m}">${monthName(m)}</a>`).join("")}</div></section>`;
 }
@@ -1512,12 +1518,12 @@ function route(){
   if(h!==lastRoute){ if(!h.startsWith("search")) pageNo=1; }
   let html, active="home";
   CURCAT=h.startsWith("cat-")?catOf(h.slice(4)):h.startsWith("a-")?catOf((ARTICLES.find(x=>x.id===h.slice(2))||{}).category||""):"";
-  if(h.startsWith("cat-")){active=catOf(h.slice(4));html=active==="latest"?viewList("Latest news","Every ACS report, newest first.",ARTICLES.filter(a=>!a.historical)):viewCat(active)}
+  if(h.startsWith("cat-")){active=catOf(h.slice(4));html=active==="latest"?viewList("Latest news","Source stories and ACS reporting, newest first.",ARTICLES.filter(a=>!a.historical)):viewCat(active)}
   else if(h.startsWith("a-")){const a=ARTICLES.find(x=>x.id===h.slice(2));active=a?a.category:"";html=viewArticle(h.slice(2))}
   else if(h.startsWith("day-")){active="";html=viewDay(h.slice(4))}
   else if(h.startsWith("country-")){active="";const k=h.slice(8);const l=ARTICLES.filter(a=>slug(a.country)===k);const n=(l[0]||{}).country||k.replace(/-/g," ");html=viewList(n,`ACS coverage of ${n}.`,l)}
   else if(h.startsWith("co-")){active="";const k=h.slice(3);const l=ARTICLES.filter(a=>(a.companies||[]).some(c=>slug(c)===k));const n=((l[0]||{}).companies||[]).find(c=>slug(c)===k)||k;html=viewList(n,`ACS reports mentioning ${n}. This topic page lists ACS coverage only; it is not proprietary research and shows no share price.`,l)}
-  else if(h.startsWith("month-")){active="";const m=h.slice(6);html=viewList(`${monthName(m)} archive`,`ACS reports on events in ${monthName(m)}.`,ARTICLES.filter(a=>(a.eventDate||"").startsWith(m)))}
+  else if(h.startsWith("month-")){active="";const m=h.slice(6);html=viewList(`${monthName(m)} archive`,`Stories and reports from ${monthName(m)}.`,ARTICLES.filter(a=>(a.kind==="syndicated"?newsDate(a):(a.eventDate||a.acsDate||"")).startsWith(m)))}
   else if(h==="search"){active="";html=viewSearch()}
   else if(h.startsWith("p-")){active="";html=viewPage(h.slice(2))}
   else html=viewHome();
@@ -1528,34 +1534,71 @@ function route(){
   const t=ARTICLES.find(x=>"a-"+x.id===h); document.title=t?`${HL(t)}, African Capital Source`:"African Capital Source";
 }
 
+const editorialKick=kick;
+kick=function(a){return editorialKick(a)+(a.kind==="syndicated"?`<span class="flag">Source story</span>`:"")};
+const editorialArticle=viewArticle;
+viewArticle=function(id){
+  const a=ARTICLES.find(x=>x.id===id);
+  if(!a||a.kind!=="syndicated")return editorialArticle(id);
+  const source=a.sources[0];
+  const published=a.publishedAt?new Date(a.publishedAt).toLocaleString("en-ZA",{timeZone:"Africa/Johannesburg",dateStyle:"medium",timeStyle:"short"})+" SAST":"Publication time not supplied";
+  const collected=a.collectedAt?new Date(a.collectedAt).toLocaleString("en-ZA",{timeZone:"Africa/Johannesburg",dateStyle:"medium",timeStyle:"short"})+" SAST":"";
+  return `<div class="grid"><article class="art">
+    ${kick(a)}<h1>${esc(a.headline)}</h1>
+    <div class="author"><div class="meta"><strong>${esc(source.name)}</strong><span>${esc(published)}</span></div></div>
+    ${shareRow(a)}
+    <figure class="hero"><img src="ph/${esc(imgFor(a))}.jpg" alt=""><figcaption>Illustrative photo via Pexels</figcaption></figure>
+    <div class="body">${a.standfirst?`<p>${esc(a.standfirst)}</p>`:""}
+      <p><a class="btn" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">Read the story at ${esc(source.name)}</a></p>
+    </div>
+    <section class="sources"><h2>From our sources</h2><p>This story was published by ${esc(source.name)} and collected automatically by ACS. Read the original for the full report and any corrections.</p>${collected?`<p class="fine">Added to ACS ${esc(collected)}. This is not an independently verified ACS report.</p>`:""}</section>
+    ${shareRow(a)}
+  </article>${rail(a.id,a.category)}</div>`;
+};
+function prepareForms(){
+  document.querySelectorAll('form[data-kind],#nl-form').forEach(form=>{
+    form.querySelectorAll('input,textarea,select,button').forEach(el=>{el.disabled=true});
+    const msg=form.querySelector('.fmsg,#nl-msg');
+    if(msg)msg.textContent=form.id==="nl-form"?"Newsletter sign-ups will open soon.":"Online enquiries are temporarily unavailable.";
+  });
+}
+function freshness(){
+  let node=document.getElementById("news-status");
+  if(!node){node=document.createElement("p");node.id="news-status";node.className="fine";node.setAttribute("role","status");document.getElementById("main").before(node)}
+  const last=DATA_STATUS?.checkedAt;
+  if(!last){node.textContent=DATA_FALLBACK&&ARTICLES.length?"Showing the saved archive. New updates are temporarily unavailable.":"";return}
+  const old=Date.now()-Date.parse(last)>6*60*60*1000;
+  const stamp=new Date(last).toLocaleString("en-ZA",{timeZone:"Africa/Johannesburg",dateStyle:"medium",timeStyle:"short"});
+  node.textContent=DATA_FALLBACK?"Showing the saved archive. New updates are temporarily unavailable.":DATA_STATUS.status==="error"||old?"News updates are delayed. Showing the latest available stories.":"Sources last checked "+stamp+" SAST";
+}
+const originalRoute=route;
+route=function(){originalRoute();prepareForms();freshness()};
+
 window.addEventListener("hashchange",route);
 document.addEventListener("click",e=>{const b=e.target.closest("[data-pg]");if(b){pageNo+=+b.dataset.pg;route();window.scrollTo(0,0)}});
 $("#mini-search").addEventListener("submit",e=>{e.preventDefault();searchQ=$("#mini-q").value;pageNo=1;if(location.hash==="#search")route();else location.hash="search"});
 document.addEventListener("submit",async e=>{
   const f=e.target;
   if(f.id==="search-form"){e.preventDefault();searchQ=f.querySelector("#sq").value;pageNo=1;route();return}
-  if(f.id==="nl-form"){e.preventDefault();const m=$("#nl-msg");const ok=await save("newsletter",{email:$("#nl-email").value});m.className=ok?"ok":"err";m.textContent=ok?"Subscribed. Check your inbox for confirmation when the briefing launches.":"Could not subscribe here. Sign in to claude.ai and try again.";if(ok)f.reset();return}
-  if(f.dataset.kind){e.preventDefault();const data=Object.fromEntries(new FormData(f).entries());const m=f.querySelector(".fmsg");const ok=await save(f.dataset.kind,data);m.className="fmsg "+(ok?"ok":"err");m.textContent=ok?"Received. ACS will reply by email.":"Could not send from this view. Sign in to claude.ai and try again.";if(ok)f.reset()}
+  if(f.id==="nl-form"){e.preventDefault();const m=$("#nl-msg");const ok=await save("newsletter",{email:$("#nl-email").value});m.className=ok?"ok":"err";m.textContent=ok?"Subscribed. Check your inbox for confirmation when the briefing launches.":"Newsletter sign-ups are temporarily unavailable.";if(ok)f.reset();return}
+  if(f.dataset.kind){e.preventDefault();const data=Object.fromEntries(new FormData(f).entries());const m=f.querySelector(".fmsg");const ok=await save(f.dataset.kind,data);m.className="fmsg "+(ok?"ok":"err");m.textContent=ok?"Received. ACS will reply by email.":"Online enquiries are temporarily unavailable.";if(ok)f.reset()}
 });
-async function save(kind,data){
-  if(!DB) return false;
-  try{const user=await window.claude.use("user");const uid=user?await user.id():null;if(!uid)return false;
-    const ref=DB.collection("messages").doc(uid);const cur=await ref.get();const prev=(cur&&cur.data&&cur.data())||{};
-    const items=Array.isArray(prev.items)?prev.items.slice(-49):[];
-    items.push({kind,...data,received:new Date().toISOString()});
-    await ref.set({items,updated:new Date().toISOString()});return true}catch(err){return false}
-}
+// Form delivery is a separate integration. Never pretend a submission was saved.
+async function save(){return false}
 route();
-(async()=>{
-  let db=null;try{db=window.claude?.use? await window.claude.use("db"):null}catch(e){db=null}
-  if(!db){DB=false;LOADED=false;route();return}
-  DB=db;
-  db.collection("articles").limit(1000).onSnapshot(snap=>{
-    const docs=snap.docs.map(d=>d.data());
-    ARTICLES=docs.filter(a=>a&&a.status==="published");LOADED=true;route();
-  },()=>{LOADED=true;route()});
-  db.collection("rates").onSnapshot(snap=>{const all=snap.docs.map(d=>d.data()).filter(Boolean);FX=all.find(r=>r.kind==="fx")||null;RATES=all.filter(r=>r.kind!=="fx"&&typeof r.value==="number");route()},()=>{});
-})();
+async function loadNews(){
+  try{
+    const data=await ACSData.load(window.ACS_CONFIG);
+    ARTICLES=data.articles;RATES=data.rates;FX=data.fx;DATA_STATUS=data.status;
+    DATA_FALLBACK=data.fallback;LOADED=true;DB=true;LOAD_ERROR="";route();
+  }catch(error){LOAD_ERROR="unavailable";LOADED=true;DB=false;route()}
+}
+loadNews();
+// Refresh on return to the tab, without disturbing a reader on an article page.
+let lastVisibleRefresh=Date.now();
+document.addEventListener("visibilitychange",()=>{
+  if(!document.hidden&&Date.now()-lastVisibleRefresh>5*60*1000){lastVisibleRefresh=Date.now();loadNews()}
+});
 
 </script>
 
