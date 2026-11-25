@@ -72,25 +72,40 @@
       return await response.json();
     } finally { clearTimeout(timeout); }
   }
-  async function load(config) {
+  const cacheKey = config => 'acs.news.v1:' + config.articlesUrl;
+  function cached(config) {
+    try {
+      const value = JSON.parse(root.localStorage.getItem(cacheKey(config)) || 'null');
+      if (!value || Date.now() - value.savedAt > 7 * 86400000) return [];
+      return articles(value.articles);
+    } catch { return []; }
+  }
+  async function load(config, onArticles) {
+    // Start independent requests together. Render headlines before secondary data finishes.
+    const local = config.fallbackArticlesUrl ? json(config.fallbackArticlesUrl).catch(() => []) : Promise.resolve([]);
+    const secondary = Promise.all([
+      json(config.ratesUrl).catch(() => []), json(config.statusUrl).catch(() => null)
+    ]);
     let fallback = false, raw;
     try {
       raw = await json(config.articlesUrl);
       if (!Array.isArray(raw)) throw new Error("Invalid article data");
     } catch (error) {
       if (!config.fallbackArticlesUrl || config.fallbackArticlesUrl === config.articlesUrl) throw error;
-      raw = await json(config.fallbackArticlesUrl);
+      raw = await local;
       fallback = true;
     }
-    const [rateRows, status, localArchive] = await Promise.all([
-      json(config.ratesUrl).catch(() => []),
-      json(config.statusUrl).catch(() => null),
-      fallback ? Promise.resolve([]) : json(config.fallbackArticlesUrl).catch(() => [])
-    ]);
-    return {articles: articles([...(Array.isArray(localArchive) ? localArchive : []), ...raw]),
+    let rows = articles(raw);
+    if(fallback) rows = articles([...rows, ...cached(config)]);
+    if(onArticles) onArticles(rows, fallback);
+    const [rateRows, status] = await secondary;
+    const localArchive = await local;
+    rows = articles([...(Array.isArray(localArchive) ? localArchive : []), ...rows]);
+    if(!fallback)try{root.localStorage.setItem(cacheKey(config),JSON.stringify({savedAt:Date.now(),articles:rows}));}catch{}
+    return {articles: rows,
       rates: rates(rateRows), fx: fx(rateRows), status, fallback};
   }
-  const api = {article, articles, rates, fx, safeURL, load};
+  const api = {article, articles, rates, fx, safeURL, load, cached};
   if (typeof module !== "undefined") module.exports = api;
   else root.ACSData = api;
 })(typeof window !== "undefined" ? window : globalThis);
