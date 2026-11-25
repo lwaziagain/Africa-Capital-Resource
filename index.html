@@ -1406,7 +1406,7 @@ function wideSec(id,used){
   const [f,...r]=l;
   return `<section class="blk4 wide"><div class="sh"><h2><a href="#cat-${id}">${esc(NAV[id])}</a></h2><a class="more" href="#cat-${id}">${esc(moreL(id))}</a></div>
    <article class="ov">${pic(f)}<div class="ovt">${hd(f,"h3")}<p class="dek">${esc(f.standfirst)}</p></div></article>
-   <div class="g3">${r.map(a=>`<article>${pic(a)}<div style="min-width:0">${hd(a,"h4")}${whenL(a)}</div></article>`).join("")}</div></section>`;
+   ${storyActions(f)}${coverageLinks(f)}<div class="g3">${r.map(a=>`<article>${pic(a)}<div style="min-width:0">${hd(a,"h4")}${whenL(a)}</div></article>`).join("")}</div></section>`;
 }
 const dayName=d=>new Date(d+"T12:00:00").toLocaleDateString("en-ZA",{weekday:"long"});
 const dayLong=d=>new Date(d+"T12:00:00").toLocaleDateString("en-ZA",{day:"numeric",month:"long"});
@@ -1430,9 +1430,9 @@ function viewHome(){
   const top2=[...new Set(fresh.map(newsDate))].sort().reverse().slice(0,2);
   const pool=fresh.filter(a=>top2.includes(newsDate(a)));
   const lead=[...pool].sort((a,b)=>newsScore(b)-newsScore(a)||newsDate(b).localeCompare(newsDate(a)))[0]||all[0];
-  const used=new Set([lead.id]);
+  const used=new Set((COVERAGE.byId.get(lead.id)||[lead]).map(a=>a.id));
   const side=[...pool].filter(a=>!used.has(a.id)&&catOf(a.category)!==catOf(lead.category)).sort((a,b)=>newsScore(b)-newsScore(a)).filter((a,i,arr)=>arr.findIndex(x=>catOf(x.category)===catOf(a.category))===i).slice(0,2);
-  side.forEach(a=>used.add(a.id));
+  side.forEach(a=>(COVERAGE.byId.get(a.id)||[a]).forEach(x=>used.add(x.id)));
   const rel=ACSReader.balanced(fresh.filter(a=>a.id!==lead.id&&!side.includes(a)&&(catOf(a.category)===catOf(lead.category)||a.country===lead.country)),3,[lead,...side]);rel.forEach(a=>used.add(a.id));
   const leadH=`${pic(lead,"pic",false)}${kick(lead)}${hd(lead,"h2")}<p class="dek">${esc(lead.standfirst)}</p>${whenL(lead)}${rel.length?`<ul class="rel">${rel.map(a=>`<li><a href="#a-${esc(a.id)}">${esc(HL(a))}</a></li>`).join("")}</ul>`:""}`;
   const sideH=side.map(a=>`<article>${pic(a)}${kick(a)}${hd(a)}<p class="dek">${esc(a.standfirst)}</p>${whenL(a)}</article>`).join("");
@@ -1443,7 +1443,7 @@ function viewHome(){
   const coH=cf?`<section class="blk4"><div class="sh"><h2><a href="#cat-companies">Companies</a></h2><a class="more" href="#cat-companies">More company news</a></div>
      <div class="feat"><div class="main">${pic(cf)}${hd(cf)}<p class="dek">${esc(cf.standfirst)}</p>${whenL(cf)}</div><div class="list">${cr.map(a=>`<article>${pic(a)}<div style="min-width:0">${kick(a)}${hd(a,"h4")}${whenL(a)}</div></article>`).join("")}</div></div></section>`:"";
   const mkEc=`<div class="duo blk4">${duoSec("markets",used)}${duoSec("economy",used)}</div>`;
-  const deals=coverageList(sorted(ARTICLES.filter(a=>RECENT(a)&&DEAL_RE.test(a.headline||"")&&!NOT_DEAL.test(a.headline||"")&&keyAmt(a)))).slice(0,6); deals.forEach(a=>used.add(a.id));
+  const deals=coverageList(sorted(ARTICLES.filter(a=>RECENT(a)&&DEAL_RE.test(a.headline||"")&&!NOT_DEAL.test(a.headline||"")&&keyAmt(a)))).slice(0,6); deals.forEach(a=>(COVERAGE.byId.get(a.id)||[a]).forEach(x=>used.add(x.id)));
   const dealsH=deals.length?`<section class="blk4 ledger"><div class="sh"><h2>Deals and funding</h2><a class="more" href="#cat-startups">More start-up news</a></div><table><tbody>${deals.map(a=>`<tr><td class="th">${pic(a)}</td><td class="amt num">${esc(keyAmt(a))}<small>${dealType(a.headline)}</small></td><td><span class="c">${esc(ctry(a))}</span><a class="t" href="#a-${esc(a.id)}">${esc(HL(a))}</a>${storyActions(a)}${coverageLinks(a)}</td><td class="w">${fmtS(newsDate(a))}</td></tr>`).join("")}</tbody></table></section>`:"";
   const guides=sorted(ARTICLES.filter(a=>inCat(a,"learn")&&(a.type==="Explainer"||/how |what is|explained|guide|check/i.test(a.headline||"")))).slice(0,4);
   const guidesH=guides.length?`<section class="blk4 guides"><div class="sh minor"><h2><a href="#cat-learn">Investor education</a></h2><a class="more" href="#cat-learn">All investor guides</a></div><div class="g n${guides.length}">${guides.map(a=>`<article>${pic(a)}${hd(a,"h3")}</article>`).join("")}</div></section>`:"";
