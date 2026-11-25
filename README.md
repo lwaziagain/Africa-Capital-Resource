@@ -138,10 +138,18 @@ supported. Other export formats need conversion.
 News collection does not generate exchange rates, policy rates or market prices.
 Existing rate exports can still render; no live financial feed is included.
 
-Contact, advertising-enquiry and newsletter forms previously wrote to Claude. They are
-now visibly unavailable and disabled, rather than accepting details without delivery.
-Connecting a form/email provider is a separate task. None of these personal records should
-be placed in public JSON. Advertising layout and company ownership wording are preserved.
+Contact and advertising forms use native HTTPS POST to FormSubmit and deliver to
+lwaziagain@gmail.com, with separate subjects. The visitor email becomes the Reply-To.
+CAPTCHA remains enabled; a honeypot provides an additional spam check. The public
+privacy page discloses the processor and its 30-day submission retention. No enquiry
+content goes into the public repository. A mailto link provides a fallback.
+
+Setup requires the inbox owner to click FormSubmit's activation email after the first
+submission. Until that is done, delivery is not confirmed. Check the inbox and spam
+folder, activate the form, then submit a contact and advertising test to verify both
+subjects and Reply-To behaviour. A provider success page is not proof of inbox delivery.
+Newsletter subscriptions remain disabled and require a separate mailing-list service.
+Advertising layout and company ownership wording are preserved.
 
 ## Run the checks
 

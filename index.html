@@ -1107,17 +1107,18 @@ standards:["Editorial standards",`<h2>Source stories</h2><p>Entries labelled “
 <h2>Financial accuracy</h2><p>ACS distinguishes between announced, proposed, agreed, approved and completed transactions, and between reported, forecast and audited figures. Calculations made by ACS are labelled as such. Where sources conflict, ACS reports the conflict or leaves the figure out.</p>
 <h2>Historical coverage</h2><p>Reports on events before ACS began publishing carry a Historical coverage label, the underlying event date and the actual ACS publication date. ACS never backdates its own publication date.</p>
 <h2>Independence</h2><p>Advertisers and sponsors do not influence coverage. ACS does not accept payment for positive coverage of any investment.</p>`],
+"enquiry-sent":["Enquiry submitted",`<p>Thank you for contacting African Capital Source. Your enquiry has been submitted through our email service.</p><p>For a follow-up, email <a href="mailto:lwaziagain@gmail.com">lwaziagain@gmail.com</a>.</p><p><a href="#home">Back to the latest news</a></p>`],
 contact:["Contact",`<p>For editorial queries, story information and general enquiries, use the form below. For advertising, see <a href="#p-advertise">Advertise</a>.</p>
-<form class="f" data-kind="contact"><label for="ct-name">Name<input type="text" id="ct-name" name="name" required></label><label for="ct-email">Email<input type="email" id="ct-email" name="email" required></label><label for="ct-msg">Message<textarea id="ct-msg" name="message" required></textarea></label><button class="btn" type="submit">Send message</button><span class="fmsg" role="status"></span></form>`],
+<form class="f" data-kind="contact" action="https://formsubmit.co/lwaziagain@gmail.com" method="POST">${enquiryFields("contact")}<label for="ct-name">Name<input type="text" id="ct-name" name="name" autocomplete="name" maxlength="120" required></label><label for="ct-email">Email<input type="email" id="ct-email" name="email" autocomplete="email" maxlength="254" required></label><label for="ct-msg">Message<textarea id="ct-msg" name="message" maxlength="5000" required></textarea></label>${enquiryNotice()}<button class="btn" type="submit">Send message</button><span class="fmsg" role="status"></span></form>`],
 advertise:["Advertise",`<p>African Capital Source is read by people who follow African companies, markets, start-ups and policy. They come for news and analysis that helps them make decisions about business, investing and their own money. Advertising with ACS puts your brand beside that coverage. ACS does not quote audience figures until they are independently measured.</p>
 <p>Section banners let you appear next to the stories most relevant to what you offer. A bank can sit above Banking news and an investment platform above Markets. Book a single placement or combine several.</p>
 <h2>Placements</h2><ul><li><strong>Section top banner.</strong> One per section: Markets, Companies, Banking & Fintech, Start-ups & Funding, Crypto & Digital Assets, AI & Technology, Personal Finance, Economy, Trade & Infrastructure, and ETFs & Funds. 970 × 90 on desktop, 320 × 100 on mobile.</li><li><strong>Homepage top banner.</strong> 970 × 90 on desktop, 320 × 100 on mobile.</li><li><strong>Homepage mid banner.</strong> 728 × 90.</li><li><strong>Sidebar.</strong> 300 × 250, on every page.</li><li><strong>Footer banner.</strong> 728 × 90.</li><li><strong>Sponsored articles.</strong> Clearly labelled as sponsored.</li></ul>
 <h2>Artwork specifications</h2><p>Advertisers supply their own artwork as JPG, PNG or GIF files under 150 KB, with a click-through link. Financial advertisers show their FSP or NCR number and any risk warnings their regulator requires. Crypto adverts include a warning that investors can lose their capital. ACS checks every advert before it goes live and will ask for changes if it does not meet these requirements.</p>
 <h2>Editorial independence</h2><p>Advertisers have no say over ACS news or analysis. Sponsored articles are paid for by the advertiser, labelled as sponsored and kept separate from ACS reporting. See the <a href="#p-sponsored">Sponsored content policy</a>.</p>
-<h2>Enquire</h2><p>Tell us which placements and sections interest you and your preferred dates. The commercial team will reply with availability and rates.</p><form class="f" data-kind="advertise"><label for="ad-co">Company<input type="text" id="ad-co" name="company" required></label><label for="ad-name">Contact name<input type="text" id="ad-name" name="name" required></label><label for="ad-email">Email<input type="email" id="ad-email" name="email" required></label><label for="ad-int">Placement of interest<select id="ad-int" name="placement"><option>Section top banner</option><option>Homepage top banner</option><option>Homepage mid banner</option><option>Sidebar</option><option>Footer banner</option><option>Sponsored article</option></select></label><label for="ad-msg">Sections and dates<textarea id="ad-msg" name="message"></textarea></label><button class="btn" type="submit">Send enquiry</button><span class="fmsg" role="status"></span></form>`],
+<h2>Enquire</h2><p>Tell us which placements and sections interest you and your preferred dates. The commercial team will reply with availability and rates.</p><form class="f" data-kind="advertise" action="https://formsubmit.co/lwaziagain@gmail.com" method="POST">${enquiryFields("advertise")}<label for="ad-co">Company<input type="text" id="ad-co" name="company" autocomplete="organization" maxlength="160" required></label><label for="ad-name">Contact name<input type="text" id="ad-name" name="name" autocomplete="name" maxlength="120" required></label><label for="ad-email">Email<input type="email" id="ad-email" name="email" autocomplete="email" maxlength="254" required></label><label for="ad-int">Placement of interest<select id="ad-int" name="placement"><option>Section top banner</option><option>Homepage top banner</option><option>Homepage mid banner</option><option>Sidebar</option><option>Footer banner</option><option>Sponsored article</option></select></label><label for="ad-msg">Sections and dates<textarea id="ad-msg" name="message" maxlength="5000" required></textarea></label>${enquiryNotice()}<button class="btn" type="submit">Send enquiry</button><span class="fmsg" role="status"></span></form>`],
 sponsored:["Sponsored content policy",`<p>Sponsored content is paid for by a third party. It is always labelled Sponsored above the headline, carries the sponsor's name, and is never presented as ACS reporting.</p><p>ACS does not accept sponsored content that recommends buying or selling a specific investment, promotes an unauthorised financial services provider, or makes unverifiable return claims. Sponsors cannot review or change ACS editorial content.</p>`],
 disclaimer:["Financial disclaimer",`<p>African Capital Source publishes general financial news and information. It is not personal financial advice and does not take account of your objectives, financial situation or needs.</p><p>ACS is not an authorised financial services provider under the Financial Advisory and Intermediary Services Act. Nothing published by ACS is a recommendation to buy, sell or hold any investment. Past performance does not indicate future results. Investments, including crypto assets, can lose value.</p><p>Before making a financial decision, consult an authorised financial adviser. You can check authorisation at fsca.co.za or by calling the FSCA on 0800 110 443.</p>`],
-privacy:["Privacy",`<p>ACS processes personal information in line with the Protection of Personal Information Act (POPIA).</p><h2>What we collect</h2><p>Only what you submit through our forms: your name, email address and message for contact, correction and advertising enquiries, and your email address if you subscribe to the briefing.</p><h2>How we use it</h2><p>To respond to your enquiry, process corrections and send the briefing you asked for. We do not sell personal information. Every briefing email includes an unsubscribe option.</p><h2>Your rights</h2><p>You may request access to, correction of or deletion of your information, or object to processing, through the <a href="#p-contact">Contact</a> page. You may also complain to the Information Regulator of South Africa.</p><h2>Cookies</h2><p>Market panels load embedded content directly from TradingView. Loading these panels connects your browser to TradingView, which receives technical information such as your IP address and may use cookies or browser storage under its <a href="https://www.tradingview.com/privacy-policy/" target="_blank" rel="noopener noreferrer">privacy policy</a>. ACS does not receive your TradingView account details.</p><p>Responsible party: Dream Afrika Group (Pty) Ltd, Johannesburg.</p>`],
+privacy:["Privacy",`<p>ACS processes personal information in line with the Protection of Personal Information Act (POPIA).</p><h2>What we collect</h2><p>Only what you submit through our forms: your name, email address and message for contact, correction and advertising enquiries, Newsletter sign-ups are currently unavailable.</p><h2>How we use it</h2><p>To respond to your enquiry and process corrections. We do not sell personal information.</p><h2>Enquiry delivery</h2><p>Contact and advertising forms send the details you enter to FormSubmit, which processes the submission and forwards it to lwaziagain@gmail.com. FormSubmit provides spam protection and may ask you to complete a CAPTCHA. Its documentation states that submissions are retained for 30 days. See the <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">FormSubmit privacy policy</a>. Enquiries are not published in our news data or stored in our public GitHub repository. You can also email the enquiries inbox directly.</p><h2>Your rights</h2><p>You may request access to, correction of or deletion of your information, or object to processing, through the <a href="#p-contact">Contact</a> page. You may also complain to the Information Regulator of South Africa.</p><h2>Cookies</h2><p>Market panels load embedded content directly from TradingView. Loading these panels connects your browser to TradingView, which receives technical information such as your IP address and may use cookies or browser storage under its <a href="https://www.tradingview.com/privacy-policy/" target="_blank" rel="noopener noreferrer">privacy policy</a>. ACS does not receive your TradingView account details.</p><p>Responsible party: Dream Afrika Group (Pty) Ltd, Johannesburg.</p>`],
 terms:["Terms of Use",`<p>By using African Capital Source you agree to these terms. ACS content is provided for general information. You may share links and short extracts with attribution. You may not republish ACS articles in full without written permission.</p><p>Third-party material quoted or linked by ACS remains the property of its owners. ACS is not responsible for the content of external sites.</p><p>ACS takes care to be accurate but does not warrant that information is complete or current. To the extent permitted by law, ACS is not liable for losses arising from reliance on its content. These terms are governed by South African law.</p>`]
 };
 
@@ -1569,7 +1570,7 @@ async function loadPolicyRates(){
     });
     POLICY_RATES=rows;POLICY_FAILED=false;
   }catch(error){POLICY_FAILED=true}
-  finally{clearTimeout(timer);POLICY_LOADED=true;route()}
+  finally{clearTimeout(timer);POLICY_LOADED=true;refreshDataView()}
 }
 
 /* TradingView owns the quotes and displays them inside its official embed. */
@@ -1631,12 +1632,24 @@ viewArticle=function(id){
     ${shareRow(a)}
   </article>${rail(a.id,a.category)}</div>`;
 };
+function enquiryFields(kind){
+  const subject=kind==="advertise"?"ACS advertising enquiry":"ACS contact enquiry";
+  return `<input type="hidden" name="_subject" value="${subject}"><input type="hidden" name="_template" value="table"><input type="hidden" name="_next" value="https://www.africacapitalsource.com/#p-enquiry-sent"><input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">`;
+}
+function enquiryNotice(){
+  return `<p class="fine" style="margin:0">Your details will be sent securely through FormSubmit to our enquiries inbox so we can reply. You may be asked to complete a security check. <a href="#p-privacy">Privacy information</a>.</p><p class="fine" style="margin:0">Prefer email? <a href="mailto:lwaziagain@gmail.com">lwaziagain@gmail.com</a></p>`;
+}
 function prepareForms(){
-  document.querySelectorAll('form[data-kind],#nl-form').forEach(form=>{
-    form.querySelectorAll('input,textarea,select,button').forEach(el=>{el.disabled=true});
-    const msg=form.querySelector('.fmsg,#nl-msg');
-    if(msg)msg.textContent=form.id==="nl-form"?"Newsletter sign-ups will open soon.":"Online enquiries are temporarily unavailable.";
+  document.querySelectorAll('#nl-form').forEach(form=>{
+    form.querySelectorAll('input,button').forEach(el=>{el.disabled=true});
+    const msg=form.querySelector('#nl-msg');
+    if(msg)msg.textContent="Newsletter sign-ups will open soon.";
   });
+}
+// Background data checks must not replace an enquiry while a visitor is writing it.
+function refreshDataView(){
+  if(["#p-contact","#p-advertise"].includes(location.hash)){freshness();return}
+  route();
 }
 function freshness(){
   let node=document.getElementById("news-status");
@@ -1656,18 +1669,20 @@ $("#mini-search").addEventListener("submit",e=>{e.preventDefault();searchQ=$("#m
 document.addEventListener("submit",async e=>{
   const f=e.target;
   if(f.id==="search-form"){e.preventDefault();searchQ=f.querySelector("#sq").value;pageNo=1;route();return}
-  if(f.id==="nl-form"){e.preventDefault();const m=$("#nl-msg");const ok=await save("newsletter",{email:$("#nl-email").value});m.className=ok?"ok":"err";m.textContent=ok?"Subscribed. Check your inbox for confirmation when the briefing launches.":"Newsletter sign-ups are temporarily unavailable.";if(ok)f.reset();return}
-  if(f.dataset.kind){e.preventDefault();const data=Object.fromEntries(new FormData(f).entries());const m=f.querySelector(".fmsg");const ok=await save(f.dataset.kind,data);m.className="fmsg "+(ok?"ok":"err");m.textContent=ok?"Received. ACS will reply by email.":"Online enquiries are temporarily unavailable.";if(ok)f.reset()}
+  if(f.id==="nl-form"){e.preventDefault();$("#nl-msg").textContent="Newsletter sign-ups will open soon.";return}
+  if(["contact","advertise"].includes(f.dataset.kind)){
+    const m=f.querySelector(".fmsg");
+    if(m)m.textContent="Continuing to the secure submission page…";
+    // Native HTTPS POST preserves FormSubmit's spam protection and delivery errors.
+  }
 });
-// Form delivery is a separate integration. Never pretend a submission was saved.
-async function save(){return false}
 route();
 async function loadNews(){
   try{
     const data=await ACSData.load(window.ACS_CONFIG);
     ARTICLES=data.articles;RATES=data.rates;FX=data.fx;DATA_STATUS=data.status;
-    DATA_FALLBACK=data.fallback;LOADED=true;DB=true;LOAD_ERROR="";route();
-  }catch(error){LOAD_ERROR="unavailable";LOADED=true;DB=false;route()}
+    DATA_FALLBACK=data.fallback;LOADED=true;DB=true;LOAD_ERROR="";refreshDataView();
+  }catch(error){LOAD_ERROR="unavailable";LOADED=true;DB=false;refreshDataView()}
 }
 loadNews();
 loadPolicyRates();
