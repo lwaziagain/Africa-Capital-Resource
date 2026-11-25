@@ -1,5 +1,208 @@
 [
   {
+    "id": "feed-9d973fff68623d3b4cb5a693",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Buyback backlash: Gold miners stand firm on their maths",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-25T20:42:06+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Buyback backlash: Gold miners stand firm on their maths",
+        "url": "https://miningmx.com/2026-11-23-buyback-backlash-gold-miners-stand-firm-on-their-maths",
+        "date": "",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-a7d5eb71946bd5ba92008b0a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Resolute targets more gold from Ivory Coast expansion",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-25T20:42:06+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Resolute targets more gold from Ivory Coast expansion",
+        "url": "https://miningmx.com/news/2026-11-11-resolute-targets-more-gold-from-ivory-coast-expansion",
+        "date": "",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-2b62edd6a6fbb54e61bfd27c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Barrick files for New York IPO of North American business",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-25T20:42:06+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Barrick files for New York IPO of North American business",
+        "url": "https://miningmx.com/2026-11-11-barrick-files-for-new-york-ipo-of-north-american-business",
+        "date": "",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-bd264bac6ede47295c679613",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Decoding Motsepe’s fallout with Sacco’s Assore",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-25T20:42:06+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Decoding Motsepe’s fallout with Sacco’s Assore",
+        "url": "https://miningmx.com/news/2026-11-10-decoding-motsepe-s-fallout-with-sacco-s-assore",
+        "date": "",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-1ae2db94b672540a1b3a9fa0",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Allied Gold pours first gold at Ethiopia’s Kurmuk mine",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Ethiopia",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-25T20:42:06+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Allied Gold pours first gold at Ethiopia’s Kurmuk mine",
+        "url": "https://miningmx.com/2026-11-10-allied-gold-pours-first-gold-at-ethiopia-s-kurmuk-mine",
+        "date": "",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-a72acc80dc2167e22320759a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Omnia targets first Canadian mining profits after contract wins",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-25T20:42:06+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Omnia targets first Canadian mining profits after contract wins",
+        "url": "https://miningmx.com/2026-11-10-omnia-targets-first-canadian-mining-profits-after-contract-wins",
+        "date": "",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-578dfa20c4b14cf5a279b533",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Deep-sea mining faces growing opposition ahead of COP31",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-25T20:42:06+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Deep-sea mining faces growing opposition ahead of COP31",
+        "url": "https://miningmx.com/2026-11-10-deep-sea-mining-faces-growing-opposition-ahead-of-cop31",
+        "date": "",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-e6d7ad0c7d81fe63ca7bbe72",
     "kind": "syndicated",
     "status": "published",
@@ -1676,6 +1879,35 @@
         "name": "BusinessDay",
         "title": "Olutimilehin assumes RICS Nigeria leadership, prioritises housing development",
         "url": "https://businessday.ng/news/article/olutimilehin-assumes-rics-nigeria-leadership-prioritises-housing-development/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-714acf11edbb4cccb2b276d6",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s CSR index to rank companies on social impact, transparency and accountability",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T19:23:51+00:00",
+    "collectedAt": "2026-11-25T20:42:06+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Nigeria’s CSR index to rank companies on social impact, transparency and accountability",
+        "url": "https://businessday.ng/technology/article/nigerias-csr-index-to-rank-companies-on-social-impact-transparency-and-accountability/",
         "date": "2026-11-25",
         "checked": "2026-11-25"
       }
