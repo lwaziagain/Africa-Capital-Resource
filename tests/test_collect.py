@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from collect import parse_feed, canonical_url, collect, plain, make_article, write_json, discover
+from collect import parse_feed, canonical_url, collect, plain, make_article, write_json, discover, headline_category, classify
 from import_archive import unwrap
 
 NOW = datetime(2026, 11, 25, 9, tzinfo=timezone.utc)
@@ -34,6 +34,13 @@ class FakeClient:
 
 
 class CollectorTests(unittest.TestCase):
+    def test_headline_classification_overrides_broad_feed_and_description(self):
+        entry = {"title": "First generic HIV drug shipments arrive in Africa", "description": "Read more markets, stocks and shares", "tags": ["Markets"]}
+        self.assertEqual(classify(entry, {"category": "markets"})[0], "economy")
+        self.assertEqual(headline_category("Central bank changes policy rate", "banking"), "economy")
+        self.assertEqual(headline_category("NGX falls as banking stocks slide", "banking"), "markets")
+        self.assertEqual(headline_category("An unrelated story", "markets"), "companies")
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.path = Path(self.temp.name)

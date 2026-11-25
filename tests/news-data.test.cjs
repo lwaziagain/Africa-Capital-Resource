@@ -3,6 +3,7 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const vm = require("node:vm");
 const ACS = require("../assets/news-data.js");
+const Reader = require("../assets/reader-tools.js");
 const story = () => ({
   id: "feed-test", status: "published", kind: "syndicated", headline: "<script>Test headline</script>",
   category: "tech", acsDate: "2026-11-25", eventDate: "", country: "Pan-African",
@@ -67,7 +68,7 @@ async function renderContext(rows, policyData = {sources: []}) {
     return elements.get(id);
   };
   const context = vm.createContext({
-    console, URL, Date, AbortController, setTimeout, clearTimeout, setInterval() {},
+    console, URL, URLSearchParams, Date, AbortController, setTimeout, clearTimeout, setInterval() {}, ACSReader: Reader,
     fetch: async () => ({ok: true, json: async () => policyData}),
     matchMedia: () => ({matches: true}),
     location: {hash: "#home", origin: "https://www.africacapitalsource.com", pathname: "/"},
@@ -75,7 +76,7 @@ async function renderContext(rows, policyData = {sources: []}) {
       getElementById: id => element("#" + id), createElement: () => element("new"),
       addEventListener() {}, hidden: false},
     window: {addEventListener() {}, scrollTo() {}, ACS_CONFIG: {}},
-    ACSData: {safeURL: ACS.safeURL, load: async () => ({articles: ACS.articles(rows), rates: [], fx: null, status: null, fallback: false})},
+    ACSData: {safeURL: ACS.safeURL, article: ACS.article, load: async () => ({articles: ACS.articles(rows), rates: [], fx: null, status: null, fallback: false})},
   });
   const script = [...fs.readFileSync("index.html", "utf8").matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1];
   vm.runInContext(script, context);
@@ -92,13 +93,13 @@ test("homepage, category, source-story and archive templates render with real ad
   assert.match(page.html(), /Top stories/);
   assert.match(page.html(), /Test technology story/);
   vm.runInContext('location.hash="#cat-tech";route()', page.context);
-  assert.match(page.html(), /18 articles/);
+  assert.match(page.html(), /18 stories/);
   vm.runInContext('location.hash="#a-feed-0";route()', page.context);
-  assert.match(page.html(), /Read the story at Test publisher/);
+  assert.match(page.html(), /Read on Test publisher/);
   assert.doesNotMatch(page.html(), /AI-assisted editorial system/);
   assert.match(page.html(), /not an independently verified ACS report/);
   vm.runInContext('location.hash="#month-"+new Date().toISOString().slice(0,7);route()', page.context);
-  assert.match(page.html(), /18 articles/);
+  assert.match(page.html(), /18 stories/);
 });
 
 test("source story headline HTML is escaped in the article template", async () => {
@@ -174,4 +175,74 @@ test("every image candidate refers to a shipped asset", {
   const page = await renderContext([]);
   const urls = vm.runInContext('[...Object.entries(PH).flatMap(([key,values])=>values.map(n=>storyImageURL(`${key}-${n}`))),...Array.from(LEGACY_IMAGES,storyImageURL)]', page.context);
   for (const url of urls) assert.ok(fs.existsSync(require("node:path").join(__dirname, "..", url)), `Missing image: ${url}`);
+});
+
+const report = (id, headline, publisher='Publisher A', date='2026-11-25T09:00:00Z') =>
+  ({...story(),id,headline,publishedAt:date,sources:[{name:publisher,url:'https://example.com/'+id}],country:'Nigeria'});
+
+test('topic rules agree with collector configuration and correct broad feed labels',()=>{
+  assert.deepEqual(Reader.rules,JSON.parse(fs.readFileSync('config/topic-rules.json')));
+  assert.equal(Reader.category({...report('a','First generic HIV drug shipments arrive in Africa'),category:'markets'}),'economy');
+  assert.equal(Reader.category(report('a','South African central bank says financial system resilient')),'economy');
+  assert.equal(Reader.category(report('a','NGX sheds N1.1 trillion as investors dump banking stocks')),'markets');
+  assert.equal(Reader.category(report('a','Tanzania launches ETF with gold exposure')),'etfs');
+  assert.equal(Reader.category({...report('a','An editorial view'),kind:'editorial',category:'opinion'}),'opinion');
+});
+test('related funding reports group without deleting source records',()=>{
+  const list=[report('a','Aeon Raises $2 Million to Build Africa’s Cyber Defence Infrastructure'),report('b','Nigerian cybersecurity startup Aeon extends pre-seed round to $2 million','Publisher B')];
+  const groups=Reader.group(list);
+  assert.equal(groups.groups.length,1);assert.equal(groups.byId.get('a').length,2);
+  assert.equal(Reader.unique(list,groups).length,1);assert.equal(list.length,2);
+});
+test('different amounts, companies, currencies, time periods and proposed deals stay separate',()=>{
+  const a=report('a','Aeon raises $2 million');
+  for(const b of [report('b','Aeon raises $3 million','B'),report('b','Kora raises $2 million','B'),report('b','Aeon raises R2 million','B'),report('b','Aeon raises $2 million','B','2026-11-10T09:00:00Z'),report('b','Aeon plans to raise $2 million','B')])assert.equal(Reader.related(a,b),false,b.headline);
+  assert.equal(Reader.related(report('a','Nigeria startup Kora raises $2 million'),report('b','Nigeria startup Zola raises $2 million','B')),false);
+});
+test('homepage selection diversifies sources and countries while preserving freshness',()=>{
+  const list=[report('a','Company Alpha results'),report('b','Company Beta results'),{...report('c','Company Gamma results','B'),country:'Kenya'},{...report('d','Company Delta results','C','2026-09-01'),country:'Egypt'}];
+  assert.deepEqual(Reader.balanced(list,3).map(a=>a.id),['a','c','b']);
+  assert.equal(Reader.balanced([report('a','Nigeria kidnapping incidents rise')],1).length,0);
+});
+test('country, topic, publisher, date and query filters combine using South African dates',()=>{
+  const a={...report('a','Bank Alpha launches payments','B','2026-11-22T23:00:00Z'),category:'banking',country:'South Africa'};
+  const b={...a,id:'b',publishedAt:'2026-11-22T21:00:00Z'};
+  const f={country:'South Africa',topic:'banking',publisher:'B',date:'week',query:'alpha'};
+  assert.deepEqual(Reader.filter([a,b],f,new Date('2026-11-23T06:00:00Z')).map(x=>x.id),['a']);
+  assert.equal(Reader.filter([a],{...f,publisher:'Wrong'},new Date('2026-11-23T06:00:00Z')).length,0);
+});
+test('saved snapshots persist across visits and remove cleanly',()=>{
+  const data=new Map(), storage={getItem:k=>data.get(k)||null,setItem:(k,v)=>data.set(k,v)};
+  const saved=Reader.savedStore(storage,ACS.article);assert.equal(saved.toggle(story()).saved,true);
+  const revisit=Reader.savedStore(storage,ACS.article);assert.equal(revisit.has(story().id),true);
+  assert.equal(revisit.toggle(story()).saved,false);assert.equal(Reader.savedStore(storage,ACS.article).list().length,0);
+});
+test('blocked storage keeps session saves and explains the limitation',()=>{
+  const saved=Reader.savedStore(null,ACS.article),result=saved.toggle(story());
+  assert.equal(result.persistent,false);assert.equal(saved.has(story().id),true);
+  assert.match(result.message,/only while this page is open/);
+});
+test('invalid saved snapshots cannot inject links',()=>{
+  const storage={getItem:()=>JSON.stringify([{...story(),sources:[{url:'javascript:alert(1)'}]}])};
+  assert.equal(Reader.savedStore(storage,ACS.article).list().length,0);
+});
+test('headlines can render before a slow status request completes',async()=>{
+  const old=global.fetch;let release, delivered=false;
+  global.fetch=async url=>({ok:true,json:()=>url==='status'?new Promise(r=>release=r):Promise.resolve(url==='remote'?[story()]:[])});
+  try{
+    const pending=ACS.load({articlesUrl:'remote',fallbackArticlesUrl:'local',ratesUrl:'rates',statusUrl:'status'},rows=>{delivered=rows.length===1;});
+    await new Promise(r=>setImmediate(r));assert.equal(delivered,true);release({});await pending;
+  }finally{global.fetch=old;}
+});
+test('combined filters render clear empty state and source links remain explicit',async()=>{
+  const page=await renderContext([story()]);
+  vm.runInContext('location.hash="#cat-latest?country=South+Africa&topic=banking";route()',page.context);
+  assert.match(page.html(),/No stories match these filters/);assert.match(page.html(),/value="South Africa" selected/);
+  vm.runInContext('location.hash="#a-feed-test";route()',page.context);
+  assert.match(page.html(),/Read on Test publisher/);assert.match(page.html(),/data-save-story="feed-test"/);
+});
+test('saved page retains a story snapshot after it leaves the active news feed',async()=>{
+  const page=await renderContext([story()]);
+  vm.runInContext('SAVED.toggle(ARTICLES[0]);setNews([]);location.hash="#saved";route()',page.context);
+  assert.match(page.html(),/Test headline/);assert.match(page.html(),/Saved in this browser/);
 });
