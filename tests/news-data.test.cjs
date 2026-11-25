@@ -138,3 +138,40 @@ test("missing policy rates are never displayed as zero", async () => {
   assert.match(panel, /Rate unavailable/);
   assert.doesNotMatch(panel, /0.00%/);
 });
+
+test("story images resolve legacy and numbered paths and reject missing image keys", async () => {
+  const page = await renderContext([story()]);
+  assert.equal(vm.runInContext('storyImageURL("johannesburg")', page.context), "/img/johannesburg.jpg");
+  assert.equal(vm.runInContext('storyImageURL("port-1")', page.context), "/ph/port-1.jpg");
+  for (const key of ["johannesburg-2", "gold-1", "../../secret", "missing-image"]) {
+    assert.match(vm.runInContext(`storyImageURL(${JSON.stringify(key)})`, page.context), /^data:image\/svg\+xml/);
+  }
+  const markup = vm.runInContext('storyHero({id:"test",image:"missing-image",category:"tech"})', page.context);
+  assert.match(markup, /data-story-image/);
+  assert.doesNotMatch(markup, /missing-image\.jpg/);
+});
+
+test("a failed story image gets one inline fallback and an accurate caption", async () => {
+  const page = await renderContext([]);
+  const caption = {textContent: "Illustrative photo via Pexels"};
+  let attempts = 0;
+  const image = {dataset: {}, hidden: false, removeAttribute() {},
+    closest: () => ({querySelector: () => caption}),
+    set src(value) { assert.match(value, /^data:image\/svg\+xml/); attempts++; }};
+  page.context.failedImage = image;
+  vm.runInContext('recoverStoryImage(failedImage)', page.context);
+  assert.equal(attempts, 1);
+  assert.equal(caption.textContent, "Illustrative placeholder");
+  assert.equal(image.hidden, false);
+  vm.runInContext('recoverStoryImage(failedImage)', page.context);
+  assert.equal(attempts, 1);
+  assert.equal(image.hidden, true);
+});
+
+test("every image candidate refers to a shipped asset", {
+  skip: !fs.existsSync(require("node:path").join(__dirname, "../ph")) && "Photo assets are available in the repository CI checkout"
+}, async () => {
+  const page = await renderContext([]);
+  const urls = vm.runInContext('[...Object.entries(PH).flatMap(([key,values])=>values.map(n=>storyImageURL(`${key}-${n}`))),...Array.from(LEGACY_IMAGES,storyImageURL)]', page.context);
+  for (const url of urls) assert.ok(fs.existsSync(require("node:path").join(__dirname, "..", url)), `Missing image: ${url}`);
+});
