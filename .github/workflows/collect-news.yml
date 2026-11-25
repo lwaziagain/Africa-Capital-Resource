@@ -46,6 +46,10 @@ jobs:
         id: feeds
         continue-on-error: true
         run: python scripts/collect.py --output ../acs-news-data/data
+      - name: Collect official policy rates
+        id: rates
+        continue-on-error: true
+        run: python scripts/collect_rates.py --output ../acs-news-data/data
       - name: Publish data and collection status
         shell: bash
         run: |
@@ -57,7 +61,7 @@ jobs:
             git push origin HEAD:refs/heads/acs-data
           fi
       - name: Report complete collection failure
-        if: steps.feeds.outcome == 'failure'
+        if: steps.feeds.outcome == 'failure' || steps.rates.outcome == 'failure'
         run: |
-          echo "::error::No source could be collected. Existing articles have been preserved. Check the job summary."
+          echo "::error::A collector could not reach any of its sources. Saved data has been preserved. Check the job summary and source status."
           exit 1
