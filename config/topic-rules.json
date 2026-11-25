@@ -13,7 +13,7 @@
   },
   {
     "category": "markets",
-    "pattern": "\\b(stock markets?|stocks?|shares?|bourse|bond yields?|forex|currenc(?:y|ies)|exchange rate|jse|ngx|buyback)\\b"
+    "pattern": "\\b(stock markets?|stocks?|shares|share (?:price|sale|buyback)|bourse|bond yields?|forex|currenc(?:y|ies)|exchange rate|jse|ngx|buyback)\\b"
   },
   {
     "category": "crypto",
@@ -28,12 +28,16 @@
     "pattern": "\\b(banks?|banking|fintech|payments?|mobile money|remittances?|lenders?|loans?|financing)\\b"
   },
   {
-    "category": "infrastructure",
-    "pattern": "\\b(rail|railway|ports?|infrastructure|logistics|solar|electricity|power grid|suez|lng)\\b"
+    "category": "tech",
+    "pattern": "\\b(technology|software|artificial intelligence|telecoms?|data cent(?:re|er)s?|cyber\\w*|broadband|ai|cloud|internet)\\b"
   },
   {
     "category": "tech",
-    "pattern": "\\b(technology|software|artificial intelligence|telecoms?|data cent(?:re|er)s?|cyber\\w*|broadband|ai|cloud|internet)\\b"
+    "pattern": "\\b(digital|identity|intelligent) infrastructure\\b"
+  },
+  {
+    "category": "infrastructure",
+    "pattern": "\\b(rail|railway|ports?|infrastructure|logistics|solar|electricity|power grid|suez|lng)\\b"
   },
   {
     "category": "economy",
