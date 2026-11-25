@@ -3074,6 +3074,64 @@
     ]
   },
   {
+    "id": "feed-5239588c094c491f93b8c770",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Africa can borrow its way to lower debt burden, OECD and AU say",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T14:25:17+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Africa can borrow its way to lower debt burden, OECD and AU say",
+        "url": "https://cms.cnbcafrica.com/2026/africa-can-borrow-its-way-to-lower-debt-burden-oecd-and-au-say/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-7434f57e270b973e535a5d6f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Meta AI glasses enter South African market",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T14:22:12+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Meta AI glasses enter South African market",
+        "url": "https://www.itweb.co.za/article/meta-ai-glasses-enter-south-african-market/GxwQDM1DNQy7lPVo",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-4a7465a263784de59f8c19bf",
     "kind": "syndicated",
     "status": "published",
@@ -3103,6 +3161,64 @@
     ]
   },
   {
+    "id": "feed-9c8f1b9e02590403a1985713",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "First generic HIV drug shipments arrive in Africa, Global Fund says",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T14:09:23+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "First generic HIV drug shipments arrive in Africa, Global Fund says",
+        "url": "https://cms.cnbcafrica.com/2026/first-generic-hiv-drug-shipments-arrive-in-africa-global-fund-says/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-575b24a5cc2c16265908da80",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South African central bank says financial system resilient in biannual review",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T14:07:11+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South African central bank says financial system resilient in biannual review",
+        "url": "https://cms.cnbcafrica.com/2026/south-african-central-bank-says-financial-system-resilient-in-biannual-review/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-93583d21f9fcb4f6b89bf99e",
     "kind": "syndicated",
     "status": "published",
@@ -3126,6 +3242,35 @@
         "name": "TechAfrica News",
         "title": "Mastercard and MEPS Expand Partnership to Enable Faster Money Transfers in Jordan",
         "url": "https://techafricanews.com/2026/11/25/mastercard-meps-expand-partnership-faster-money-transfers-jordan/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-178d941974504202d657cb6f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T13:48:42+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+        "url": "https://cms.cnbcafrica.com/2026/u-s-proposes-new-tariffs-on-14-trading-partners-including-china-and-the-eu/",
         "date": "2026-11-25",
         "checked": "2026-11-25"
       }
@@ -3248,6 +3393,35 @@
     ]
   },
   {
+    "id": "feed-6fed708c97931fd1bc031114",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "SA’s BlueVision expands internationally, appoints new COO",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T12:35:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "SA’s BlueVision expands internationally, appoints new COO",
+        "url": "https://www.itweb.co.za/article/sas-bluevision-expands-internationally-appoints-new-coo/PmxVEMKE5kovQY85",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-107222710c2c6699e7bb135a",
     "kind": "syndicated",
     "status": "published",
@@ -3271,6 +3445,35 @@
         "name": "TechCabal",
         "title": "Wave’s 25 million-user blueprint: How low fees disrupted Francophone West Africa’s mobile money ‘cartels’",
         "url": "https://techcabal.com/2026/11/25/wave-in-waemu-region/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-b5a896477c9cc4de9ceb754b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Skills shortages threaten renewable energy ambitions",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T12:21:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Skills shortages threaten renewable energy ambitions",
+        "url": "https://www.itweb.co.za/article/skills-shortages-threaten-renewable-energy-ambitions/O2rQGqAE1kxqd1ea",
         "date": "2026-11-25",
         "checked": "2026-11-25"
       }
@@ -3422,6 +3625,35 @@
     ]
   },
   {
+    "id": "feed-79e007ef0dc437c21ea40c06",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Science dept begins senior manager hiring spree",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T11:05:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Science dept begins senior manager hiring spree",
+        "url": "https://www.itweb.co.za/article/science-dept-begins-senior-manager-hiring-spree/xA9PO7NEnkDvo4J8",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-50bacb9e29a57117bd14050d",
     "kind": "syndicated",
     "status": "published",
@@ -3474,6 +3706,122 @@
         "name": "TechCabal",
         "title": "Takealot grows revenue 27% as Amazon, Temu heat up e-commerce race",
         "url": "https://techcabal.com/2026/11/25/takealot-revenue-growth-amazon-shein-temu/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-89606d6596f9ca2f8f7aa9ca",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Naspers, Prosus say AI is their secret sauce",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T10:27:38+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Naspers, Prosus say AI is their secret sauce",
+        "url": "https://www.itweb.co.za/article/naspers-prosus-say-ai-is-their-secret-sauce/Gb3BwMWaGRyv2k6V",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-3a2305f528810c2dc8f55e10",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "SA’s YOMO secures global award amid rising MVNO competition",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T10:21:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "SA’s YOMO secures global award amid rising MVNO competition",
+        "url": "https://www.itweb.co.za/article/sas-yomo-secures-global-award-amid-rising-mvno-competition/o1Jr5qxPRbQqKdWL",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-6f24dd7e6f98e8d55744a17a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Cell C strengthens MVNO play with Melon acquisition",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T10:15:39+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Cell C strengthens MVNO play with Melon acquisition",
+        "url": "https://www.itweb.co.za/article/cell-c-strengthens-mvno-play-with-melon-acquisition/kYbe9MXbBkevAWpG",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-7d85bba7412b347683562ddc",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Cape Town adds 13 cashless driver testing centres",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T10:11:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Cape Town adds 13 cashless driver testing centres",
+        "url": "https://www.itweb.co.za/article/cape-town-adds-13-cashless-driver-testing-centres/4r1lyMR9xrD7pmda",
         "date": "2026-11-25",
         "checked": "2026-11-25"
       }
@@ -3625,6 +3973,35 @@
     ]
   },
   {
+    "id": "feed-14fee026ad5d44262d359c17",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "InfoReg calls out DPSA in cellphone allowance dispute",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T09:25:25+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "InfoReg calls out DPSA in cellphone allowance dispute",
+        "url": "https://www.itweb.co.za/article/inforeg-calls-out-dpsa-in-cellphone-allowance-dispute/rW1xL75nkZPMRk6m",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-57bd1c7725943ad491070122",
     "kind": "syndicated",
     "status": "published",
@@ -3648,6 +4025,93 @@
         "name": "TechCabal",
         "title": "Four South African students want to make bursary money easier to access and spend",
         "url": "https://techcabal.com/2026/11/25/sa-students-fintech-bursary-pay-problems/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-96a3ab231c3fae0805dfb0a9",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South Africa’s Ramaphosa wins court case to overturn ‘Farmgate’ panel report",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T09:10:34+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South Africa’s Ramaphosa wins court case to overturn ‘Farmgate’ panel report",
+        "url": "https://cms.cnbcafrica.com/2026/south-africas-ramaphosa-wins-court-case-to-overturn-farmgate-panel-report/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-e04aad33b4b2f0a958ed7483",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Rubrik launches Configuration Resilience for Microsoft 365",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T09:02:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Rubrik launches Configuration Resilience for Microsoft 365",
+        "url": "https://www.itweb.co.za/article/rubrik-launches-configuration-resilience-for-microsoft-365/DZQ58MV8WkJvzXy2",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-7dbfd4acb8d65ac4ebebd066",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Why a multilayered approach to cyber security is a must in 2027",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T09:01:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Why a multilayered approach to cyber security is a must in 2027",
+        "url": "https://www.itweb.co.za/article/why-a-multilayered-approach-to-cyber-security-is-a-must-in-2027/KzQenvjy14JqZd2r",
         "date": "2026-11-25",
         "checked": "2026-11-25"
       }
@@ -3683,6 +4147,122 @@
     ]
   },
   {
+    "id": "feed-129d1bc3de7ca42412019ac3",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Bolt ups driver safety efforts for festive season",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T08:43:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Bolt ups driver safety efforts for festive season",
+        "url": "https://www.itweb.co.za/article/bolt-ups-driver-safety-efforts-for-festive-season/VgZey7JlDGrqdjX9",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-b97e34e47bfc54c5a972b1e6",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The AI capability paradox",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T08:20:34+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "The AI capability paradox",
+        "url": "https://www.itweb.co.za/article/the-ai-capability-paradox/j5alrMQAXGzMpYQk",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-5947ef290498bf4354cb498f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "ITWeb TV Biz: Closing the governance gap at the speed of AI software delivery",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T08:05:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "ITWeb TV Biz: Closing the governance gap at the speed of AI software delivery",
+        "url": "https://www.itweb.co.za/article/itweb-tv-biz-closing-the-governance-gap-at-the-speed-of-ai-software-delivery/G98Yd7LGpRZvX2PD",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-e18f33c2d9bb2050976e6245",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South Africa bets R100 million on AI start-ups as global rivals spend billions",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "startups",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T07:34:10+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South Africa bets R100 million on AI start-ups as global rivals spend billions",
+        "url": "https://cms.cnbcafrica.com/2026/south-africa-bets-r100-million-on-ai-start-ups-as-global-rivals-spend-billions/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-457e6144cec1bb4e02dcfc25",
     "kind": "syndicated",
     "status": "published",
@@ -3706,6 +4286,35 @@
         "name": "TechAfrica News",
         "title": "Meta Launches US$700,000 AI Grant to Support Innovation Across Africa and Middle East",
         "url": "https://techafricanews.com/2026/11/25/meta-700000-ai-grant-innovation-africa-middle-east/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-ae83447ae3bf880edf5940ad",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Hurricane Electric Expands Global Network With New Point of Presence at iXAfrica NBOX1 in Nairobi",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T07:30:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Hurricane Electric Expands Global Network With New Point of Presence at iXAfrica NBOX1 in Nairobi",
+        "url": "https://www.itweb.co.za/article/hurricane-electric-expands-global-network-with-new-point-of-presence-at-ixafrica-nbox1-in-nairobi/KzQenMjy1Ez7Zd2r",
         "date": "2026-11-25",
         "checked": "2026-11-25"
       }
@@ -3770,6 +4379,64 @@
     ]
   },
   {
+    "id": "feed-28c7a9a7e28d4bf0a9c94e37",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T07:06:15+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+        "url": "https://cms.cnbcafrica.com/2026/ai-debt-worries-grow-as-nvidia-rebound-masks-big-tech-spending-squeeze/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-44fe1f9791cfd3698935ad27",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T07:00:51+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+        "url": "https://cms.cnbcafrica.com/2026/u-s-jury-convicts-huawei-in-a-criminal-trial-over-fraud-and-trade-secrets/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-948f498fb2fbd36221100891",
     "kind": "syndicated",
     "status": "published",
@@ -3793,6 +4460,267 @@
         "name": "Disrupt Africa",
         "title": "9 startups picked for 1st Africa Ignite climate adaptation cohort",
         "url": "https://disruptafrica.com/2026/11/25/9-startups-picked-for-1st-africa-ignite-climate-adaptation-cohort/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-d9724e61a2cf8b9045a48d16",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Crypto talent will return ‘when AI implodes,’ Arthur Hayes says",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "crypto",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:58:26+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Crypto talent will return ‘when AI implodes,’ Arthur Hayes says",
+        "url": "https://cms.cnbcafrica.com/2026/crypto-talent-will-return-when-ai-implodes-arthur-hayes-says/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-109d107bdd5349469cc5ca60",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Naspers earnings boosted by Tencent despite drag from food delivery investments",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:55:35+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Naspers earnings boosted by Tencent despite drag from food delivery investments",
+        "url": "https://cms.cnbcafrica.com/2026/naspers-earnings-boosted-by-tencent-despite-drag-from-food-delivery-investments/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-37e8d388b693051c920cfa76",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South African rand eases, with US inflation data in focus",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:53:01+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South African rand eases, with US inflation data in focus",
+        "url": "https://cms.cnbcafrica.com/2026/south-african-rand-eases-with-us-inflation-data-in-focus/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-4faaf4a0a5075ae37c25f310",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Jensen Huang tells staff that Nvidia doesn’t need a succession plan",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:51:03+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Jensen Huang tells staff that Nvidia doesn’t need a succession plan",
+        "url": "https://cms.cnbcafrica.com/2026/jensen-huang-tells-staff-that-nvidia-doesnt-need-a-succession-plan/",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-2f33a0e468a4b2da9e2427d5",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Black Friday's biggest pressure point isn't the sale. It's the back office",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:35:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Black Friday's biggest pressure point isn't the sale. It's the back office",
+        "url": "https://www.itweb.co.za/article/black-fridays-biggest-pressure-point-isnt-the-sale-its-the-back-office/Pero37Z3NGKMQb6m",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-aefcd1b9b1ba256aad8814bd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "LinkUp Youth launches free estimate of what employers could save on entry-level staff",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:34:06+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "LinkUp Youth launches free estimate of what employers could save on entry-level staff",
+        "url": "https://www.itweb.co.za/article/linkup-youth-launches-free-estimate-of-what-employers-could-save-on-entry-level-staff/RgeVDMPR2GVvKJN3",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-28f617ed7a2322ab6a9159de",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Can we manage the risks posed by AI agents?",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:33:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Can we manage the risks posed by AI agents?",
+        "url": "https://www.itweb.co.za/article/can-we-manage-the-risks-posed-by-ai-agents/KA3Ww7dzbE8qrydZ",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-02eb53a87ebd4033c043634a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Beyond onboarding: Is your identity verification strategy ready for 2027?",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:32:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Beyond onboarding: Is your identity verification strategy ready for 2027?",
+        "url": "https://www.itweb.co.za/article/beyond-onboarding-is-your-identity-verification-strategy-ready-for-2027/lwrKxq3Y6Zz7mg1o",
+        "date": "2026-11-25",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-8af216cfe7779d83fd6cf880",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "RFID or bar code? Start with the problem",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-25T06:31:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "RFID or bar code? Start with the problem",
+        "url": "https://www.itweb.co.za/article/rfid-or-bar-code-start-with-the-problem/j5alrvQAXG1vpYQk",
         "date": "2026-11-25",
         "checked": "2026-11-25"
       }
@@ -4031,6 +4959,35 @@
     ]
   },
   {
+    "id": "feed-59aa10edbf10bfb123f66228",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "PT Pan Brothers Tbk Advances Smart Manufacturing with More Resilient SAP Operations from Rimini Street",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T21:35:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "PT Pan Brothers Tbk Advances Smart Manufacturing with More Resilient SAP Operations from Rimini Street",
+        "url": "https://www.itweb.co.za/article/pt-pan-brothers-tbk-advances-smart-manufacturing-with-more-resilient-sap-operations-from-rimini-street/wbrpO7g2dEAvDLZn",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-64f1fbc1a4157f689e5c5553",
     "kind": "syndicated",
     "status": "published",
@@ -4112,6 +5069,93 @@
         "name": "TechCabal",
         "title": "MTN Benin’s $215 million plan is running into a good problem with customers’ demand for more data",
         "url": "https://techcabal.com/2026/11/24/mtn-benin-customers-data/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-f04b97d1a3a247afd5a10b25",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "HIV infections could rise from historic lows starting next year, UN says",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T14:19:34+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "HIV infections could rise from historic lows starting next year, UN says",
+        "url": "https://cms.cnbcafrica.com/2026/hiv-infections-could-rise-from-historic-lows-starting-next-year-un-says/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-79f25b13f7f15eef41b3a071",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s Tinubu asks lawmakers to trim 2026 budget spending",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T14:16:07+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Nigeria’s Tinubu asks lawmakers to trim 2026 budget spending",
+        "url": "https://cms.cnbcafrica.com/2026/nigerias-tinubu-asks-lawmakers-to-trim-2026-budget-spending/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-7da2afaaee0c3aea89b49c35",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s central bank keeps key rate on hold at last meeting before election",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T14:13:30+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Nigeria’s central bank keeps key rate on hold at last meeting before election",
+        "url": "https://cms.cnbcafrica.com/2026/nigerias-central-bank-keeps-key-rate-on-hold-at-last-meeting-before-election/",
         "date": "2026-11-24",
         "checked": "2026-11-25"
       }
@@ -4321,6 +5365,122 @@
     ]
   },
   {
+    "id": "feed-a5acdeacc72d9470686220d1",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Horror, Horror: Peace Is at Hand",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T10:33:36+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Horror, Horror: Peace Is at Hand",
+        "url": "https://cms.cnbcafrica.com/2026/horror-horror-peace-is-at-hand/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-6ca24fa890838f4d6064c6b7",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Africa should act now to prepare for a historic TB vaccine",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Zimbabwe",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T10:21:12+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Africa should act now to prepare for a historic TB vaccine",
+        "url": "https://cms.cnbcafrica.com/2026/africa-should-act-now-to-prepare-for-a-historic-tb-vaccine/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-0f962adf5fbf33b562d32def",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Six key questions raised by Jensen Huang’s return to Nvidia",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T10:15:37+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Six key questions raised by Jensen Huang’s return to Nvidia",
+        "url": "https://cms.cnbcafrica.com/2026/six-key-questions-raised-by-jensen-huangs-return-to-nvidia/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-c5d009863191d35217f12f81",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Global vaccine group aims to buy 1.5 million doses of new Ebola Bundibugyo shot for Congo",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Ethiopia",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T10:10:39+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Global vaccine group aims to buy 1.5 million doses of new Ebola Bundibugyo shot for Congo",
+        "url": "https://cms.cnbcafrica.com/2026/global-vaccine-group-aims-to-buy-1-5-million-doses-of-new-ebola-bundibugyo-shot-for-congo/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-0d7b6f3cae55e936970c68f8",
     "kind": "syndicated",
     "status": "published",
@@ -4460,6 +5620,209 @@
         "name": "TechCentral",
         "title": "Officials leave MPs in the dark on South Africa’s AI policy",
         "url": "https://techcentral.co.za/officials-mps-dark-south-africa-ai-policy/288639/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-ca4781a01ef03de8d208dbc4",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T07:31:08+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+        "url": "https://cms.cnbcafrica.com/2026/jensen-huang-is-too-big-to-fire-putting-nvidias-governance-in-focus-analysts/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-98d78ffe51a81ba147b6763b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Creating an intelligent identity infrastructure layer",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T07:26:57+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Creating an intelligent identity infrastructure layer",
+        "url": "https://www.itweb.co.za/article/creating-an-intelligent-identity-infrastructure-layer/LPp6VMrBl6RMDKQz",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-768af89576c308f1201612f2",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Value of Uganda gold shipments more than doubles in year to June",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Uganda",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T07:21:01+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Value of Uganda gold shipments more than doubles in year to June",
+        "url": "https://cms.cnbcafrica.com/2026/value-of-uganda-gold-shipments-more-than-doubles-in-year-to-june/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-17d4c027b9836fcb5657afbd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South Africa’s Pepkor warns port disruptions to weigh on festive trading",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T07:18:45+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South Africa’s Pepkor warns port disruptions to weigh on festive trading",
+        "url": "https://cms.cnbcafrica.com/2026/south-africas-pepkor-warns-port-disruptions-to-weigh-on-festive-trading/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-dceb4accf2572661c4196151",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South African rand steady ahead of leading indicator data",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T07:16:28+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South African rand steady ahead of leading indicator data",
+        "url": "https://cms.cnbcafrica.com/2026/south-african-rand-steady-ahead-of-leading-indicator-data-2/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-bebce3fb80c587298e6d6eeb",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Ethiopian shelling of Tigray town should be investigated as possible war crimes, Amnesty says",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T07:14:54+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Ethiopian shelling of Tigray town should be investigated as possible war crimes, Amnesty says",
+        "url": "https://cms.cnbcafrica.com/2026/ethiopian-shelling-of-tigray-town-should-be-investigated-as-possible-war-crimes-amnesty-says/",
+        "date": "2026-11-24",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-8a93acc1fb20179acd133f1c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Namib Minerals revives Zimbabwe’s Redwing mine with first gold pour",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Zimbabwe",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-24T07:11:01+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Namib Minerals revives Zimbabwe’s Redwing mine with first gold pour",
+        "url": "https://cms.cnbcafrica.com/2026/namib-minerals-revives-zimbabwes-redwing-mine-with-first-gold-pour/",
         "date": "2026-11-24",
         "checked": "2026-11-25"
       }
@@ -4756,6 +6119,35 @@
     ]
   },
   {
+    "id": "feed-f44de4068f52657f02b4b04e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "TOURISE and Skift Release New Global Report on Building Tourism’s Next Generation Workforce",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-23T19:45:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "TOURISE and Skift Release New Global Report on Building Tourism’s Next Generation Workforce",
+        "url": "https://www.itweb.co.za/article/tourise-and-skift-release-new-global-report-on-building-tourisms-next-generation-workforce/VgZeyvJlDe6MdjX9",
+        "date": "2026-11-23",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-e802cfd861b05d9d8486e6ae",
     "kind": "syndicated",
     "status": "published",
@@ -4779,6 +6171,35 @@
         "name": "TechCentral",
         "title": "Absa skips the MVNO route, partners with Vodacom instead",
         "url": "https://techcentral.co.za/absa-skips-mvno-partners-vodacom/288619/",
+        "date": "2026-11-23",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-22914a1d2922985c07c46042",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Empowering Women, Elevating the Experience: Mary Kay Celebrates Entrepreneurship With Forbes Earning #4 Spot Recognition for Best Customer Service",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-23T13:00:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Empowering Women, Elevating the Experience: Mary Kay Celebrates Entrepreneurship With Forbes Earning #4 Spot Recognition for Best Customer Service",
+        "url": "https://www.itweb.co.za/article/empowering-women-elevating-the-experience-mary-kay-celebrates-entrepreneurship-with-forbes-earning-4-spot-recognition-for-best-customer-service/Pero3qZ3NEKvQb6m",
         "date": "2026-11-23",
         "checked": "2026-11-25"
       }
@@ -5017,6 +6438,35 @@
     ]
   },
   {
+    "id": "feed-32a27409c14d4db225d962cc",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "AI did not invent slop, it’s industrialising it",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-23T06:43:03+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "AI did not invent slop, it’s industrialising it",
+        "url": "https://www.itweb.co.za/article/ai-did-not-invent-slop-its-industrialising-it/P3gQ2MGAVWJvnRD1",
+        "date": "2026-11-23",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-0a44e32abc35e20bf4da8d97",
     "kind": "syndicated",
     "status": "published",
@@ -5162,6 +6612,35 @@
     ]
   },
   {
+    "id": "feed-a1a203eb122a3d030a66fb81",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Picsart Opens the AI Behind Its Platform to Developers & Businesses",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-20T19:54:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Picsart Opens the AI Behind Its Platform to Developers & Businesses",
+        "url": "https://www.itweb.co.za/article/picsart-opens-the-ai-behind-its-platform-to-developers-businesses/wbrpOqg2dpAMDLZn",
+        "date": "2026-11-20",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-2e92e38945e7ea2b6d14c11b",
     "kind": "syndicated",
     "status": "published",
@@ -5220,6 +6699,64 @@
     ]
   },
   {
+    "id": "feed-e27d0e0e6241c75ddf62daa5",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The governance shift in cyber accountability",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-19T07:10:39+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "The governance shift in cyber accountability",
+        "url": "https://www.itweb.co.za/article/the-governance-shift-in-cyber-accountability/KA3WwMdzbg5vrydZ",
+        "date": "2026-11-19",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-dcc107f36316dd344082ad33",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Where there’s Coke, there's a supply chain",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-19T06:30:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Where there’s Coke, there's a supply chain",
+        "url": "https://www.itweb.co.za/article/where-theres-coke-theres-a-supply-chain/O2rQGqAE1Dlqd1ea",
+        "date": "2026-11-19",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "feed-925a48e76c038274eef2fb4a",
     "kind": "syndicated",
     "status": "published",
@@ -5244,6 +6781,35 @@
         "title": "Tanzania Invites RMB and IFC to Finance Public Enterprises, Publishes Audited Accounts",
         "url": "https://www.tanzaniainvest.com/economy/rmb-ifc-otr-public-enterprise-financing-discussion",
         "date": "2026-11-19",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-5f7e68109bfdd6e8072d43d4",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Real-time visibility keeps sales moving",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-18T07:51:39+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Real-time visibility keeps sales moving",
+        "url": "https://www.itweb.co.za/article/real-time-visibility-keeps-sales-moving/KA3Ww7dzbe9qrydZ",
+        "date": "2026-11-18",
         "checked": "2026-11-25"
       }
     ]
@@ -5910,6 +7476,35 @@
         "name": "TanzaniaInvest",
         "title": "Tanzania Launches Industrial and SME Policies, Targets TZS 4.7 Trillion (USD 1.8 Billion) in SME Loans by 2035",
         "url": "https://www.tanzaniainvest.com/industry/industrial-sme-policies-launch",
+        "date": "2026-11-05",
+        "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-79f575a80834a3a7556dc593",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Why you still need antivirus",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-25",
+    "eventDate": "",
+    "publishedAt": "2026-11-05T06:51:00+00:00",
+    "collectedAt": "2026-11-25T21:36:41+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Why you still need antivirus",
+        "url": "https://www.itweb.co.za/article/why-you-still-need-antivirus/Gb3Bw7Wa9Owq2k6V",
         "date": "2026-11-05",
         "checked": "2026-11-25"
       }

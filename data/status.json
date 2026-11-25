@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-25T21:09:37+00:00",
-  "newArticles": 0,
+  "checkedAt": "2026-11-25T21:36:41+00:00",
+  "newArticles": 55,
   "sources": [
     {
       "id": "nairametrics-com",
       "name": "Nairametrics",
       "website": "https://nairametrics.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://nairametrics.com/feed/",
       "entries": 0
@@ -26,7 +26,7 @@
       "name": "TechCentral",
       "website": "https://techcentral.co.za/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://techcentral.co.za/feed/",
       "entries": 20
@@ -36,7 +36,7 @@
       "name": "TechCabal",
       "website": "https://techcabal.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://techcabal.com/feed/",
       "entries": 0
@@ -55,7 +55,7 @@
       "name": "Disrupt Africa",
       "website": "https://disruptafrica.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://disruptafrica.com/feed/",
       "entries": 0
@@ -63,11 +63,12 @@
     {
       "id": "itweb-co-za",
       "name": "ITWeb",
-      "website": "https://itweb.co.za/",
-      "new": 0,
-      "lastSuccess": null,
-      "status": "error",
-      "error": "HTTP Error 404: Page not found: /feed"
+      "website": "https://www.itweb.co.za/",
+      "new": 30,
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
+      "status": "ok",
+      "feed": "https://www.itweb.co.za/rss",
+      "entries": 32
     },
     {
       "id": "mybroadband-co-za",
@@ -88,29 +89,11 @@
       "error": "Cannot check robots.txt (HTTP 403)"
     },
     {
-      "id": "miningweekly-com",
-      "name": "Mining Weekly",
-      "website": "https://miningweekly.com/",
-      "new": 0,
-      "lastSuccess": null,
-      "status": "error",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "id": "engineeringnews-co-za",
-      "name": "Engineering News",
-      "website": "https://engineeringnews.co.za/",
-      "new": 0,
-      "lastSuccess": null,
-      "status": "error",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "id": "miningmx-com",
       "name": "Miningmx",
       "website": "https://miningmx.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://miningmx.com/atom/",
       "entries": 50
@@ -129,7 +112,7 @@
       "name": "BusinessDay",
       "website": "https://businessday.ng/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://businessday.ng/feed/",
       "entries": 0
@@ -139,7 +122,7 @@
       "name": "Business Post Nigeria",
       "website": "https://businesspost.ng/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://businesspost.ng/feed/",
       "entries": 0
@@ -158,7 +141,7 @@
       "name": "TanzaniaInvest",
       "website": "https://tanzaniainvest.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://www.tanzaniainvest.com/feed",
       "entries": 98
@@ -177,7 +160,7 @@
       "name": "TechMoran",
       "website": "https://techmoran.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://techmoran.com/feed/",
       "entries": 0
@@ -196,7 +179,7 @@
       "name": "TechAfrica News",
       "website": "https://techafricanews.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://techafricanews.com/feed/",
       "entries": 0
@@ -206,33 +189,34 @@
       "name": "Africa Private Equity News",
       "website": "https://africaprivateequitynews.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://africaprivateequitynews.com/feed/",
       "entries": 0
     },
     {
       "id": "cnbcafrica-com",
-      "name": "CNBC Africa (Reuters)",
-      "website": "https://cnbcafrica.com/",
-      "new": 0,
-      "lastSuccess": null,
-      "status": "error",
-      "error": "HTTP Error 404: Not Found"
+      "name": "CNBC Africa",
+      "website": "https://www.cnbcafrica.com/",
+      "new": 25,
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
+      "status": "ok",
+      "feed": "https://cms.cnbcafrica.com/feed/",
+      "entries": 25
     },
     {
       "id": "dailynewsegypt-com",
       "name": "Daily News Egypt",
       "website": "https://dailynewsegypt.com/",
       "new": 0,
-      "lastSuccess": "2026-11-25T21:09:37+00:00",
+      "lastSuccess": "2026-11-25T21:36:41+00:00",
       "status": "ok",
       "feed": "https://dailynewsegypt.com/feed/",
       "entries": 0
     }
   ],
-  "healthySources": 12,
-  "totalSources": 24,
-  "totalArticles": 222,
+  "healthySources": 14,
+  "totalSources": 22,
+  "totalArticles": 277,
   "status": "partial"
 }
