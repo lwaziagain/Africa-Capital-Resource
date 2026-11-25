@@ -58,7 +58,7 @@ test("all inline website JavaScript compiles", () => {
   assert.ok(html.includes("assets/news-data.js"));
 });
 
-async function renderContext(rows) {
+async function renderContext(rows, policyData = {sources: []}) {
   const elements = new Map();
   const element = id => {
     if (!elements.has(id)) elements.set(id, {innerHTML: "", textContent: "", value: "",
@@ -67,14 +67,15 @@ async function renderContext(rows) {
     return elements.get(id);
   };
   const context = vm.createContext({
-    console, URL, Date, setTimeout, clearTimeout, setInterval() {},
+    console, URL, Date, AbortController, setTimeout, clearTimeout, setInterval() {},
+    fetch: async () => ({ok: true, json: async () => policyData}),
     matchMedia: () => ({matches: true}),
     location: {hash: "#home", origin: "https://www.africacapitalsource.com", pathname: "/"},
     document: {querySelector: element, querySelectorAll: () => [],
       getElementById: id => element("#" + id), createElement: () => element("new"),
       addEventListener() {}, hidden: false},
     window: {addEventListener() {}, scrollTo() {}, ACS_CONFIG: {}},
-    ACSData: {load: async () => ({articles: ACS.articles(rows), rates: [], fx: null, status: null, fallback: false})},
+    ACSData: {safeURL: ACS.safeURL, load: async () => ({articles: ACS.articles(rows), rates: [], fx: null, status: null, fallback: false})},
   });
   const script = [...fs.readFileSync("index.html", "utf8").matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1];
   vm.runInContext(script, context);
@@ -112,4 +113,28 @@ test("empty and future-only archives do not crash the homepage", async () => {
   assert.match(empty.html(), /News updates are being prepared/);
   const future = await renderContext([{...story(), publishedAt: "2099-01-01T12:00:00Z"}]);
   assert.match(future.html(), /No stories match/);
+});
+
+test("official policy rates show source dates and flag saved records after failure", async () => {
+  const source = {id:"za", country:"South Africa", bank:"South African Reserve Bank",
+    instrument:"SARB Policy Rate", sourceUrl:"https://www.resbank.co.za/", dateLabel:"Observation date",
+    value:7.25, date:new Date().toISOString().slice(0,10), lastSuccess:new Date().toISOString(), status:"ok"};
+  const page = await renderContext([], {sources:[source]});
+  let panel = vm.runInContext('ratesTable(true)', page.context);
+  assert.match(panel, /7.25%/);
+  assert.match(panel, /Observation date/);
+  assert.match(panel, /Last verified/);
+  assert.doesNotMatch(panel, /Update delayed/);
+  vm.runInContext('POLICY_FAILED=true', page.context);
+  panel = vm.runInContext('ratesTable(true)', page.context);
+  assert.match(panel, /7.25%/);
+  assert.match(panel, /Update delayed/);
+});
+
+test("missing policy rates are never displayed as zero", async () => {
+  const page = await renderContext([], {sources:[{id:"ke", country:"Kenya", bank:"Central Bank of Kenya",
+    sourceUrl:"https://www.centralbank.go.ke/", status:"unavailable", value:null}]});
+  const panel = vm.runInContext('ratesBox()', page.context);
+  assert.match(panel, /Rate unavailable/);
+  assert.doesNotMatch(panel, /0.00%/);
 });
