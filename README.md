@@ -86,7 +86,7 @@ Edit config/sources.json. Each entry has:
 - feed: a known RSS/Atom URL, or null to discover the homepage's alternate-feed link.
   When there is no advertised feed, one conventional /feed/ endpoint is tried.
 - enabled: false pauses that source.
-- category: fallback ACS section; fixed_category keeps it instead of keyword matching.
+- category: fallback ACS section. Headline rules take priority over broad feed labels; legacy fixed_category remains accepted for configuration compatibility.
 - allow_excerpt: false by default.
 - include_keywords: optional relevance filter; at least one keyword must match.
 
@@ -106,7 +106,7 @@ promise that all 24, or all 683 catalogue entries, can be collected.
 - Malformed archive JSON stops collection rather than overwriting it with an empty list.
 - Feed requests use ETag/Last-Modified where available and have size/time limits.
 - URLs are normalised to remove common tracking parameters. Repeated URLs are skipped.
-  Similar reporting from different publishers is not merged automatically.
+  The reader groups high-confidence related reports for display while retaining every original record and source link.
 - Existing entries are not silently rewritten when a publisher changes its headline.
   The original link is authoritative for later corrections.
 - The first import accepts stories from the previous 30 days. Future-dated entries beyond
@@ -189,6 +189,17 @@ database/API with pagination and a stronger uptime/freshness target.
 
 ## Build verification
 
-The current local suite passes 24 Python collector tests and 13 JavaScript data/render tests.
+The suite includes 28 Python tests and 27 JavaScript data/reader/render tests. The photo inventory check runs in CI with the repository image folders.
 GitHub Actions runs the checks on pushes. Production collection and Vercel deployments
 have been verified; use the latest Actions run and deployment status for ongoing health.
+
+## Reader improvements (26 November 2026)
+
+- Related source reports are grouped in lists and the funding table using matching company/event/amount evidence within three days, or strong headline similarity. This is a conservative heuristic, not editorial verification; different amounts and currencies stay separate. Every source record remains addressable.
+- `config/topic-rules.json` and `ACSReader.rules` in `assets/reader-tools.js` must agree (tested). Headline evidence takes priority over publisher feed labels, including for previously collected records.
+- Homepage sections prefer publisher/country variety within a 72-hour freshness window. Latest/search remain chronological. General-interest exclusions apply only to homepage selection, not the stored archive.
+- Latest, category, archive and saved lists support combined country/topic/publisher/date filters. Selections are in the URL fragment; date windows use Africa/Johannesburg, with weeks starting Monday.
+- Saved stories are validated snapshots in local browser storage, up to 200 per device/browser, with removal controls. Storage failures are disclosed; there is no server sync.
+- Repeat visits can render a local news cache (maximum seven days) while checking current data. Independent requests start together and headlines do not wait for market/status data. Market embeds load near the viewport and are reused across route refreshes.
+- The lead image loads eagerly; other story images load lazily with dimensions. Mobile masthead, navigation, funding rows and filter controls adapt to narrow screens.
+- `/tests/responsive.html` is an unindexed manual QA harness for phone, tablet and desktop viewport widths. It loads the actual website in a same-origin frame. It does not emulate a specific browser or touch device.
