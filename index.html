@@ -470,6 +470,9 @@ main{padding-bottom:20px}
 .mkp td small{display:block;font-size:11.5px;color:var(--muted)}
 .mkp .up{color:var(--up)}.mkp .down{color:var(--down)}.mkp .flat{color:var(--muted)}
 .mkp .fine{font-size:11.5px}
+.acs-market-widget .fine{font-size:13px;line-height:1.5;margin:10px 0}
+.acs-market-widget a{color:var(--link)}
+.acs-market-widget iframe{max-width:100%}
 .mkp .head{display:flex;align-items:baseline;justify-content:space-between}
 .mkp .head a{font-size:13px;font-weight:600;color:var(--link)}
 .lst h2{font-family:var(--f-head);font-size:22px;font-weight:800;font-stretch:85%;font-variation-settings:"wdth" 85;margin-bottom:6px}
@@ -1043,7 +1046,7 @@ function viewList(title,desc,list,extra="",cat=""){
 function viewCat(id){
   const c=CATS.find(x=>x.id===id); if(!c) return viewHome();
   let extra=ADV_FOR[id]?ad3("sec","ban",ADV_FOR[id]):"";
-  if(id==="markets") extra+=`${mktTable()}${fxTable()}${ratesTable(true)}<p class="fine" style="margin-bottom:6px">Individual share prices are not shown until ACS connects a licensed market data feed.</p>`;
+  if(id==="markets") extra+=`${marketWidget(true)}${ratesTable(true)}`;
   return viewList(NAV[id]||c.name,CATDESC[id],ARTICLES.filter(a=>inCat(a,id)),extra,id).replace('<div class="page-h">',`<div class="page-h">`).replace('<div style="min-width:0"><div class="page-h">',`<div style="min-width:0"><div class="page-h">`);
 }
 const readMins=a=>Math.max(1,Math.round([a.summary,...(a.body||[]),a.explanation,a.whyItMatters,a.investorRelevance,a.risks,a.watchNext].join(" ").split(/\s+/).length/220));
@@ -1116,7 +1119,7 @@ advertise:["Advertise",`<p>African Capital Source is read by people who follow A
 <h2>Enquire</h2><p>Tell us which placements and sections interest you and your preferred dates. The commercial team will reply with availability and rates.</p><form class="f" data-kind="advertise"><label for="ad-co">Company<input type="text" id="ad-co" name="company" required></label><label for="ad-name">Contact name<input type="text" id="ad-name" name="name" required></label><label for="ad-email">Email<input type="email" id="ad-email" name="email" required></label><label for="ad-int">Placement of interest<select id="ad-int" name="placement"><option>Section top banner</option><option>Homepage top banner</option><option>Homepage mid banner</option><option>Sidebar</option><option>Footer banner</option><option>Sponsored article</option></select></label><label for="ad-msg">Sections and dates<textarea id="ad-msg" name="message"></textarea></label><button class="btn" type="submit">Send enquiry</button><span class="fmsg" role="status"></span></form>`],
 sponsored:["Sponsored content policy",`<p>Sponsored content is paid for by a third party. It is always labelled Sponsored above the headline, carries the sponsor's name, and is never presented as ACS reporting.</p><p>ACS does not accept sponsored content that recommends buying or selling a specific investment, promotes an unauthorised financial services provider, or makes unverifiable return claims. Sponsors cannot review or change ACS editorial content.</p>`],
 disclaimer:["Financial disclaimer",`<p>African Capital Source publishes general financial news and information. It is not personal financial advice and does not take account of your objectives, financial situation or needs.</p><p>ACS is not an authorised financial services provider under the Financial Advisory and Intermediary Services Act. Nothing published by ACS is a recommendation to buy, sell or hold any investment. Past performance does not indicate future results. Investments, including crypto assets, can lose value.</p><p>Before making a financial decision, consult an authorised financial adviser. You can check authorisation at fsca.co.za or by calling the FSCA on 0800 110 443.</p>`],
-privacy:["Privacy",`<p>ACS processes personal information in line with the Protection of Personal Information Act (POPIA).</p><h2>What we collect</h2><p>Only what you submit through our forms: your name, email address and message for contact, correction and advertising enquiries, and your email address if you subscribe to the briefing.</p><h2>How we use it</h2><p>To respond to your enquiry, process corrections and send the briefing you asked for. We do not sell personal information. Every briefing email includes an unsubscribe option.</p><h2>Your rights</h2><p>You may request access to, correction of or deletion of your information, or object to processing, through the <a href="#p-contact">Contact</a> page. You may also complain to the Information Regulator of South Africa.</p><h2>Cookies</h2><p>This site uses only essential browser storage. If analytics are added, this page will be updated first.</p><p>Responsible party: Dream Afrika Group (Pty) Ltd, Johannesburg.</p>`],
+privacy:["Privacy",`<p>ACS processes personal information in line with the Protection of Personal Information Act (POPIA).</p><h2>What we collect</h2><p>Only what you submit through our forms: your name, email address and message for contact, correction and advertising enquiries, and your email address if you subscribe to the briefing.</p><h2>How we use it</h2><p>To respond to your enquiry, process corrections and send the briefing you asked for. We do not sell personal information. Every briefing email includes an unsubscribe option.</p><h2>Your rights</h2><p>You may request access to, correction of or deletion of your information, or object to processing, through the <a href="#p-contact">Contact</a> page. You may also complain to the Information Regulator of South Africa.</p><h2>Cookies</h2><p>Market panels load embedded content directly from TradingView. Loading these panels connects your browser to TradingView, which receives technical information such as your IP address and may use cookies or browser storage under its <a href="https://www.tradingview.com/privacy-policy/" target="_blank" rel="noopener noreferrer">privacy policy</a>. ACS does not receive your TradingView account details.</p><p>Responsible party: Dream Afrika Group (Pty) Ltd, Johannesburg.</p>`],
 terms:["Terms of Use",`<p>By using African Capital Source you agree to these terms. ACS content is provided for general information. You may share links and short extracts with attribution. You may not republish ACS articles in full without written permission.</p><p>Third-party material quoted or linked by ACS remains the property of its owners. ACS is not responsible for the content of external sites.</p><p>ACS takes care to be accurate but does not warrant that information is complete or current. To the extent permitted by law, ACS is not liable for losses arising from reliance on its content. These terms are governed by South African law.</p>`]
 };
 
@@ -1329,6 +1332,9 @@ const offRow=p=>`<tr><td>${esc(p.name||p.code)}<small>Data temporarily unavailab
 function chg3(v,p){const c=(v-p)/p*100;return{c,cls:c>0?"up":c<0?"down":"flat",t:(c>0?"+":"")+c.toFixed(2)+"%"}}
 let MKTAB="mk";
 function mkPanel(){
+  return marketWidget(false);
+}
+function savedMarketPanel(){
   if(!FX&&!RATES.length) return "";
   if(!FX)MKTAB="rt";
   let rows="";
@@ -1534,6 +1540,44 @@ function route(){
   const t=ARTICLES.find(x=>"a-"+x.id===h); document.title=t?`${HL(t)}, African Capital Source`:"African Capital Source";
 }
 
+/* TradingView owns the quotes and displays them inside its official embed. */
+function marketWidget(full=false){
+  return `<section class="mkp acs-market-widget" aria-label="Market prices" style="min-width:0;margin-bottom:24px">
+    <div class="head"><h2>${full?"Market watch":"Markets"}</h2>${full?"":'<a href="#cat-markets">All market data</a>'}</div>
+    <p class="fine">Selected currencies, commodities, crypto and African indices. Coverage varies by market.</p>
+    <div data-market-widget="${full?"full":"compact"}" style="min-height:${full?420:360}px;width:100%;min-width:0">
+      <p class="fine" role="status">Loading market prices…</p>
+    </div>
+    <p class="fine">Prices may be delayed. TradingView supplies quote times and market status; <a href="https://www.tradingview.com/markets/" target="_blank" rel="noopener noreferrer">open an instrument on TradingView</a> to check its latest quote time. The news update time above does not apply to prices.</p>
+  </section>`;
+}
+function mountMarketWidgets(){
+  document.querySelectorAll('[data-market-widget]').forEach(host=>{
+    if(host.dataset.mounted)return;
+    host.dataset.mounted="true";
+    const height=host.dataset.marketWidget==="full"?420:360;
+    const container=document.createElement("div");
+    container.className="tradingview-widget-container";
+    container.innerHTML='<div class="tradingview-widget-container__widget"></div><div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text">Market data</span></a><span class="trademark"> by TradingView</span></div>';
+    const script=document.createElement("script");
+    script.src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js";
+    script.async=true;
+    script.textContent=JSON.stringify({colorTheme:"light",dateRange:"1D",locale:"en",width:"100%",height,
+      isTransparent:true,showChart:false,showSymbolLogo:true,showFloatingTooltip:true,
+      tabs:[
+        {title:"Currencies",symbols:[{s:"FX_IDC:USDZAR",d:"Rand per US dollar"},{s:"FX_IDC:EURZAR",d:"Rand per euro"},{s:"FX:EURUSD",d:"US dollars per euro"},{s:"FX:GBPUSD",d:"US dollars per pound"}]},
+        {title:"Commodities",symbols:[{s:"OANDA:XAUUSD",d:"Gold / USD (CFD)"},{s:"OANDA:XAGUSD",d:"Silver / USD (CFD)"},{s:"OANDA:BCOUSD",d:"Brent oil / USD (CFD)"}]},
+        {title:"Crypto",symbols:[{s:"COINBASE:BTCUSD",d:"Bitcoin / USD"},{s:"COINBASE:ETHUSD",d:"Ether / USD"}]},
+        {title:"Africa",symbols:[{s:"EGX:EGX30",d:"Egypt EGX 30"},{s:"CSEMA:MASI",d:"Morocco MASI"}]}
+      ]});
+    script.onerror=()=>{
+      if(host.isConnected)host.innerHTML='<p class="fine" role="status">Market prices could not load. <a href="https://www.tradingview.com/markets/" target="_blank" rel="noopener noreferrer">View market prices on TradingView</a>.</p>';
+    };
+    host.replaceChildren(container);
+    container.appendChild(script);
+  });
+}
+
 const editorialKick=kick;
 kick=function(a){return editorialKick(a)+(a.kind==="syndicated"?`<span class="flag">Source story</span>`:"")};
 const editorialArticle=viewArticle;
@@ -1572,7 +1616,7 @@ function freshness(){
   node.textContent=DATA_FALLBACK?"Showing the saved archive. New updates are temporarily unavailable.":DATA_STATUS.status==="error"||old?"News updates are delayed. Showing the latest available stories.":"Sources last checked "+stamp+" SAST";
 }
 const originalRoute=route;
-route=function(){originalRoute();prepareForms();freshness()};
+route=function(){originalRoute();prepareForms();freshness();mountMarketWidgets()};
 
 window.addEventListener("hashchange",route);
 document.addEventListener("click",e=>{const b=e.target.closest("[data-pg]");if(b){pageNo+=+b.dataset.pg;route();window.scrollTo(0,0)}});
