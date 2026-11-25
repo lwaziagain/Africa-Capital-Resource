@@ -293,15 +293,23 @@ def discover(client, source, cached_url=None):
 
 def classify(entry, source):
     text = entry["title"] + " " + entry["description"] + " " + " ".join(entry["tags"])
-    category = source.get("category", "companies")
-    # Category feeds keep the publisher's more specific classification.
-    if not source.get("fixed_category"):
-        category = next((name for name, pattern in CATEGORIES.items()
-                         if re.search(pattern, text, re.I)), category)
+    category = headline_category(entry["title"], source.get("category", "companies"))
     matches = [(name, region) for name, (region, pattern) in COUNTRIES.items()
                if re.search(pattern, text, re.I)]
     country, region = matches[0] if len(matches) == 1 else ("Pan-African", "Pan-African")
     return category, country, region
+
+
+TOPIC_RULES = json.loads((Path(__file__).resolve().parents[1] / "config/topic-rules.json").read_text())
+
+
+def headline_category(headline, fallback="companies"):
+    # Headline evidence outranks a broad feed label or unrelated description text.
+    # The browser applies the same rules to already collected records.
+    for rule in TOPIC_RULES:
+        if re.search(rule["pattern"], headline, re.I):
+            return rule["category"]
+    return "companies" if fallback == "markets" else fallback
 
 
 def make_article(entry, source, now):
@@ -357,6 +365,9 @@ def collect(config, output, client=None, now=None):
     articles_path = output / "articles.json"
     archive = read_json(articles_path, [])
     validate_articles(archive)
+    for article in archive:
+        if article.get("kind") == "syndicated":
+            article["category"] = headline_category(article.get("headline", ""), article.get("category", "companies"))
     state = read_json(output / "collector-state.json", {"sources": {}})
     suppressed = set(read_json(output / "suppressed-urls.json", []))
     suppressed = {canonical_url(u) for u in suppressed}
