@@ -76,14 +76,14 @@
     {
       "id": "itweb-co-za",
       "name": "ITWeb",
-      "website": "https://itweb.co.za/",
-      "feed": null,
+      "website": "https://www.itweb.co.za/",
+      "feed": "https://www.itweb.co.za/rss",
       "enabled": true,
       "category": "tech",
       "fixed_category": true,
       "allow_excerpt": false,
       "include_keywords": [],
-      "notes": "Feed auto-discovery; live availability and reuse terms must be checked on first run."
+      "notes": "Use ITWeb RSS endpoint directly; the default /feed/ address returns 404."
     },
     {
       "id": "mybroadband-co-za",
@@ -112,26 +112,26 @@
     {
       "id": "miningweekly-com",
       "name": "Mining Weekly",
-      "website": "https://miningweekly.com/",
-      "feed": null,
-      "enabled": true,
+      "website": "https://www.miningweekly.com/",
+      "feed": "https://www.miningweekly.com/page/home/feed",
+      "enabled": false,
       "category": "companies",
       "fixed_category": true,
       "allow_excerpt": false,
       "include_keywords": [],
-      "notes": "Feed auto-discovery; live availability and reuse terms must be checked on first run."
+      "notes": "Publisher-linked home RSS feed. Paused pending written permission from Creamer Media to publish linked headlines from RSS. See https://www.miningweekly.com/page/privacy-policy . Enable only after permission is confirmed."
     },
     {
       "id": "engineeringnews-co-za",
       "name": "Engineering News",
-      "website": "https://engineeringnews.co.za/",
-      "feed": null,
-      "enabled": true,
+      "website": "https://www.engineeringnews.co.za/",
+      "feed": "https://www.engineeringnews.co.za/page/infrastructure/feed",
+      "enabled": false,
       "category": "infrastructure",
       "fixed_category": false,
       "allow_excerpt": false,
       "include_keywords": [],
-      "notes": "Feed auto-discovery; live availability and reuse terms must be checked on first run."
+      "notes": "Publisher-linked infrastructure RSS feed. Paused pending written permission from Creamer Media to publish linked headlines from RSS. See https://www.miningweekly.com/page/privacy-policy . Enable only after permission is confirmed."
     },
     {
       "id": "miningmx-com",
@@ -267,15 +267,15 @@
     },
     {
       "id": "cnbcafrica-com",
-      "name": "CNBC Africa (Reuters)",
-      "website": "https://cnbcafrica.com/",
-      "feed": null,
+      "name": "CNBC Africa",
+      "website": "https://www.cnbcafrica.com/",
+      "feed": "https://cms.cnbcafrica.com/feed/",
       "enabled": true,
       "category": "markets",
       "fixed_category": false,
       "allow_excerpt": false,
       "include_keywords": [],
-      "notes": "Feed auto-discovery; live availability and reuse terms must be checked on first run."
+      "notes": "Publisher RSS is hosted on the CNBC Africa CMS subdomain. Includes CNBC Africa and wire stories; retain publisher attribution and headline links only."
     },
     {
       "id": "dailynewsegypt-com",
