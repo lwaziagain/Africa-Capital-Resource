@@ -600,6 +600,7 @@ main{padding-bottom:20px}
 .art h1{font-family:var(--f-head);font-weight:800;font-stretch:88%;font-variation-settings:"wdth" 88;letter-spacing:-.02em;line-height:1.02}
 .art .hero{margin:20px 0}
 .art .hero img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px}
+img[data-image-fallback]{object-fit:contain!important;background:#f1f2f5}
 .art .hero figcaption{font-size:12px;color:var(--muted);margin-top:6px}
 .author .av{background:var(--kicker);color:#fff;border:0;font-family:var(--f-head);font-weight:800}
 .keyf{background:var(--tint);border:0;border-left:4px solid var(--kicker);padding:16px 18px;border-radius:0 6px 6px 0}
@@ -945,7 +946,7 @@ const hd=(a,tag="h3")=>`<${tag} class="hd"><a href="#a-${esc(a.id)}">${esc(HL(a)
 const IMG_CAT={crypto:"crypto",startups:"startup",banking:"payments","personal-finance":"payments",learn:"cardphone",protection:"cardphone",markets:"exchange",etfs:"charts",tech:"charts",infrastructure:"solar"};
 const IMG_CTRY={"South Africa":"johannesburg",Nigeria:"lagos",Kenya:"nairobi",Egypt:"cairo",Ghana:"accra",Morocco:"casablanca"};
 function imgFor(a){
-  if(a.image) return a.image;
+  if(a.image && storyImageURL(a.image)!==STORY_IMAGE_FALLBACK) return a.image;
   const t=(a.headline||"").toLowerCase();
   if(/mining|mine\b|platinum|coal\b|iron ore/.test(t)&&!/bank/.test(t)) return "mining";
   if(/solar|eskom|energy|power/.test(t)) return "solar";
@@ -953,7 +954,7 @@ function imgFor(a){
   if(IMG_CAT[c]&&!["companies","economy","opinion"].includes(c)) return IMG_CAT[c];
   return IMG_CTRY[a.country]||"exchange";
 }
-const pic=(a,cls="pic")=>`<a class="${cls}" href="#a-${esc(a.id)}" tabindex="-1" aria-hidden="true"><img src="ph/${esc(imgFor(a))}.jpg" alt="" loading="lazy" decoding="async"></a>`;
+const pic=(a,cls="pic")=>`<a class="${cls}" href="#a-${esc(a.id)}" tabindex="-1" aria-hidden="true">${storyImage(a)}</a>`;
 function row(a){
   return `<article class="row">${pic(a,"pic thumb")}<div style="min-width:0">${kick(a)}${hd(a)}<p class="dek">${esc(a.standfirst)}</p>
   <div class="by"><span>${fmtS(a.acsDate)}</span><span>Event ${fmt(a.eventDate)}</span><span>${(a.sources||[]).length} source${(a.sources||[]).length===1?"":"s"}</span></div></div></article>`;
@@ -1076,7 +1077,7 @@ function viewArticle(id){
    ${kick(a)}<h1>${esc(HL(a))}</h1><p class="dek">${esc(a.standfirst)}</p>
    <div class="author"><div class="meta"><strong>African Capital Source AI-assisted editorial system</strong><span>${esc(ctry(a))}</span><span>Event ${fmt(a.eventDate)}</span><span>Published by ACS ${fmt(a.acsDate)}</span>${a.updated?`<span>Updated ${fmt(a.updated)}</span>`:""}</div><div class="rt">${readMins(a)} minute read</div></div>
    ${shareRow(a)}
-   <figure class="hero"><img src="ph/${esc(imgFor(a))}.jpg" alt=""><figcaption>Illustrative photo via Pexels</figcaption></figure>
+   ${storyHero(a)}
    <div class="keyf"><h2>In brief</h2><p>${esc(a.summary)}</p></div>
    <div class="body">${out.join("")}
     ${sec("What it means",a.explanation)}${sec("Why it matters",a.whyItMatters)}${sec("What it means for investors",a.investorRelevance)}${sec("The risks",a.risks)}${sec("What to watch",a.watchNext)}</div>
@@ -1261,7 +1262,34 @@ function renderMkt(){
   $("#mktband").hidden=false;
 }
 /* ===== ACS edition four: photos, front page, markets column, adverts ===== */
-const PH={"abidjan": [1, 2], "abuja": [1, 2], "accra": [1, 2], "addis": [1, 2], "agriculture": [1, 2], "ai": [1], "airport": [1, 2], "alexandria": [1, 2], "algiers": [1, 2], "atm": [1, 2], "bitcoin": [1, 2], "cairo": [1, 2], "calculator": [1, 2], "capetown": [1, 2], "cardpay": [1, 2], "cars": [1, 2], "casablanca": [1, 2], "cash": [1, 2], "cement": [1, 2], "chart": [1, 2], "coal": [1, 2], "cocoa": [1, 2], "coffee": [1, 2], "coins": [1, 2], "construction": [1, 2], "copper": [1, 2], "crypto": [1, 2], "dakar": [1, 2], "dar": [1, 2], "datacentre": [1, 2], "douala": [1, 2], "durban": [1, 2], "economy": [1, 2], "ev": [1, 2], "factory": [1, 2], "fibre": [1, 2], "fintech": [1, 2], "fishing": [1, 2], "fraud": [1, 2], "fuel": [1, 2], "gaborone": [1], "gold": [1, 2], "government": [1, 2], "grain": [1, 2], "handshake": [1, 2], "harare": [1, 2], "hotel": [1, 2], "housing": [1, 2], "hydro": [1, 2], "inflation": [1, 2], "insurance": [1, 2], "ironore": [1, 2], "johannesburg": [1, 2], "kampala": [1, 2], "kigali": [1, 2], "lagos": [1, 2], "laptop": [1, 2], "lng": [1, 2], "luanda": [1, 2], "lusaka": [1], "maputo": [1, 2], "market": [1, 2], "meeting": [1, 2], "metal": [1, 2], "mining": [1, 2], "mobilemoney": [1, 2], "mombasa": [1, 2], "nairobi": [1, 2], "newspaper": [1], "office": [1, 2], "oilrig": [1, 2], "pension": [1, 2], "port": [1, 2], "portlouis": [1, 2], "powerlines": [1, 2], "pretoria": [1, 2], "rabat": [1, 2], "rail": [1, 2], "refinery": [1, 2], "restaurant": [1, 2], "retail": [1, 2], "ship": [1, 2], "shopping": [1, 2], "signing": [1, 2], "smartphone": [1, 2], "solar": [1, 2], "startup": [1, 2], "students": [1, 2], "telecom": [1, 2], "trading": [1, 2], "trucks": [1, 2], "tunis": [1, 2], "water": [1, 2], "wind": [1, 2]};
+const PH={"abidjan":[1,2],"abuja":[1],"addis":[1,2],"agriculture":[1,2],"ai":[1],"airport":[1,2],"alexandria":[1,2],"algiers":[1,2],"atm":[1,2],"bitcoin":[1,2],"cairo":[1,2],"calculator":[1,2],"cardpay":[2],"cars":[1,2],"casablanca":[1],"douala":[1],"factory":[2],"fibre":[1,2],"fintech":[1,2],"fishing":[1],"lagos":[2],"laptop":[1,2],"lng":[1,2],"luanda":[1,2],"lusaka":[1],"maputo":[1,2],"market":[1,2],"meeting":[1,2],"metal":[1,2],"mining":[1],"office":[1,2],"oilrig":[1,2],"pension":[1,2],"port":[1,2],"portlouis":[1,2],"powerlines":[1,2],"pretoria":[1,2],"rabat":[1,2],"rail":[1,2],"refinery":[1,2],"restaurant":[1,2],"retail":[1,2],"ship":[1,2],"shopping":[1,2],"signing":[1,2],"smartphone":[1,2],"solar":[1,2],"startup":[1,2],"students":[1,2],"telecom":[1,2],"trading":[1,2],"trucks":[1,2],"tunis":[1,2],"water":[1,2],"wind":[1,2]};
+/* Story images: only files present in the repository may be selected. */
+const LEGACY_IMAGES=new Set(["accra","cairo","cardphone","casablanca","charts","crypto","exchange","johannesburg","lagos","mining","nairobi","payments","solar","startup"]);
+const STORY_IMAGE_FALLBACK="data:image/svg+xml;charset=utf-8,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600"><rect width="900" height="600" fill="#f1f2f5"/><path d="M310 365h280M330 330v-55m60 55v-95m60 95v-70m60 70V210m60 120V170" fill="none" stroke="#c4c6d1" stroke-width="20"/><text x="450" y="440" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" font-weight="700" fill="#393095">ACS</text></svg>');
+function storyImageURL(key){
+  if(LEGACY_IMAGES.has(key))return "/img/"+key+".jpg";
+  const match=String(key||"").match(/^(.+)-(\d+)$/);
+  return match&&PH[match[1]]?.includes(Number(match[2]))?"/ph/"+key+".jpg":STORY_IMAGE_FALLBACK;
+}
+function storyImage(a,lazy=true){
+  const src=storyImageURL(imgFor(a));
+  return `<img data-story-image src="${esc(src)}" alt="" decoding="async"${lazy?' loading="lazy"':""}${src===STORY_IMAGE_FALLBACK?' data-image-fallback="true"':""}>`;
+}
+function storyHero(a){
+  return `<figure class="hero">${storyImage(a,false)}<figcaption>Illustrative photo via Pexels</figcaption></figure>`;
+}
+function recoverStoryImage(img){
+  if(img.dataset.imageFallback==="true"){img.hidden=true;return}
+  img.dataset.imageFallback="true";
+  img.removeAttribute("srcset");
+  img.src=STORY_IMAGE_FALLBACK;
+  const caption=img.closest("figure")?.querySelector("figcaption");
+  if(caption)caption.textContent="Illustrative placeholder";
+}
+document.addEventListener("error",event=>{
+  const img=event.target;
+  if(img?.tagName==="IMG"&&img.hasAttribute("data-story-image"))recoverStoryImage(img);
+},true);
 const IMG_RULES=[
  [/bitcoin|\bbtc\b/i,"bitcoin"],[/stablecoin|crypto|\bvasp|blockchain|digital asset|luno|valr|yellow card/i,"crypto"],
  [/\bgold\b|bullion|goldbod/i,"gold"],[/copper/i,"copper"],[/iron ore|kumba|sishen|ironore/i,"ironore"],[/\bcoal\b/i,"coal"],
@@ -1306,12 +1334,12 @@ function imgCands(a){
   else keys=[...city,...hits];
   keys.push(...(CATIMG[catOf(a.category)]||["economy"]),"economy","market","office");
   const out=[],h=hsh(a.id);
-  keys.forEach(k=>{const v=PH[k];if(!v)return;const r=h%v.length;[...v.slice(r),...v.slice(0,r)].forEach(n=>{const f=`${k}-${n}`;if(!out.includes(f))out.push(f)})});
+  keys.forEach(k=>{const v=PH[k]||[];if(v.length){const r=h%v.length;[...v.slice(r),...v.slice(0,r)].forEach(n=>{const f=`${k}-${n}`;if(!out.includes(f))out.push(f)})}if(LEGACY_IMAGES.has(k)&&!out.includes(k))out.push(k)});
   return out;
 }
 let IMGS=null;
 function imgFor(a){
-  if(a.image) return a.image;
+  if(a.image && storyImageURL(a.image)!==STORY_IMAGE_FALLBACK) return a.image;
   const c=imgCands(a);
   if(IMGS){const f=c.find(x=>!IMGS.has(x))||c[0];IMGS.add(f);return f}
   return c[0];
@@ -1624,7 +1652,7 @@ viewArticle=function(id){
     ${kick(a)}<h1>${esc(a.headline)}</h1>
     <div class="author"><div class="meta"><strong>${esc(source.name)}</strong><span>${esc(published)}</span></div></div>
     ${shareRow(a)}
-    <figure class="hero"><img src="ph/${esc(imgFor(a))}.jpg" alt=""><figcaption>Illustrative photo via Pexels</figcaption></figure>
+    ${storyHero(a)}
     <div class="body">${a.standfirst?`<p>${esc(a.standfirst)}</p>`:""}
       <p><a class="btn" href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">Read the story at ${esc(source.name)}</a></p>
     </div>
