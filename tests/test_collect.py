@@ -143,6 +143,14 @@ class CollectorTests(unittest.TestCase):
                     '<!DOCTYPE rss><rss/>'.encode("utf-16"), b"<html>Sign in</html>"]:
             with self.assertRaises(ValueError):
                 parse_feed(xml, SOURCE["feed"])
+
+    def test_publisher_whitespace_and_utf8_bom_before_declaration(self):
+        expected = parse_feed(RSS, SOURCE["feed"])
+        for prefix in [b"\n", b" \r\n\t", b"\xef\xbb\xbf\n", b"\n\xef\xbb\xbf\n"]:
+            self.assertEqual(parse_feed(prefix + RSS, SOURCE["feed"]), expected)
+        self.assertEqual(parse_feed(RSS.decode().encode("utf-16"), SOURCE["feed"]), expected)
+        with self.assertRaises(ValueError):
+            parse_feed(b'\n\xef\xbb\xbf\n<!DOCTYPE rss [<!ENTITY x "bad">]><rss/>', SOURCE["feed"])
         self.assertEqual(canonical_url("javascript:alert(1)"), "")
         self.assertEqual(canonical_url("https://user:password@example.com/"), "")
         self.assertEqual(plain("<script>bad()</script><p>Safe</p>"), "Safe")
