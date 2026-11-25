@@ -6,12 +6,13 @@
     ['etfs', /\b(etfs?|exchange.traded funds?|unit trusts?)\b/i],
     ['economy', /\b(central bank|reserve bank|monetary policy|policy rate|repo rate|inflation|gdp|treasury|fiscal|tariffs?|budget|companies law|regulations?|economic)\b/i],
     ['personal-finance', /\b(personal finance|retirement|pensions?|household savings|income tax|cost of living)\b/i],
-    ['markets', /\b(stock markets?|stocks?|shares?|bourse|bond yields?|forex|currenc(?:y|ies)|exchange rate|jse|ngx|buyback)\b/i],
+    ['markets', /\b(stock markets?|stocks?|shares|share (?:price|sale|buyback)|bourse|bond yields?|forex|currenc(?:y|ies)|exchange rate|jse|ngx|buyback)\b/i],
     ['crypto', /\b(bitcoin|crypto|blockchain|ethereum|stablecoins?|tokenisation)\b/i],
     ['startups', /\b(startups?|start-ups?|venture capital|pre.seed|seed funding|series [a-f]|funding round)\b/i],
     ['banking', /\b(banks?|banking|fintech|payments?|mobile money|remittances?|lenders?|loans?|financing)\b/i],
-    ['infrastructure', /\b(rail|railway|ports?|infrastructure|logistics|solar|electricity|power grid|suez|lng)\b/i],
     ['tech', /\b(technology|software|artificial intelligence|telecoms?|data cent(?:re|er)s?|cyber\w*|broadband|ai|cloud|internet)\b/i],
+    ['tech', /\b(digital|identity|intelligent) infrastructure\b/i],
+    ['infrastructure', /\b(rail|railway|ports?|infrastructure|logistics|solar|electricity|power grid|suez|lng)\b/i],
     ['economy', /\b(health|hiv|drugs?|vaccines?|hospitals?|disease|healthcare|medical)\b/i],
     ['companies', /\b(companies|company|corporate|ceo|profits?|earnings|revenue|merger|acqui\w*|mining|miners?)\b/i]
   ];
@@ -31,7 +32,7 @@
   function relevant(a) {
     const h=a.headline||'';
     // Keep these stories in search/archive, but don't elevate general-interest items.
-    return !/\b(birthday|at 80|at 70|kidnapp\w*|obituary|celebrity|football|premier league|presidential candidate|Iran mediation)\b/i.test(h);
+    return !/\b(birthday|at 80|at 70|kidnapp\w*|obituary|celebrity|football|premier league|presidential candidate|Iran mediation|meth lab|ndlea|arrests?|murder)\b/i.test(h);
   }
   function amount(h) {
     const m=h.match(/(US\$|\$|USD|ZAR|R|NGN|KES|EUR|€|GBP|£)\s*([\d,.]+)\s*(trillion|billion|million|trn|bn|m)\b/i);
@@ -48,9 +49,10 @@
     return '';
   }
   function related(a,b) {
-    if(a.kind!=='syndicated'||b.kind!=='syndicated'||publisher(a)===publisher(b)||!stamp(a)||!stamp(b)||Math.abs(stamp(a)-stamp(b))>3*DAY)return false;
+    if(a.kind!=='syndicated'||b.kind!=='syndicated'||!stamp(a)||!stamp(b)||Math.abs(stamp(a)-stamp(b))>3*DAY)return false;
     const ah=a.headline||'', bh=b.headline||'';
     if(ah.toLowerCase()===bh.toLowerCase())return true;
+    if(publisher(a)===publisher(b))return false;
     const aa=amount(ah), ba=amount(bh);
     if(aa&&ba&&aa!==ba)return false;
     const ae=event(ah), be=event(bh), named=[...entities(ah)].some(t=>entities(bh).has(t));
