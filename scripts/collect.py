@@ -172,7 +172,12 @@ def parse_feed(raw, base):
     probe = raw.replace(b"\x00", b"").upper()
     if b"<!DOCTYPE" in probe or b"<!ENTITY" in probe:
         raise ValueError("XML document types and entities are not accepted")
-    root = ET.fromstring(raw)
+    # Some publishers emit blank lines before the XML declaration. Normalize
+    # only an ASCII/UTF-8 preamble; leave UTF-16 and other encodings untouched.
+    xml = raw.lstrip(b" \t\r\n")
+    if xml.startswith(b"\xef\xbb\xbf"):
+        xml = xml[3:].lstrip(b" \t\r\n")
+    root = ET.fromstring(xml)
     if local_name(root.tag) not in ("rss", "feed", "rdf"):
         raise ValueError("Response is not an RSS or Atom feed")
     entries = []
