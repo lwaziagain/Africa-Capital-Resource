@@ -203,3 +203,9 @@ have been verified; use the latest Actions run and deployment status for ongoing
 - Repeat visits can render a local news cache (maximum seven days) while checking current data. Independent requests start together and headlines do not wait for market/status data. Market embeds load near the viewport and are reused across route refreshes.
 - The lead image loads eagerly; other story images load lazily with dimensions. Mobile masthead, navigation, funding rows and filter controls adapt to narrow screens.
 - `/tests/responsive.html` is an unindexed manual QA harness for phone, tablet and desktop viewport widths. It loads the actual website in a same-origin frame. It does not emulate a specific browser or touch device.
+
+## Search appearance
+
+The homepage has a canonical URL, search description, WebSite/Organization structured data, Open Graph/Twitter metadata and ACS PNG icons. `/about.html` and `/editorial-standards.html` are standalone HTML pages readable without JavaScript; keep their copy aligned with the legacy in-app policy pages. `assets/publication.css` mirrors the base site styling. `/sitemap.xml` lists only these real canonical pages (never fragment routes). Submit it in Google Search Console after verifying ownership. Google chooses displayed names/snippets/icons and recrawl timing.
+
+The live news feed still uses JavaScript and hash navigation. Individual stories and categories are not represented as independently indexable URLs by this change. They require a separate server-rendered or static page publishing pipeline before adding them to a sitemap. Do not claim collected headlines are original ACS articles with NewsArticle markup. Vercel response headers keep test, status and data/config/script URLs out of search results while allowing crawlers to fetch them.

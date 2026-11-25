@@ -1,0 +1,23 @@
+{
+  "name": "African Capital Source",
+  "short_name": "ACS",
+  "description": "Follow African business, markets, banking, technology and startup funding news. Explore stories from across the continent, with links to original publishers.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "theme_color": "#0d3550",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/acs-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/acs-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
