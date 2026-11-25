@@ -173,13 +173,13 @@
       "id": "businesspost-ng",
       "name": "Business Post Nigeria",
       "website": "https://businesspost.ng/",
-      "feed": null,
+      "feed": "https://businesspost.ng/feed/",
       "enabled": true,
       "category": "companies",
       "fixed_category": false,
       "allow_excerpt": false,
       "include_keywords": [],
-      "notes": "Feed auto-discovery; live availability and reuse terms must be checked on first run."
+      "notes": "Use the publisher-declared RSS feed directly; its homepage also mislabels a sitemap as RSS."
     },
     {
       "id": "thebrief-com-na",
