@@ -186,6 +186,8 @@ test('topic rules agree with collector configuration and correct broad feed labe
   assert.equal(Reader.category(report('a','South African central bank says financial system resilient')),'economy');
   assert.equal(Reader.category(report('a','NGX sheds N1.1 trillion as investors dump banking stocks')),'markets');
   assert.equal(Reader.category(report('a','Tanzania launches ETF with gold exposure')),'etfs');
+  assert.equal(Reader.category(report('a','Safaricom expands Family Share Internet Service')),'tech');
+  assert.equal(Reader.category(report('a','Creating an intelligent identity infrastructure layer')),'tech');
   assert.equal(Reader.category({...report('a','An editorial view'),kind:'editorial',category:'opinion'}),'opinion');
 });
 test('related funding reports group without deleting source records',()=>{
@@ -193,6 +195,7 @@ test('related funding reports group without deleting source records',()=>{
   const groups=Reader.group(list);
   assert.equal(groups.groups.length,1);assert.equal(groups.byId.get('a').length,2);
   assert.equal(Reader.unique(list,groups).length,1);assert.equal(list.length,2);
+  assert.equal(Reader.related(report('a','Buyback backlash: Gold miners stand firm'),report('b','Buyback backlash: Gold miners stand firm')),true);
 });
 test('different amounts, companies, currencies, time periods and proposed deals stay separate',()=>{
   const a=report('a','Aeon raises $2 million');
