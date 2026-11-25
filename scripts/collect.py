@@ -233,7 +233,7 @@ class Client:
     def request(self, url, headers=None):
         assert_public(url)
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT,
-                                          "Accept": "application/rss+xml, application/atom+xml, text/xml, text/html;q=0.8",
+                                          "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.8, */*;q=0.1",
                                           **(headers or {})})
         for attempt in range(2):
             try:
@@ -256,7 +256,7 @@ class Client:
         if origin not in self.robots:
             robot = urllib.robotparser.RobotFileParser(origin + "/robots.txt")
             try:
-                _, _, body, _ = self.request(origin + "/robots.txt")
+                _, _, body, _ = self.request(origin + "/robots.txt", {"Accept": "text/plain, */*;q=0.1"})
                 robot.parse(body.decode("utf-8", "replace").splitlines())
             except urllib.error.HTTPError as error:
                 if error.code in (404, 410):
