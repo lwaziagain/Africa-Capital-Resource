@@ -1,0 +1,63 @@
+name: Collect news
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+# This job writes only the acs-data branch; it never edits your website branch.
+permissions:
+  contents: write
+
+concurrency:
+  group: acs-news-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test collector
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Prepare data branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin acs-data >/dev/null 2>&1; then
+            git fetch origin acs-data
+            git worktree add --detach ../acs-news-data FETCH_HEAD
+          else
+            git worktree add --detach ../acs-news-data HEAD
+            git -C ../acs-news-data switch --orphan acs-data
+            mkdir -p ../acs-news-data/data
+            cp data/articles.json ../acs-news-data/data/articles.json
+          fi
+          # Moderation decisions live with the source code, not in the public reader.
+          cp data/suppressed-urls.json ../acs-news-data/data/suppressed-urls.json
+      - name: Collect publisher feeds
+        id: feeds
+        continue-on-error: true
+        run: python scripts/collect.py --output ../acs-news-data/data
+      - name: Publish data and collection status
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd ../acs-news-data
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "Update news collection"
+            git push origin HEAD:refs/heads/acs-data
+          fi
+      - name: Report complete collection failure
+        if: steps.feeds.outcome == 'failure'
+        run: |
+          echo "::error::No source could be collected. Existing articles have been preserved. Check the job summary."
+          exit 1
