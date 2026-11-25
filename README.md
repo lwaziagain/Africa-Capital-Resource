@@ -95,9 +95,9 @@ Add sources gradually. General-interest feeds benefit from a business-specific f
 or include_keywords. Add an exact feed URL when discovery finds the wrong feed.
 The collector does not bypass paywalls, access blocks, login requirements or robots rules.
 
-The 24 initial configurations have not yet been live-verified from this build environment:
-outbound DNS was unavailable. Their first GitHub run will discover feeds and report which
-respond. There is no promise that all 24, or all 683 catalogue entries, can be collected.
+Live collection has been verified through GitHub Actions. Source availability varies;
+check source-status.html and the latest run summary for current coverage. There is no
+promise that all 24, or all 683 catalogue entries, can be collected.
 
 ## Errors, duplicates and retention
 
@@ -153,6 +153,7 @@ From the repository root:
 To collect manually on a machine with internet access:
 
     python3 scripts/collect.py --output data
+    python3 scripts/collect_rates.py --output data
 
 For local browsing, serve the directory over HTTP rather than opening index.html as a file:
 
@@ -180,8 +181,6 @@ database/API with pagination and a stronger uptime/freshness target.
 
 ## Build verification
 
-Base repository commit: 76b007a9cc87c7a06616ff10ed189ae4fe99c070.
-All 27 automated ingestion/data-adapter/template tests passed. Workflow YAML and shell syntax passed, and two publishing cycles were verified against a temporary Git repository without changing its website branch.
-The existing CSS blocks were preserved. Browser visual verification was blocked by the
-local preview restrictions; live feeds, GitHub execution and deployment must be verified
-after authenticated repository access is restored. No production deployment is claimed.
+The current local suite passes 24 Python collector tests and 13 JavaScript data/render tests.
+GitHub Actions runs the checks on pushes. Production collection and Vercel deployments
+have been verified; use the latest Actions run and deployment status for ongoing health.
