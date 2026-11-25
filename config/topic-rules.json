@@ -1,0 +1,46 @@
+[
+  {
+    "category": "etfs",
+    "pattern": "\\b(etfs?|exchange.traded funds?|unit trusts?)\\b"
+  },
+  {
+    "category": "economy",
+    "pattern": "\\b(central bank|reserve bank|monetary policy|policy rate|repo rate|inflation|gdp|treasury|fiscal|tariffs?|budget|companies law|regulations?|economic)\\b"
+  },
+  {
+    "category": "personal-finance",
+    "pattern": "\\b(personal finance|retirement|pensions?|household savings|income tax|cost of living)\\b"
+  },
+  {
+    "category": "markets",
+    "pattern": "\\b(stock markets?|stocks?|shares?|bourse|bond yields?|forex|currenc(?:y|ies)|exchange rate|jse|ngx|buyback)\\b"
+  },
+  {
+    "category": "crypto",
+    "pattern": "\\b(bitcoin|crypto|blockchain|ethereum|stablecoins?|tokenisation)\\b"
+  },
+  {
+    "category": "startups",
+    "pattern": "\\b(startups?|start-ups?|venture capital|pre.seed|seed funding|series [a-f]|funding round)\\b"
+  },
+  {
+    "category": "banking",
+    "pattern": "\\b(banks?|banking|fintech|payments?|mobile money|remittances?|lenders?|loans?|financing)\\b"
+  },
+  {
+    "category": "infrastructure",
+    "pattern": "\\b(rail|railway|ports?|infrastructure|logistics|solar|electricity|power grid|suez|lng)\\b"
+  },
+  {
+    "category": "tech",
+    "pattern": "\\b(technology|software|artificial intelligence|telecoms?|data cent(?:re|er)s?|cyber\\w*|broadband|ai|cloud|internet)\\b"
+  },
+  {
+    "category": "economy",
+    "pattern": "\\b(health|hiv|drugs?|vaccines?|hospitals?|disease|healthcare|medical)\\b"
+  },
+  {
+    "category": "companies",
+    "pattern": "\\b(companies|company|corporate|ceo|profits?|earnings|revenue|merger|acqui\\w*|mining|miners?)\\b"
+  }
+]
