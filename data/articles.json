@@ -1,5 +1,1658 @@
 [
   {
+    "id": "feed-7eb407bea57c1d8ac149cb5a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Barrick executive visits Mali in sign of improved relations",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Barrick executive visits Mali in sign of improved relations",
+        "url": "https://miningmx.com/2026-11-26-barrick-executive-visits-mali-in-sign-of-improved-relations",
+        "date": "",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-220501732c157a8bb06decc5",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Northern Star poaches Perseus Mining finance chief",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Northern Star poaches Perseus Mining finance chief",
+        "url": "https://miningmx.com/2026-11-26-northern-star-poaches-perseus-mining-finance-chief",
+        "date": "",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-b0af24fdb7537d6bcfd48065",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "European Investment Bank, SA's IDC in €300m minerals pact",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "European Investment Bank, SA's IDC in €300m minerals pact",
+        "url": "https://miningmx.com/2026-11-26-european-investment-bank-sa-s-idc-in-eur300m-minerals-pact",
+        "date": "",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-e3360fd6556c8c1acad24e43",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "SA's struggling exploration sector faces new threat",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "SA's struggling exploration sector faces new threat",
+        "url": "https://miningmx.com/2026-11-26-sa-s-struggling-exploration-sector-faces-new-threat",
+        "date": "",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-637a86187532746f9cb85540",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Zambia's ambition to triple copper production is a tall order",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Zambia",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Zambia's ambition to triple copper production is a tall order",
+        "url": "https://miningmx.com/news/2026-11-24-zambia-s-ambition-to-triple-copper-production-is-a-tall-order",
+        "date": "",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-ad40ebc60897f0ce244f44e9",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Gambia gets $480,000 ECOWAS support ahead of December 5 polls",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T21:24:54+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Gambia gets $480,000 ECOWAS support ahead of December 5 polls",
+        "url": "https://businessday.ng/news/article/gambia-gets-480000-ecowas-support-ahead-of-december-5-polls/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-31a64e258d7cc04663aa5b0f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Group seeks practical solutions to Nigeria’s aviation challenges",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T21:23:04+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Group seeks practical solutions to Nigeria’s aviation challenges",
+        "url": "https://businessday.ng/uncategorized/article/group-seeks-practical-solutions-to-nigerias-aviation-challenges/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-70127f6fecb3529b8baf07f6",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "BREAKING: CBN appoints Murtala Mohammed as acting CEO of Keystone Bank",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T21:03:55+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "BREAKING: CBN appoints Murtala Mohammed as acting CEO of Keystone Bank",
+        "url": "https://nairametrics.com/2026/11/26/cbn-appoints-murtala-mohammed-as-acting-ceo-of-keystone-bank/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-0d1a7887035d975b6d01721b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Alia pairs N103bn infrastructure push with industrial revival to woo Benue South",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "infrastructure",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T20:23:42+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Alia pairs N103bn infrastructure push with industrial revival to woo Benue South",
+        "url": "https://businessday.ng/politics/article/alia-pairs-n103bn-infrastructure-push-with-industrial-revival-to-woo-benue-south/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-ba4c46a80e45a1007a62a1e0",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Opposition coalition to adopt 3 key documents at Monday summit",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T20:08:53+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Opposition coalition to adopt 3 key documents at Monday summit",
+        "url": "https://businessday.ng/politics/article/opposition-coalition-to-adopt-3-key-documents-at-monday-summit/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-c8ea21c4000324f9e6bd3202",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "FG moves to tackle export bottlenecks, high trade costs",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T19:51:57+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "FG moves to tackle export bottlenecks, high trade costs",
+        "url": "https://businessday.ng/business-economy/article/fg-moves-to-tackle-export-bottlenecks-high-trade-costs/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-d03787037284d4e38994b4af",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tinubu offers N100 million, three-bedroom flats each to families of Ondo NAF crash victims",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T19:34:47+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Tinubu offers N100 million, three-bedroom flats each to families of Ondo NAF crash victims",
+        "url": "https://nairametrics.com/2026/11/26/tinubu-offers-n100-million-three-bedroom-flats-each-to-families-of-ondo-naf-crash-victims/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-30d39da8a9818a4574896df0",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Lowest-paid DBS pensioner now earns N58,000 monthly, up from N6,024 – PTAD",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T19:19:23+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Lowest-paid DBS pensioner now earns N58,000 monthly, up from N6,024 – PTAD",
+        "url": "https://nairametrics.com/2026/11/26/lowest-paid-dbs-pensioner-now-earns-n58000-monthly-up-from-n6024-ptad/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-17e1d052bee674c7726d3a85",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Katsina GDP rises 11.53% to N10.13 trillion",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T18:30:02+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Katsina GDP rises 11.53% to N10.13 trillion",
+        "url": "https://nairametrics.com/2026/11/26/katsina-gdp-rises-11-53-to-n10-13-trillion/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-b53a066e66d9be8c5e2fec7c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tinubu says housing programmes have delivered 26,000 units across Nigeria",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T18:27:39+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Tinubu says housing programmes have delivered 26,000 units across Nigeria",
+        "url": "https://nairametrics.com/2026/11/26/tinubu-says-housing-programmes-have-delivered-26000-units-across-nigeria/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-0bb0e483409be643b90adbf3",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria requires $30 billion investment in petroleum infrastructure by 2030 – NMDPRA",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "infrastructure",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T18:20:53+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Nigeria requires $30 billion investment in petroleum infrastructure by 2030 – NMDPRA",
+        "url": "https://nairametrics.com/2026/11/26/nigeria-requires-30-billion-investment-in-petroleum-infrastructure-by-2030-nmdpra/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-bc03401a56f83249cf1d4c28",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NEXIM urges CBN to license more non-interest banks to boost export financing",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T18:09:50+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "NEXIM urges CBN to license more non-interest banks to boost export financing",
+        "url": "https://nairametrics.com/2026/11/26/nexim-urges-cbn-to-license-more-non-interest-banks-to-boost-export-financing/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-c74d11ea9da7d6465a58a224",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tinubu says housing programmes has delivered 26,000 units across Nigeria",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T17:57:48+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Tinubu says housing programmes has delivered 26,000 units across Nigeria",
+        "url": "https://nairametrics.com/2026/11/26/tinubu-says-housing-programmes-has-delivered-26000-units-across-nigeria/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-6537f57c44b4748b91580c7d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NGX rebounds after four-day losing streak as oil and banking stocks lead gains",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T17:46:54+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "NGX rebounds after four-day losing streak as oil and banking stocks lead gains",
+        "url": "https://nairametrics.com/2026/11/26/ngx-rebounds-after-four-day-losing-streak-as-oil-and-banking-stocks-lead-gains/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-83059c347c05bb78f7028245",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Evidence Alone Won’t Change Food Policy. We Must Plan for Politics",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Ghana",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T16:20:29+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Evidence Alone Won’t Change Food Policy. We Must Plan for Politics",
+        "url": "https://businesspost.ng/featureoped/evidence-alone-wont-change-food-policy-we-must-plan-for-politics/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-342da2afedb14f23b3a42f22",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "IGI declares: WE ARE FULLY BACK! releases three years of audited financial statements, completes recapitalization and charts new growth path",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T16:16:32+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "IGI declares: WE ARE FULLY BACK! releases three years of audited financial statements, completes recapitalization and charts new growth path",
+        "url": "https://nairametrics.com/2026/11/26/igi-declares-we-are-fully-back-releases-three-years-of-audited-financial-statements-completes-recapitalization-and-charts-new-growth-path/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-accdb7124059c04113bcc5d4",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Dangote Refinery cuts diesel price by N125 to N1,595 per litre",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T16:12:48+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Dangote Refinery cuts diesel price by N125 to N1,595 per litre",
+        "url": "https://nairametrics.com/2026/11/26/dangote-refinery-cuts-diesel-price-by-n125-to-n1595-per-litre/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-14a149611aacad75bb4128fb",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Egypt and Qatar call for regional de-escalation, stronger economic and energy ties during Emir’s Cairo visit",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Egypt",
+    "region": "North Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T16:06:29+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "dailynewsegypt-com",
+    "sources": [
+      {
+        "name": "Daily News Egypt",
+        "title": "Egypt and Qatar call for regional de-escalation, stronger economic and energy ties during Emir’s Cairo visit",
+        "url": "https://dailynewsegypt.com/2026/11/26/egypt-and-qatar-call-for-regional-de-escalation-stronger-economic-and-energy-ties-during-emirs-cairo-visit/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-19b26e0ef1a65a3e347b133c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "ITF offers N5 million each to 150 Nigerian tailors under SUPA programme",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T16:00:36+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "ITF offers N5 million each to 150 Nigerian tailors under SUPA programme",
+        "url": "https://nairametrics.com/2026/11/26/itf-offers-n5-million-each-to-150-nigerian-tailors-under-supa-programme/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-fb421ab6119f89f102f6de46",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Rising Operating Costs Force Spectranet to Exit Ibadan, Port Harcourt",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "infrastructure",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T15:39:07+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Rising Operating Costs Force Spectranet to Exit Ibadan, Port Harcourt",
+        "url": "https://businesspost.ng/brands-products/rising-operating-costs-force-spectranet-to-exit-ibadan-port-harcourt/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-ef15745a725c93365f65b047",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Hisham Talaat Moustafa, Ahmed Ezz, Yassin Mansour donate EGP 30m to families of Ring Road accident victims",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Egypt",
+    "region": "North Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T15:08:55+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "dailynewsegypt-com",
+    "sources": [
+      {
+        "name": "Daily News Egypt",
+        "title": "Hisham Talaat Moustafa, Ahmed Ezz, Yassin Mansour donate EGP 30m to families of Ring Road accident victims",
+        "url": "https://dailynewsegypt.com/2026/11/26/hisham-talaat-moustafa-ahmed-ezz-yassin-mansour-donate-egp-30m-to-families-of-ring-road-accident-victims/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-b402692211ed99cfb873ac71",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Shyllon Museum Wins at Africa Tourism Awards 2026",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T15:02:59+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Shyllon Museum Wins at Africa Tourism Awards 2026",
+        "url": "https://businesspost.ng/travel/shyllon-museum-wins-at-africa-tourism-awards-2026/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-7e3d3b81d7469afe0cf912fd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Air Tanzania Deploys SITA Connect Go Across 15 Airports to Strengthen Network Security",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T15:02:26+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Air Tanzania Deploys SITA Connect Go Across 15 Airports to Strengthen Network Security",
+        "url": "https://techafricanews.com/2026/11/26/air-tanzania-deploys-sita-connect-go-across-15-airports/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-f6f309011ea3ca836162f74e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Lagos attracts over N1 trillion in investments in 2025, targets $50 billion in 2027",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T15:01:47+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Lagos attracts over N1 trillion in investments in 2025, targets $50 billion in 2027",
+        "url": "https://nairametrics.com/2026/11/26/lagos-attracts-over-n1-trillion-in-investments-in-2025-targets-50-billion-in-2027/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-fd996a389f169e9c31e6d1f1",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Fountain of Life Crisis: Court Orders Jimmy Odukoya’s Arrest",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T14:53:18+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Fountain of Life Crisis: Court Orders Jimmy Odukoya’s Arrest",
+        "url": "https://businesspost.ng/general/fountain-of-life-crisis-court-orders-jimmy-odukoyas-arrest/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-0fcf023b5485a1e211e9f3d6",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "CBN Raises BDC Dollar Supply to $1m Weekly to Ease Seasonal Demand Pressure",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T14:52:28+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "CBN Raises BDC Dollar Supply to $1m Weekly to Ease Seasonal Demand Pressure",
+        "url": "https://businesspost.ng/banking/cbn-raises-bdc-dollar-supply-to-1m-weekly-to-ease-seasonal-demand-pressure/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-e3c62efb0c032e1de977b98a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Ransomware attacks could cost African businesses $368,000 per incident – Report",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T14:50:50+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Ransomware attacks could cost African businesses $368,000 per incident – Report",
+        "url": "https://nairametrics.com/2026/11/26/ransomware-attacks-could-cost-african-businesses-368000-per-incident-report/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-bbb49052f54c18a730b23b0f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Iran develops robotic dog for search-and-rescue operations in hazardous environments",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T14:47:06+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "dailynewsegypt-com",
+    "sources": [
+      {
+        "name": "Daily News Egypt",
+        "title": "Iran develops robotic dog for search-and-rescue operations in hazardous environments",
+        "url": "https://dailynewsegypt.com/2026/11/26/iran-develops-robotic-dog-for-search-and-rescue-operations-in-hazardous-environments/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-6eff3a7e2e919c98c20b16ec",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "ASEAN fellows explore Russia’s nuclear industry at Moscow’s ATOM Museum",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T14:40:48+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "dailynewsegypt-com",
+    "sources": [
+      {
+        "name": "Daily News Egypt",
+        "title": "ASEAN fellows explore Russia’s nuclear industry at Moscow’s ATOM Museum",
+        "url": "https://dailynewsegypt.com/2026/11/26/asean-fellows-explore-russias-nuclear-industry-at-moscows-atom-museum/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-fa1d1f33b79dcb39716562d8",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Russia and Kazakhstan conduct 96% of bilateral settlements in national currencies, Putin says",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T14:32:31+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "dailynewsegypt-com",
+    "sources": [
+      {
+        "name": "Daily News Egypt",
+        "title": "Russia and Kazakhstan conduct 96% of bilateral settlements in national currencies, Putin says",
+        "url": "https://dailynewsegypt.com/2026/11/26/russia-and-kazakhstan-conduct-96-of-bilateral-settlements-in-national-currencies-putin-says/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-c933a1a75c4e629b54d92e9c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Kenyan prosecutors drop criminal investigation into FlexPay over $240,000 Naivas dispute",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T14:28:46+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "Kenyan prosecutors drop criminal investigation into FlexPay over $240,000 Naivas dispute",
+        "url": "https://techcabal.com/2026/11/26/naivas-drops-criminal-case-on-flexpay/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-47094b3ff98455cc19e5f083",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Ghana shortlists six bidders for proposed national airline project",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Ghana",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T14:08:02+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Ghana shortlists six bidders for proposed national airline project",
+        "url": "https://nairametrics.com/2026/11/26/ghana-shortlists-six-bidders-for-proposed-national-airline-project/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-11a85d229b5f11349e6cf40a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South Africa’s 2026 maize harvest is the country’s largest on record, CEC says",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:40:57+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South Africa’s 2026 maize harvest is the country’s largest on record, CEC says",
+        "url": "https://cms.cnbcafrica.com/2026/south-africas-2026-maize-harvest-is-the-countrys-largest-on-record-cec-says-2/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-5138b98913728e532c49a912",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "COP31 stalled, but carbon credit markets kept moving forward – with the stage now set for next year’s African COP",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:37:26+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "COP31 stalled, but carbon credit markets kept moving forward – with the stage now set for next year’s African COP",
+        "url": "https://cms.cnbcafrica.com/2026/cop31-stalled-but-carbon-credit-markets-kept-moving-forward-with-the-stage-now-set-for-next-years-african-cop/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-8211abdc916fc022dc36feb8",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "After a decade in Nigeria, Bolt is looking beyond rides",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:34:26+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "After a decade in Nigeria, Bolt is looking beyond rides",
+        "url": "https://techcabal.com/2026/11/26/bolts-decade-operating-in-nigeria/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-1c7776ac1057c4990fa8cf55",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "China Railway Resources Group plans $600 million investment in Zimbabwe gold mines",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "infrastructure",
+    "also": [],
+    "country": "Zimbabwe",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:21:57+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "China Railway Resources Group plans $600 million investment in Zimbabwe gold mines",
+        "url": "https://cms.cnbcafrica.com/2026/china-railway-resources-group-plans-600-million-investment-in-zimbabwe-gold-mines/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-bf21d49b09146300413d8a98",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NGX sell-off deepens as 10 major stocks hit full offer midday",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:12:49+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "NGX sell-off deepens as 10 major stocks hit full offer midday",
+        "url": "https://nairametrics.com/2026/11/26/ngx-sell-off-deepens-as-10-major-stocks-hit-full-offer-midday/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-6e26b6a42562a4c1b1518981",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Banks’ impairment charges drop 33%, but bad loans still pile up at top lenders",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:11:03+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Banks’ impairment charges drop 33%, but bad loans still pile up at top lenders",
+        "url": "https://nairametrics.com/2026/11/26/banks-impairment-charges-drop-33-but-bad-loans-still-pile-up-at-top-lenders/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-0d3ce5763b80a8aac5307af0",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Cheaper Zuku wins back customers, but losses continue under Axian",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:06:39+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "Cheaper Zuku wins back customers, but losses continue under Axian",
+        "url": "https://techcabal.com/2026/11/26/zuku-wins-back-customers-under-axian/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-d2b8f6d32a162cb1c89d02f6",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "IIF Convenes Stakeholders to Unlock Institutional Capital for Nigeria’s Impact Economy",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:02:22+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "IIF Convenes Stakeholders to Unlock Institutional Capital for Nigeria’s Impact Economy",
+        "url": "https://businesspost.ng/economy/iif-convenes-stakeholders-to-unlock-institutional-capital-for-nigerias-impact-economy/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-047dc1d48443949e79a348e9",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigerian stocks lost N7 Trillion as investors liquidate ahead of Dangote Refinery debut",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:50:01+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Nigerian stocks lost N7 Trillion as investors liquidate ahead of Dangote Refinery debut",
+        "url": "https://nairametrics.com/2026/11/26/nigerian-stocks-lost-n7-trillion-as-investors-liquidate-ahead-of-dangote-refinery-debut/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-8b14b2986a69dbe90baf008b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "AXIAN Telecom Revenue Rises 23% to $1.5 Billion in Nine Months",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:45:19+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "AXIAN Telecom Revenue Rises 23% to $1.5 Billion in Nine Months",
+        "url": "https://techafricanews.com/2026/11/26/axian-telecom-revenue-rises-23-percent-to-1-5-billion/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-ea8bebbee3eecd88d80d6f6a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Veritasi offers 23% on N15 billion non-interest commercial paper",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:42:58+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Veritasi offers 23% on N15 billion non-interest commercial paper",
+        "url": "https://nairametrics.com/2026/11/26/veritasi-offers-23-on-n15-billion-non-interest-commercial-paper/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-9cf9b549513a6a486d17f2f3",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "2027: Amupitan Warns Political Parties Against Use of Violence, Intimidation",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:40:29+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "2027: Amupitan Warns Political Parties Against Use of Violence, Intimidation",
+        "url": "https://businesspost.ng/general/2027-amupitan-warns-political-parties-against-use-of-violence-intimidation/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-f96f97ebacce49884aac5141",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Opening an Optical Store: Systems to Put in Place Before Your First Customer",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:38:39+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Opening an Optical Store: Systems to Put in Place Before Your First Customer",
+        "url": "https://businesspost.ng/general/opening-an-optical-store-systems-to-put-in-place-before-your-first-customer/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-4a8db7b5ce8005abd9e7390f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "e& Egypt Partners With Kenzz to Add Online Shopping to My e& App",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Egypt",
+    "region": "North Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:37:19+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "e& Egypt Partners With Kenzz to Add Online Shopping to My e& App",
+        "url": "https://techafricanews.com/2026/11/26/e-egypt-partners-with-kenzz-to-add-online-shopping-to-my-e-app/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-9d0f2833bf923170a83d3209",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NPA Records 12.2% Cargo Growth to 68.2m Tonnes in H1 2026",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:34:03+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "NPA Records 12.2% Cargo Growth to 68.2m Tonnes in H1 2026",
+        "url": "https://businesspost.ng/general/npa-records-12-2-cargo-growth-to-68-2m-tonnes-in-h1-2026/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-bd93726279e23ca6c754f285",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Lusaka Telecom Solutions Seeks Partnerships to Expand Zambia’s Digital Infrastructure",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Zambia",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:33:41+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Lusaka Telecom Solutions Seeks Partnerships to Expand Zambia’s Digital Infrastructure",
+        "url": "https://techafricanews.com/2026/11/26/lusaka-telecom-solutions-seeks-partnerships-to-expand-zambias-digital-infrastructure/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-c5070d1fd2208ddb78fdb66c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "CSIR cuts senior scientists as bonuses rise",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:30:01+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "CSIR cuts senior scientists as bonuses rise",
+        "url": "https://techcentral.co.za/csir-cuts-senior-scientists-bonuses/288767/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-0e8264da892367d2bcf18f81",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "TMG, Tamer Hosny postpone Madinaty concert to 4 December following Ring Road tragedy",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Egypt",
+    "region": "North Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:29:21+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "dailynewsegypt-com",
+    "sources": [
+      {
+        "name": "Daily News Egypt",
+        "title": "TMG, Tamer Hosny postpone Madinaty concert to 4 December following Ring Road tragedy",
+        "url": "https://dailynewsegypt.com/2026/11/26/tmg-tamer-hosny-postpone-madinaty-concert-to-4-december-following-ring-road-tragedy/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-0897510c3b479814043a1d32",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s FMCG sector exposed to FX, commodity risks as food imports hit $10 billion – SBG Securities",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:26:45+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Nigeria’s FMCG sector exposed to FX, commodity risks as food imports hit $10 billion – SBG Securities",
+        "url": "https://nairametrics.com/2026/11/26/nigerias-fmcg-sector-exposed-to-fx-commodity-risks-as-food-imports-hit-10-billion-sbg-securities/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-f5dd1cc85a1b8346d71d7b83",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Lebara Nigeria Partners OPay to Enable Direct Mobile Line Recharges",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-26",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T12:14:20+00:00",
+    "collectedAt": "2026-11-26T21:51:11+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Lebara Nigeria Partners OPay to Enable Direct Mobile Line Recharges",
+        "url": "https://techafricanews.com/2026/11/26/lebara-nigeria-partners-opay-direct-mobile-recharges/",
+        "date": "2026-11-26",
+        "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "feed-41f2fe1d94b9ff99774d834c",
     "kind": "syndicated",
     "status": "published",
