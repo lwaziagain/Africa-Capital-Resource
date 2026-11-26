@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-26T03:00:53+00:00",
+  "checkedAt": "2026-11-26T12:13:12+00:00",
   "healthySources": 3,
   "totalSources": 3,
   "status": "ok",
@@ -13,11 +13,11 @@
       "maxAgeDays": 10,
       "url": "https://custom.resbank.co.za/SarbWebApi/WebIndicators/HomePageRates",
       "sourceUrl": "https://www.resbank.co.za/en/home/what-we-do/statistics/key-statistics/current-market-rates",
-      "checkedAt": "2026-11-26T03:00:53+00:00",
+      "checkedAt": "2026-11-26T12:13:12+00:00",
       "status": "ok",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "value": 7.25,
-      "lastSuccess": "2026-11-26T03:00:53+00:00"
+      "lastSuccess": "2026-11-26T12:13:12+00:00"
     },
     {
       "id": "ke",
@@ -28,11 +28,11 @@
       "maxAgeDays": 120,
       "url": "https://www.centralbank.go.ke/rates/central-bank-rate/",
       "sourceUrl": "https://www.centralbank.go.ke/rates/central-bank-rate/",
-      "checkedAt": "2026-11-26T03:00:53+00:00",
+      "checkedAt": "2026-11-26T12:13:12+00:00",
       "status": "ok",
       "date": "2026-10-07",
       "value": 8.75,
-      "lastSuccess": "2026-11-26T03:00:53+00:00"
+      "lastSuccess": "2026-11-26T12:13:12+00:00"
     },
     {
       "id": "gh",
@@ -43,11 +43,11 @@
       "maxAgeDays": 120,
       "url": "https://www.bog.gov.gh/monetary-policy/policy-rate-trends/",
       "sourceUrl": "https://www.bog.gov.gh/monetary-policy/policy-rate-trends/",
-      "checkedAt": "2026-11-26T03:00:53+00:00",
+      "checkedAt": "2026-11-26T12:13:12+00:00",
       "status": "ok",
       "date": "2026-09-24",
       "value": 14.0,
-      "lastSuccess": "2026-11-26T03:00:53+00:00"
+      "lastSuccess": "2026-11-26T12:13:12+00:00"
     }
   ]
 }
