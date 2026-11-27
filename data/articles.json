@@ -1,5 +1,1078 @@
 [
   {
+    "id": "feed-0fd14012fa843b9495e6b5af",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Ebomhe: Oshoala’s master’s degree will inspire young female footballers",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T21:21:43+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Ebomhe: Oshoala’s master’s degree will inspire young female footballers",
+        "url": "https://businessday.ng/sports/article/ebomhe-oshoalas-masters-degree-will-inspire-young-female-footballers/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-4c188fb30786a07035248062",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "BREAKING: Nigeria’s monthly remittances hit $1 billion, CBN sets new $1.5 billion target",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T21:06:15+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "BREAKING: Nigeria’s monthly remittances hit $1 billion, CBN sets new $1.5 billion target",
+        "url": "https://nairametrics.com/2026/11/27/breaking-nigerias-monthly-remittances-hit-1-billion-cbn-sets-new-1-5-billion-target/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-c06b3d305c680730a1a5fd8a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Ten Super Falcons players arrive in Algiers for Algeria friendlies",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T20:30:23+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Ten Super Falcons players arrive in Algiers for Algeria friendlies",
+        "url": "https://businessday.ng/sports/article/ten-super-falcons-players-arrive-in-algiers-for-algeria-friendlies/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-f4dbea826c9df0e5054c5480",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria eyes $1.5bn monthly diaspora remittance after hitting $1bn target",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T20:24:20+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Nigeria eyes $1.5bn monthly diaspora remittance after hitting $1bn target",
+        "url": "https://businessday.ng/business-economy/article/nigeria-eyes-1-5bn-monthly-diaspora-remittance-after-hitting-1bn-target/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-08980f0df9b9654505a76465",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "CBN plans new regulatory rulebook to strengthen banking oversight",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T20:18:31+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "CBN plans new regulatory rulebook to strengthen banking oversight",
+        "url": "https://businessday.ng/business-economy/article/cbn-plans-new-regulatory-rulebook-to-strengthen-banking-oversight/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-d530a620276526ed9b5416d2",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Banks urged to lower lending costs as reforms target growth",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T20:17:58+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Banks urged to lower lending costs as reforms target growth",
+        "url": "https://businessday.ng/business-economy/article/banks-urged-to-lower-lending-costs-as-reforms-target-growth-2/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-93fc7bbc4256815395518c68",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NAFDAC shuts Zuba market after uncovering fake products worth N300 million",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T18:34:34+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "NAFDAC shuts Zuba market after uncovering fake products worth N300 million",
+        "url": "https://nairametrics.com/2026/11/27/nafdac-shuts-zuba-market-after-uncovering-fake-products-worth-n300-million/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-decb2a86fc79961413400520",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Oando closes at N39.90 after full-bid demand on rights issue announcement day",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T18:21:34+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Oando closes at N39.90 after full-bid demand on rights issue announcement day",
+        "url": "https://nairametrics.com/2026/11/27/oando-closes-at-n39-90-after-full-bid-demand-on-rights-issue-announcement-day/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-38b306c83daec7cd65319fdf",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Zenith, GTCO rally pushes NGX market value up N534 billion",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T18:19:23+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Zenith, GTCO rally pushes NGX market value up N534 billion",
+        "url": "https://nairametrics.com/2026/11/27/zenith-gtco-rally-pushes-ngx-market-value-up-n534-billion/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-89c581996eb95114e93bfae8",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Temu Affiliate Program Black Friday 2026: a guide to boosting your earnings",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T17:58:14+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Temu Affiliate Program Black Friday 2026: a guide to boosting your earnings",
+        "url": "https://nairametrics.com/2026/11/27/temu-affiliate-program-black-friday-2026-a-guide-to-boosting-your-earnings/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-ac16b486592847e0f6f65695",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "EasyEquities says specific client accounts were targeted in attack",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T17:16:42+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "EasyEquities says specific client accounts were targeted in attack",
+        "url": "https://techcentral.co.za/easyequities-specific-client-accounts-targeted-attack/288820/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-8afc3192c0b9de28e9469c23",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Reps Probe Mining Marshals Over Legal Powers, Alleged N2bn Extortion",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T17:01:19+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Reps Probe Mining Marshals Over Legal Powers, Alleged N2bn Extortion",
+        "url": "https://businesspost.ng/general/reps-probe-mining-marshals-over-legal-powers-alleged-n2bn-extortion/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-50749359f40a4747d79a64d3",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "What happens behind a successful business payment? Ann Mbene is building PIL around that question",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:54:46+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "What happens behind a successful business payment? Ann Mbene is building PIL around that question",
+        "url": "https://nairametrics.com/2026/11/27/what-happens-behind-a-successful-business-payment-ann-mbene-is-building-pil-around-that-question/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-21f6f092201af722336a4420",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "US dollar index at 22-month high as Naira struggles on",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:36:25+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "US dollar index at 22-month high as Naira struggles on",
+        "url": "https://nairametrics.com/2026/11/27/us-dollar-index-at-22-month-high-as-naira-struggles-on/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-9f87bf078c972b2cc1b840ee",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "MEXC’s Hacken-Audited November 2026 proof of reserves shows reserve ratios above 100% across major assets",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:34:54+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "MEXC’s Hacken-Audited November 2026 proof of reserves shows reserve ratios above 100% across major assets",
+        "url": "https://nairametrics.com/2026/11/27/mexcs-hacken-audited-november-2026-proof-of-reserves-shows-reserve-ratios-above-100-across-major-assets/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-3129719155c6f289d5cd4f4d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Aradel, Oando cut cost of producing a barrel by up to 28% in 9M 2026, Seplat’s rises to $16",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:29:50+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Aradel, Oando cut cost of producing a barrel by up to 28% in 9M 2026, Seplat’s rises to $16",
+        "url": "https://nairametrics.com/2026/11/27/aradel-oando-cut-cost-of-producing-a-barrel-by-up-to-28-in-9m-2026-seplats-rises-to-16/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-59bc7e314c409b2c5a1fbf3c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South Africa’s Purple Group investigating cybersecurity incident",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:21:35+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South Africa’s Purple Group investigating cybersecurity incident",
+        "url": "https://cms.cnbcafrica.com/2026/south-africas-purple-group-investigating-cybersecurity-incident/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-a3901ef8ec9de2ab819bd3f7",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Lagos Cancels November Sanitation Exercise",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:19:13+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Lagos Cancels November Sanitation Exercise",
+        "url": "https://businesspost.ng/general/lagos-cancels-november-sanitation-exercise/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-aea0a75e29e7d693521c15b2",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Uganda launches Africa’s first trial of an mRNA Bundibugyo Ebola vaccine",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Uganda",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:17:45+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Uganda launches Africa’s first trial of an mRNA Bundibugyo Ebola vaccine",
+        "url": "https://cms.cnbcafrica.com/2026/uganda-launches-africas-first-trial-of-an-mrna-bundibugyo-ebola-vaccine/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-aced526bd7b95b60466fb3dc",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "These are the most profitable listed insurance companies in Nigeria in 9M 2026",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:10:42+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "These are the most profitable listed insurance companies in Nigeria in 9M 2026",
+        "url": "https://nairametrics.com/2026/11/27/these-are-the-most-profitable-listed-insurance-companies-in-nigeria-in-9m-2026/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-857fdef4d084f42604a35923",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Inside landmark court cases facing listed companies",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T15:59:36+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Inside landmark court cases facing listed companies",
+        "url": "https://nairametrics.com/2026/11/27/banks-oil-giants-inside-landmark-court-cases-facing-listed-companies/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-ac91e27eb80a7099b3ede52d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Samsung and SIMS Nigeria announce massive Black Friday Sales Campaign with up to 80% off premium products",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T15:56:36+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Samsung and SIMS Nigeria announce massive Black Friday Sales Campaign with up to 80% off premium products",
+        "url": "https://nairametrics.com/2026/11/27/samsung-and-sims-nigeria-announce-massive-black-friday-sales-campaign-with-up-to-80-off-premium-products/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-74de3977295459ed80991928",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Coronation Insurance: understanding the ₦2.88 scheme of arrangement and the road ahead",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T15:36:25+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Coronation Insurance: understanding the ₦2.88 scheme of arrangement and the road ahead",
+        "url": "https://nairametrics.com/2026/11/27/coronation-insurance-understanding-the-%e2%82%a62-88-scheme-of-arrangement-and-the-road-ahead/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-de071ea12b7f784665930b89",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Group Urges Nigeria to Strengthen Aviation Emergency Preparedness",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T15:30:34+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Group Urges Nigeria to Strengthen Aviation Emergency Preparedness",
+        "url": "https://businesspost.ng/travel/group-urges-nigeria-to-strengthen-aviation-emergency-preparedness/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-c09d2dbcda128e4d3e7d96ab",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Arsenal-Man City Match of the Week Tops Weekend Football Live on DStv, GOtv",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T15:26:48+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Arsenal-Man City Match of the Week Tops Weekend Football Live on DStv, GOtv",
+        "url": "https://businesspost.ng/sports/arsenal-man-city-match-of-the-week-tops-weekend-football-live-on-dstv-gotv/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-487c409ed73ca348456b3abf",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Egypt Launches AI Hackathon Offering Startups Potential Government Contracts",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "startups",
+    "also": [],
+    "country": "Egypt",
+    "region": "North Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T14:50:37+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Egypt Launches AI Hackathon Offering Startups Potential Government Contracts",
+        "url": "https://techafricanews.com/2026/11/27/egypt-ai-hackathon-startups-government-contracts/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-bd09f31d687ae26102d9d482",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Beyond Recordkeeping: how technology is transforming registrar services",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T14:50:21+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Beyond Recordkeeping: how technology is transforming registrar services",
+        "url": "https://nairametrics.com/2026/11/27/beyond-recordkeeping-how-technology-is-transforming-registrar-services/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-4cb65ef5fc202782b0d771b1",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Dubai is coming to Lagos: Binghatti developer lands at Eko Hotel on 28 November",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T14:32:23+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Dubai is coming to Lagos: Binghatti developer lands at Eko Hotel on 28 November",
+        "url": "https://nairametrics.com/2026/11/27/dubai-is-coming-to-lagos-binghatti-developer-lands-at-eko-hotel-on-28-november/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-cbd0eff272b6b9428ce8da91",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The need for connectivity as the lifeline at the heart of Africa’s climate resilience",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T14:32:08+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "The need for connectivity as the lifeline at the heart of Africa’s climate resilience",
+        "url": "https://cms.cnbcafrica.com/2026/the-need-for-connectivity-as-the-lifeline-at-the-heart-of-africas-climate-resilience/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-f9e001e50d41627d9cf40a56",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Beyond the Gift: How Corporate Procurement Can Unlock Opportunities in Africa’s Creative Economy",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T14:24:46+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Beyond the Gift: How Corporate Procurement Can Unlock Opportunities in Africa’s Creative Economy",
+        "url": "https://cms.cnbcafrica.com/2026/beyond-the-gift-how-corporate-procurement-can-unlock-opportunities-in-africas-creative-economy/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-412c456031b105b9db6cb32e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Former Paramount Skydance Africa executive launches LivDot, a new platform taking African live events and entertainment content to global audiences",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T14:15:41+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Former Paramount Skydance Africa executive launches LivDot, a new platform taking African live events and entertainment content to global audiences",
+        "url": "https://nairametrics.com/2026/11/27/former-paramount-skydance-africa-executive-launches-livdot-a-new-platform-taking-african-live-events-and-entertainment-content-to-global-audiences/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-6c1cec51eddddf75199c6212",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Customs, NDLEA to Boost Port Security, Curb Drug Trafficking",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "infrastructure",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T14:06:40+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Customs, NDLEA to Boost Port Security, Curb Drug Trafficking",
+        "url": "https://businesspost.ng/general/customs-ndlea-to-boost-port-security-curb-drug-trafficking/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-102969368b9889411285e2d4",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "1xBet Chicken Road How to Play and Win – The Complete Guide",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T14:04:52+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "1xBet Chicken Road How to Play and Win – The Complete Guide",
+        "url": "https://businesspost.ng/sports/1xbet-chicken-road-how-to-play-and-win-the-complete-guide/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-6546ca216ffc8e9f450d9dce",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:56:41+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+        "url": "https://cms.cnbcafrica.com/2026/the-tech-download-will-jensen-huangs-return-be-the-spark-the-shaky-ai-market-needs/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-2185136c2e02c15a88acf2bc",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "VFD Group redeploys Executive Director, Morenike Ominike to Anchoria Capital",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:56:08+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "VFD Group redeploys Executive Director, Morenike Ominike to Anchoria Capital",
+        "url": "https://nairametrics.com/2026/11/27/vfd-group-redeploys-executive-director-morenike-ominike-to-anchoria-capital/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-fe1a5c053f2e7cf9d14fb85e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NAFDAC Shuts Abuja Market, Seizes N300m Fake Products",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:50:32+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "NAFDAC Shuts Abuja Market, Seizes N300m Fake Products",
+        "url": "https://businesspost.ng/health/nafdac-shuts-abuja-market-seizes-n300m-fake-products/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-9d601cd993ba7c8994cf6ef8",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Mai Atafo Highlights Role of Mentorship in Supporting Young Fashion Creatives",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:48:01+00:00",
+    "collectedAt": "2026-11-27T22:37:08+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Mai Atafo Highlights Role of Mentorship in Supporting Young Fashion Creatives",
+        "url": "https://businesspost.ng/showbiz/mai-atafo-highlights-role-of-mentorship-in-supporting-young-fashion-creatives/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "feed-62868d0dcb9debb52d4a4e2c",
     "kind": "syndicated",
     "status": "published",
