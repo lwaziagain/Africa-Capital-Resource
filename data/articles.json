@@ -1,5 +1,3195 @@
 [
   {
+    "id": "feed-62868d0dcb9debb52d4a4e2c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Sylvania Platinum pulls out of Thaba joint venture",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Sylvania Platinum pulls out of Thaba joint venture",
+        "url": "https://miningmx.com/2026-11-27-sylvania-platinum-pulls-out-of-thaba-joint-venture",
+        "date": "",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-824d1b72816d6b11ce7a91fd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Guinea's Simandou opens up European market",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Guinea's Simandou opens up European market",
+        "url": "https://miningmx.com/2026-11-27-guinea-s-simandou-opens-up-european-market",
+        "date": "",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-f8cf0f51c3a1cf9dc54ac567",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "PGM miners' emissions climb despite lower production",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "PGM miners' emissions climb despite lower production",
+        "url": "https://miningmx.com/2026-11-27-pgm-miners-emissions-climb-despite-lower-production",
+        "date": "",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-1cf8ccfcd85bf95d0c799f47",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Copper's AI wobble is a blip as squeeze set to continue",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Copper's AI wobble is a blip as squeeze set to continue",
+        "url": "https://miningmx.com/2026-11-27-copper-s-ai-wobble-is-only-a-blip",
+        "date": "",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-1285db1a7a700158389ca704",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Petra Diamonds CEO resigns amid fight for survival",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": null,
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "miningmx-com",
+    "sources": [
+      {
+        "name": "Miningmx",
+        "title": "Petra Diamonds CEO resigns amid fight for survival",
+        "url": "https://miningmx.com/news/2026-11-25-petra-diamonds-ceo-resigns-amid-fight-for-survival",
+        "date": "",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-da7a0a7da6da2c0b4901456c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s Petrol, LPG Reserves Below 30-Day Security Benchmark",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:33:17+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Nigeria’s Petrol, LPG Reserves Below 30-Day Security Benchmark",
+        "url": "https://businesspost.ng/general/nigerias-petrol-lpg-reserves-below-30-day-security-benchmark/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-8daa3569c79215baee66996d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Is online betting legal in South Africa? How to check a betting site is licensed",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:30:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Is online betting legal in South Africa? How to check a betting site is licensed",
+        "url": "https://nairametrics.com/2026/11/27/is-online-betting-legal-in-south-africa-how-to-check-a-betting-site-is-licensed/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-708b218c61c4fbc93d18d4a7",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NGX Confirms Listing of Dangote Refinery Shares December 1",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:28:21+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "NGX Confirms Listing of Dangote Refinery Shares December 1",
+        "url": "https://businesspost.ng/economy/ngx-confirms-listing-of-dangote-refinery-shares-december-1/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-4bd2a8bbd647fd36c9ca0a53",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Telkom Awards R1.15 Million to South African Entrepreneurs at Innovation Awards",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:24:52+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Telkom Awards R1.15 Million to South African Entrepreneurs at Innovation Awards",
+        "url": "https://techafricanews.com/2026/11/27/telkom-awards-r1-15-million-south-african-entrepreneurs/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-4d528034dbf2756aa46b5467",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Payaza repays N88.94 billion commercial paper debt amid African expansion",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:21:36+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Payaza repays N88.94 billion commercial paper debt amid African expansion",
+        "url": "https://nairametrics.com/2026/11/27/payaza-repays-n88-94-billion-commercial-paper-debt-amid-african-expansion/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-26f8bc662a525d5ced877d5a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South Africa’s Takealot sees first profitable half-year as sustainable",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T13:21:06+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South Africa’s Takealot sees first profitable half-year as sustainable",
+        "url": "https://cms.cnbcafrica.com/2026/south-africas-takealot-sees-first-profitable-half-year-as-sustainable/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-4ac374a654d301407a448332",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Fuel subsidy: Here’s where Nigeria’s major Presidential candidates stand ahead of 2027",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:43:56+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Fuel subsidy: Here’s where Nigeria’s major Presidential candidates stand ahead of 2027",
+        "url": "https://nairametrics.com/2026/11/27/fuel-subsidy-heres-where-nigerias-major-presidential-candidates-stand-ahead-of-2027/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e5bbda1d5e1b5fb580a2f68a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "SABC+ positioned as future money-maker",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:43:41+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "SABC+ positioned as future money-maker",
+        "url": "https://www.itweb.co.za/article/sabc-positioned-as-future-money-maker/JN1gPvOAR5oMjL6m",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-af9d09599d71a62cc1cfc689",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Dangote Refinery eyes Africa’s biggest stock market secondary listing in expansion move",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:35:45+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Dangote Refinery eyes Africa’s biggest stock market secondary listing in expansion move",
+        "url": "https://businessday.ng/companies/article/dangote-refinery-eyes-africas-biggest-stock-market-secondary-listing-in-expansion-move/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-cc39d74df065dde54d866764",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South African retailer SPAR flags up to 50% drop in annual earnings",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:31:45+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "South African retailer SPAR flags up to 50% drop in annual earnings",
+        "url": "https://cms.cnbcafrica.com/2026/south-african-retailer-spar-flags-up-to-50-drop-in-annual-earnings/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-6184fac83c7c081a80743d3a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Côte d’Ivoire Partners EBRD to Advance National AI Strategy",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:23:12+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Côte d’Ivoire Partners EBRD to Advance National AI Strategy",
+        "url": "https://techafricanews.com/2026/11/27/cote-divoire-partners-ebrd-to-advance-national-ai-strategy/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-fce6a63dd167a94690e36733",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Coca-Cola HBC completes $2.6 billion acquisition of African bottler CCBA",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:18:21+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Coca-Cola HBC completes $2.6 billion acquisition of African bottler CCBA",
+        "url": "https://nairametrics.com/2026/11/27/coca-cola-hbc-completes-2-6-billion-acquisition-of-african-bottler-ccba/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-aeba662fc10105092d8f966b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Payaza Enters Kenya After Repaying Sh8.5 Billion to Nigerian Investors",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:17:42+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techmoran-com",
+    "sources": [
+      {
+        "name": "TechMoran",
+        "title": "Payaza Enters Kenya After Repaying Sh8.5 Billion to Nigerian Investors",
+        "url": "https://techmoran.com/2026/11/27/payaza-enters-kenya-after-repaying-sh8-5-billion-to-nigerian-investors/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-612cbf24ffd67ceb7e5bd861",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Kano govt denies Yusuf’s role in EFCC probe of Kwankwaso",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:14:32+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Kano govt denies Yusuf’s role in EFCC probe of Kwankwaso",
+        "url": "https://businessday.ng/politics/article/kano-govt-denies-yusufs-role-in-efcc-probe-of-kwankwaso/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-82bfca0b67c2cbc8cbf507b1",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Infracredit’s Guarantee supports GPC Energy’s issuance of N27.5b 10-Year Series 1 Senior Guaranteed Fixed Rate Infrastructure Bonds",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "infrastructure",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:06:49+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Infracredit’s Guarantee supports GPC Energy’s issuance of N27.5b 10-Year Series 1 Senior Guaranteed Fixed Rate Infrastructure Bonds",
+        "url": "https://nairametrics.com/2026/11/27/infracredits-guarantee-supports-gpc-energys-issuance-of-n27-5b-10-year-series-1-senior-guaranteed-fixed-rate-infrastructure-bonds/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-7e07360ce6f12a548d8becaa",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Shop, Style, Glow: FirstBank unveils Discovery, where SME creativity meets commerce",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:03:51+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Shop, Style, Glow: FirstBank unveils Discovery, where SME creativity meets commerce",
+        "url": "https://nairametrics.com/2026/11/27/shop-style-glow-firstbank-unveils-discovery-where-sme-creativity-meets-commerce/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-14cb20a9dd78c38acd0fdcea",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria strengthens public sector data governance with Meta partnership",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:03:03+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Nigeria strengthens public sector data governance with Meta partnership",
+        "url": "https://businessday.ng/news/article/nigeria-strengthens-public-sector-data-governance-with-meta-partnership/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-915881d674e907ef405f0b33",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "50,000 Young Nigerians undergo digital and creative skills training under iDICE in the North-West",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:00:51+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "50,000 Young Nigerians undergo digital and creative skills training under iDICE in the North-West",
+        "url": "https://nairametrics.com/2026/11/27/50000-young-nigerians-undergo-digital-and-creative-skills-training-under-idice-in-the-north-west/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-08b483745ccd20889b5255a0",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Top five DisCos with highest metering rate in October",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T12:00:31+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Top five DisCos with highest metering rate in October",
+        "url": "https://businessday.ng/energy/article/top-five-discos-with-highest-metering-rate-in-october/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-fff79b57e0ab3735a845de99",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "AFRINIC shapes Africa's connectivity blueprint in Cape Town",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T11:55:03+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "AFRINIC shapes Africa's connectivity blueprint in Cape Town",
+        "url": "https://www.itweb.co.za/article/afrinic-shapes-africas-connectivity-blueprint-in-cape-town/P3gQ2MGAVgavnRD1",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-321e2ee5d5213c291d2ae267",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Airtel Africa launches fresh buyback with Barclays, targets 1% of share capital",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T11:51:20+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Airtel Africa launches fresh buyback with Barclays, targets 1% of share capital",
+        "url": "https://nairametrics.com/2026/11/27/airtel-africa-launches-fresh-buyback-with-barclays-targets-1-of-share-capital/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-8531ee2c48ec2955b2d38248",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Oando targets N203.8bn rights issue to fund upstream expansion",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T11:49:09+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Oando targets N203.8bn rights issue to fund upstream expansion",
+        "url": "https://businessday.ng/companies/article/oando-targets-n203-8bn-rights-issue-to-fund-upstream-expansion/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-7a229c05a1599e952f8e2b3a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "ITWeb TV: AI-enabled fraud targets South African retirees",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T11:48:22+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "ITWeb TV: AI-enabled fraud targets South African retirees",
+        "url": "https://www.itweb.co.za/article/itweb-tv-ai-enabled-fraud-targets-south-african-retirees/Gb3Bw7WaGrpq2k6V",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-5ae04a0d99d22ec449473bff",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Black Friday frenzy tests SA’s e-tailers",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T11:26:47+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Black Friday frenzy tests SA’s e-tailers",
+        "url": "https://www.itweb.co.za/article/black-friday-frenzy-tests-sas-e-tailers/raYAyMorm187J38N",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-9291d51f1040b160797a8452",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Supercoin’s Gideon Greaves sees a business in moving money without dollars",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T11:14:31+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "Supercoin’s Gideon Greaves sees a business in moving money without dollars",
+        "url": "https://techcabal.com/2026/11/27/supercoin-gideon-greaves-payment-strategy/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-c0a7a0e0a4906fcb5385d639",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "stc Bahrain Completes Nationwide Cybersecurity and AI Awareness Sessions for Schools",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T11:00:52+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "stc Bahrain Completes Nationwide Cybersecurity and AI Awareness Sessions for Schools",
+        "url": "https://techafricanews.com/2026/11/27/stc-bahrains-completes-nationwide-cybersecurity-ai-awareness-sessions-for-schools/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-6b83bf8c5943e90d95519e5e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "FG Clears 13-Year Pension Backlog",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "personal-finance",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T11:00:01+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "FG Clears 13-Year Pension Backlog",
+        "url": "https://businesspost.ng/general/fg-clears-13-year-pension-backlog/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-2fcf2164ebedb915fe11f8ca",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Sanwo-Olu cancels November environmental sanitation exercise over INEC mock polls",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T10:49:10+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Sanwo-Olu cancels November environmental sanitation exercise over INEC mock polls",
+        "url": "https://nairametrics.com/2026/11/27/sanwo-olu-cancels-november-environmental-sanitation-exercise-over-inec-mock-polls/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-a169539c753c8659792bac81",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "After two decades in global finance, Tamer Bahgat is betting on social commerce in Nigeria",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T10:41:54+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "After two decades in global finance, Tamer Bahgat is betting on social commerce in Nigeria",
+        "url": "https://techcabal.com/2026/11/27/how-tamer-bahgat-founded-we-yan/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-c9d57b5f1bd073d7c06d424e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "South Africa’s satellite dream is stuck on the ground",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T10:41:40+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "South Africa’s satellite dream is stuck on the ground",
+        "url": "https://techcentral.co.za/south-africa-satellite-dream-stuck-on-ground/288810/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-3945e953101f77a1b9e8a6d8",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Kenya Airways plans to raise $1.5 billion from investor in 2027",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T10:36:45+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Kenya Airways plans to raise $1.5 billion from investor in 2027",
+        "url": "https://cms.cnbcafrica.com/2026/kenya-airways-plans-to-raise-1-5-billion-from-investor-in-2027/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-87052203dc8d9e44041d0c14",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Workday tests SA’s public-sector waters",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T10:24:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "Workday tests SA’s public-sector waters",
+        "url": "https://techcentral.co.za/workday-south-africa-public-sector-data-eu/288814/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-a06c15d818232d844390aac0",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Top 10 CNBC Africa Stories of the Week",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T10:16:07+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Top 10 CNBC Africa Stories of the Week",
+        "url": "https://cms.cnbcafrica.com/2026/top-10-cnbc-africa-stories-of-the-week-8/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-1eaf15b00aa9020f3dbccf94",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Absa Kenya Posts Sh15.3 Billion Nine-Month Profit as Assets Cross Sh600 Billion",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T10:02:41+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techmoran-com",
+    "sources": [
+      {
+        "name": "TechMoran",
+        "title": "Absa Kenya Posts Sh15.3 Billion Nine-Month Profit as Assets Cross Sh600 Billion",
+        "url": "https://techmoran.com/2026/11/27/absa-kenya-posts-sh15-3-billion-nine-month-profit-as-assets-cross-sh600-billion/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-b669c18ff58db53fd1a7d177",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "CCAvenue Launches Mastercard Click to Pay for E-Commerce Merchants",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T10:01:55+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "CCAvenue Launches Mastercard Click to Pay for E-Commerce Merchants",
+        "url": "https://techafricanews.com/2026/11/27/ccavenue-launches-mastercard-click-to-pay-for-ecommerce-merchants/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-41a80b3d96ce7a622edf6cc1",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Eko DisCo records highest metering rate as Nigeria meters 8.35 million customers",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:55:17+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Eko DisCo records highest metering rate as Nigeria meters 8.35 million customers",
+        "url": "https://nairametrics.com/2026/11/27/eko-disco-records-highest-metering-rate-as-nigeria-meters-8-35-million-customers/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e864c72ed21124cf7729d5b2",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Has organised crime penetrated South Africa’s police and justice system?",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:55:04+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Has organised crime penetrated South Africa’s police and justice system?",
+        "url": "https://cms.cnbcafrica.com/2026/has-organised-crime-penetrated-south-africas-police-and-justice-system/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-b836bdbb00a05e69aa277cc3",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "SA developer builds open source alternative to Bitcoin",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "crypto",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:53:14+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "SA developer builds open source alternative to Bitcoin",
+        "url": "https://www.itweb.co.za/article/sa-developer-builds-open-source-alternative-to-bitcoin/KBpdgvpmVJJ7LEew",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-8ce6d66374af7890a18d98b5",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Bolt cuts driver commission to 15% in Lagos, Abuja",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:48:40+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Bolt cuts driver commission to 15% in Lagos, Abuja",
+        "url": "https://nairametrics.com/2026/11/27/bolt-cuts-driver-commission-to-15-in-lagos-abuja/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-05ad847dce97c857121c5447",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Zambia central bank holds key rate as inflation expected to stay within target",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Zambia",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:39:56+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Zambia central bank holds key rate as inflation expected to stay within target",
+        "url": "https://cms.cnbcafrica.com/2026/zambias-central-bank-maintains-policy-rate-says-stance-appropriate/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-59a2c5607cb402a863adb83d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Seati Moloi: The Soweto boy who wants Africa to build its own Google",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:35:25+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "Seati Moloi: The Soweto boy who wants Africa to build its own Google",
+        "url": "https://techcabal.com/2026/11/27/seati-moloi-khoi-tech-soweto/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-17651ccbc98974789300d5a4",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Kenyan Telcos Oppose Upfront Spectrum Licence Fees",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:33:23+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techmoran-com",
+    "sources": [
+      {
+        "name": "TechMoran",
+        "title": "Kenyan Telcos Oppose Upfront Spectrum Licence Fees",
+        "url": "https://techmoran.com/2026/11/27/kenyan-telcos-oppose-upfront-spectrum-licence-fees/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-52100f0209117889f8e8cc2d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Surveyors Want EFCC Support to Tackle Real Estate Fraud",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:33:20+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Surveyors Want EFCC Support to Tackle Real Estate Fraud",
+        "url": "https://businesspost.ng/general/surveyors-want-efcc-support-to-tackle-real-estate-fraud/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-88a55459be453511dc14a326",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Kenya Targets Crypto Transactions With New Tax-Reporting Rules",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "crypto",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:18:30+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techmoran-com",
+    "sources": [
+      {
+        "name": "TechMoran",
+        "title": "Kenya Targets Crypto Transactions With New Tax-Reporting Rules",
+        "url": "https://techmoran.com/2026/11/27/kenya-targets-crypto-transactions-with-new-tax-reporting-rules/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-6972455e08eca842fb8c600b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Discovery banks on ‘Superbank’ to run the show",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:15:53+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Discovery banks on ‘Superbank’ to run the show",
+        "url": "https://www.itweb.co.za/article/discovery-banks-on-superbank-to-run-the-show/wbrpOMg2drD7DLZn",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-fbe37cefa94c0272192455b3",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Airtel Africa completes Citi buyback tranche, repurchases 12 million shares",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:15:15+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Airtel Africa completes Citi buyback tranche, repurchases 12 million shares",
+        "url": "https://nairametrics.com/2026/11/27/airtel-africa-completes-citi-buyback-tranche-repurchases-12-million-shares/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-625721cc84e3419f24fe739d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "UN warns famine risks rising as hunger hotspots increase",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:10:15+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "UN warns famine risks rising as hunger hotspots increase",
+        "url": "https://cms.cnbcafrica.com/2026/un-warns-famine-risks-rising-as-hunger-hotspots-increase/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e3bd5d5a1538d975a73c9b84",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Huawei brings operators, industry partners together at Africa Tech Festival 2026",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:09:50+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "Huawei brings operators, industry partners together at Africa Tech Festival 2026",
+        "url": "https://techcentral.co.za/huawei-africa-tech-festival-2026-operators/288804/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-9e16717cfbd9744f1fe33df1",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Year-end data health check: Ten questions to ask before 31 December",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:06:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Year-end data health check: Ten questions to ask before 31 December",
+        "url": "https://www.itweb.co.za/article/year-end-data-health-check-ten-questions-to-ask-before-31-december/6GxRKMYQOr3Mb3Wj",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-867dd5a7d33f9e7aa0f78a1d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "When politics enters the workplace: The real cost of uncertainty for SA employers",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:05:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "When politics enters the workplace: The real cost of uncertainty for SA employers",
+        "url": "https://www.itweb.co.za/article/when-politics-enters-the-workplace-the-real-cost-of-uncertainty-for-sa-employers/mYZRX79gKExqOgA8",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-72f02efa58dbc5e5a6f4b5b1",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Meet Freepaid: The company behind AllNet and SIMcloud",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:04:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Meet Freepaid: The company behind AllNet and SIMcloud",
+        "url": "https://www.itweb.co.za/article/meet-freepaid-the-company-behind-allnet-and-simcloud/lwrKxv3Y6z3Mmg1o",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-0da4be667c51751165509e05",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "iiDENTIFii takes two top honours at inaugural South African AI Awards",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:03:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "iiDENTIFii takes two top honours at inaugural South African AI Awards",
+        "url": "https://www.itweb.co.za/article/iidentifii-takes-two-top-honours-at-inaugural-south-african-ai-awards/j5alr7QAXY67pYQk",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-47c7c74256c1e039fb4c5a44",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The great consulting compression: How AI is changing what organisations buy from technology partners",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:02:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "The great consulting compression: How AI is changing what organisations buy from technology partners",
+        "url": "https://www.itweb.co.za/article/the-great-consulting-compression-how-ai-is-changing-what-organisations-buy-from-technology-partners/nWJad7bNKrN7bjO1",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-080b326b6d7191bbf3a98cbd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Governing AI and maintaining data resilience in the public sector",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:01:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Governing AI and maintaining data resilience in the public sector",
+        "url": "https://www.itweb.co.za/article/governing-ai-and-maintaining-data-resilience-in-the-public-sector/dgp45qaBAr6vX9l8",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-7733773437f9483ab9929a99",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s Payaza acquires Ghana’s Seesail to bring commerce tools, finance to Africa’s small businesses",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T09:00:17+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "disruptafrica-com",
+    "sources": [
+      {
+        "name": "Disrupt Africa",
+        "title": "Nigeria’s Payaza acquires Ghana’s Seesail to bring commerce tools, finance to Africa’s small businesses",
+        "url": "https://disruptafrica.com/2026/11/27/nigerias-payaza-acquires-ghanas-seesail-to-bring-commerce-tools-finance-to-africas-small-businesses/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-c9b3fa6fc46aaa6d00098c35",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "What makes a special economic zone work? Lessons from South Africa’s industrial heartland",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:57:35+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "What makes a special economic zone work? Lessons from South Africa’s industrial heartland",
+        "url": "https://cms.cnbcafrica.com/2026/what-makes-a-special-economic-zone-work-lessons-from-south-africas-industrial-heartland/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-f068e417ec8700aaacf25527",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Kenya and EU Advance Data-Transfer Pact as Digital Investment Plans Expand",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:56:09+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techmoran-com",
+    "sources": [
+      {
+        "name": "TechMoran",
+        "title": "Kenya and EU Advance Data-Transfer Pact as Digital Investment Plans Expand",
+        "url": "https://techmoran.com/2026/11/27/kenya-and-eu-advance-data-transfer-pact-as-digital-investment-plans-expand/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-ade6cc0ac59a92626e47670c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Renaissance Africa Expands Vendor Financing Scheme to US$4.3 Billion",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:52:24+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Renaissance Africa Expands Vendor Financing Scheme to US$4.3 Billion",
+        "url": "https://techafricanews.com/2026/11/27/renaissance-africa-expands-vendor-financing-scheme-to-us4-3-billion/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e40ad789b2037c78d4badacc",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Yas Business Backs Tanzania Accountants’ Conference With Connectivity Support",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:47:59+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Yas Business Backs Tanzania Accountants’ Conference With Connectivity Support",
+        "url": "https://techafricanews.com/2026/11/27/yas-business-tanzania-accountants-conference-connectivity-support/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-16b921fe92db4d5f54b933d1",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "UK net migration falls to 77,000, lowest in 29 years",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:42:38+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "UK net migration falls to 77,000, lowest in 29 years",
+        "url": "https://nairametrics.com/2026/11/27/uk-net-migration-falls-to-77000-lowest-in-29-years/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-2c028dbfcc18d94942481380",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "MTN Ghana Partners Stanbic Bank to Train Youth in Digital Skills",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Ghana",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:42:20+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "MTN Ghana Partners Stanbic Bank to Train Youth in Digital Skills",
+        "url": "https://techafricanews.com/2026/11/27/mtn-ghana-stanbic-bank-youth-digital-skills-training/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-818a2eb7c2bdac87355cbd24",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "ICASA extends spectrum input deadline to next year",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:38:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "ICASA extends spectrum input deadline to next year",
+        "url": "https://www.itweb.co.za/article/icasa-extends-spectrum-input-deadline-to-next-year/PmxVEMKE5VAvQY85",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-9b281c4381e30a5a751004d3",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Ghana Commissions Meteorological Agency Building 42 Years After Foundation Was Laid",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Ghana",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:30:40+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Ghana Commissions Meteorological Agency Building 42 Years After Foundation Was Laid",
+        "url": "https://techafricanews.com/2026/11/27/ghana-commissions-meteorological-agency-building-42-years-after-foundation/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-cd58f217b096161bb4a37855",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "EasyEquities owes its clients better answers",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:29:22+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "EasyEquities owes its clients better answers",
+        "url": "https://techcentral.co.za/easyequities-owes-clients-better-answers/288796/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-65f4b1a953322422870b906e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Smart Centres Index – Nigeria missing in action",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:29:15+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Smart Centres Index – Nigeria missing in action",
+        "url": "https://nairametrics.com/2026/11/27/smart-centres-index-nigeria-missing-in-action/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e69695eeab79d92ca2805b2f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NiDo Africa Launches Business Directory",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:29:08+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "NiDo Africa Launches Business Directory",
+        "url": "https://businesspost.ng/general/nido-africa-launches-business-directory/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-008831c28fcde493c3078ebf",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "FrieslandCampina, IGI Boost NASD Market by 0.75%",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:22:32+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "FrieslandCampina, IGI Boost NASD Market by 0.75%",
+        "url": "https://businesspost.ng/economy/frieslandcampina-igi-boost-nasd-market-by-0-75/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-f13f49f77d9319cae90f3021",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "MTN Targets 70 Million New Active Data Subscribers Under Ambition 2030",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:20:58+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "MTN Targets 70 Million New Active Data Subscribers Under Ambition 2030",
+        "url": "https://techafricanews.com/2026/11/27/mtn-targets-70-million-active-data-subscribers-ambition-2030/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-192266508ddf08889b9bd8ab",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Takealot posts profitable half-year as ecosystem grows",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:20:27+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Takealot posts profitable half-year as ecosystem grows",
+        "url": "https://www.itweb.co.za/article/takealot-posts-profitable-half-year-as-ecosystem-grows/LPp6VMrBlarMDKQz",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e2422789fce4e9064c24c871",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "How Creators Turn Type and Photos Into Reusable Visual Assets",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:15:07+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "How Creators Turn Type and Photos Into Reusable Visual Assets",
+        "url": "https://businesspost.ng/general/how-creators-turn-type-and-photos-into-reusable-visual-assets/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-741bbba476df2f08ada313ba",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Naira Strengthens to N1,387/$1 as FX Pressure Eases",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:10:42+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Naira Strengthens to N1,387/$1 as FX Pressure Eases",
+        "url": "https://businesspost.ng/economy/naira-strengthens-to-n1387-1-as-fx-pressure-eases/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-88b7f8e5d546719cfb4b004d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tanzania’s TTCL Launches FTTH Clinics to Improve Fibre Broadband Services",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:03:08+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Tanzania’s TTCL Launches FTTH Clinics to Improve Fibre Broadband Services",
+        "url": "https://techafricanews.com/2026/11/27/tanzania-ttcl-launches-ftth-clinics-fibre-broadband/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-8c5ed90194acfab7d2d90eb5",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Oil Prices Rise as Middle East Supply Fears Intensify",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T08:00:54+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Oil Prices Rise as Middle East Supply Fears Intensify",
+        "url": "https://businesspost.ng/economy/oil-prices-rise-as-middle-east-supply-fears-intensify/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-c57ccc73e514a7c7e401ecef",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Reserve Bank of Malawi Targets Safer Digital Payments Under 2026–2030 Strategy",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:57:12+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Reserve Bank of Malawi Targets Safer Digital Payments Under 2026–2030 Strategy",
+        "url": "https://techafricanews.com/2026/11/27/reserve-bank-malawi-targets-safer-digital-payments/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-17c53b79da7df4ea6e1338fd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria, Togo seek investors for $50 million data park project",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:53:47+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "Nigeria, Togo seek investors for $50 million data park project",
+        "url": "https://techcabal.com/2026/11/27/nigeria-togo-seek-data-park-investors/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e7d4ee0648ccb0feedfb08e8",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Naira records biggest daily gain in three months to N1,378/$ after CBN’s intervention",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:49:12+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Naira records biggest daily gain in three months to N1,378/$ after CBN’s intervention",
+        "url": "https://nairametrics.com/2026/11/27/naira-records-biggest-daily-gain-in-three-months-to-n1378-after-cbns-intervention/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-aaec8fe1d5aa19325ab39f38",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "iOCO buys Intellection in third acquisition this year",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:46:28+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "iOCO buys Intellection in third acquisition this year",
+        "url": "https://techcentral.co.za/ioco-acquires-intellection/288794/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-709aa0c8b92cfb60a9636360",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Airtel Money Launches ‘Kwela Na Airtel Money’ Campaign in Zambia",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Zambia",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:42:49+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techafricanews-com",
+    "sources": [
+      {
+        "name": "TechAfrica News",
+        "title": "Airtel Money Launches ‘Kwela Na Airtel Money’ Campaign in Zambia",
+        "url": "https://techafricanews.com/2026/11/27/airtel-money-launches-kwela-na-airtel-money-campaign-in-zambia/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-3ad609559ea6eab6930e124a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "When digital trust and human behaviour collide",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:14:55+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "When digital trust and human behaviour collide",
+        "url": "https://www.itweb.co.za/article/when-digital-trust-and-human-behaviour-collide/Kjlyr7wBnPrvk6am",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-3d93f77ac5d544e8a6038def",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Where AI actually belongs in your phone system – and where it doesn’t",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:06:03+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "Where AI actually belongs in your phone system – and where it doesn’t",
+        "url": "https://techcentral.co.za/ai-business-telephony-phone-system-centracom/288788/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-cf40cfef20987da9ae1df057",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Trump says Iran war ends ‘whenever I want it’",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:05:50+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Trump says Iran war ends ‘whenever I want it’",
+        "url": "https://cms.cnbcafrica.com/2026/trump-says-iran-war-ends-whenever-i-want-it/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-00e9682d5b74ac02f795b8b0",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "SpaceX shares jump on alternative trading platform after Musk says he will expand share donations",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:02:53+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "SpaceX shares jump on alternative trading platform after Musk says he will expand share donations",
+        "url": "https://cms.cnbcafrica.com/2026/spacex-shares-jump-on-alternative-trading-platform-after-musk-says-he-will-expand-share-donations/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e96a9a6f6fe0ce129e565d2b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "develoPPP Ventures opens call for SA startups, offering $110k in matching funding",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "startups",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:00:24+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "disruptafrica-com",
+    "sources": [
+      {
+        "name": "Disrupt Africa",
+        "title": "develoPPP Ventures opens call for SA startups, offering $110k in matching funding",
+        "url": "https://disruptafrica.com/2026/11/27/developpp-ventures-opens-call-for-sa-startups-offering-110k-in-matching-funding/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-0d292ca53d7c4acc86b9ed96",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Planet One to invest $933 million in Senegalese iron ore project",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Senegal",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T07:00:23+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Planet One to invest $933 million in Senegalese iron ore project",
+        "url": "https://cms.cnbcafrica.com/2026/planet-one-to-invest-933-million-in-senegalese-iron-ore-project/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-343e0bcd393a0dc4ab6dc4c2",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tanzania Establishes First Sovereign Sustainable Finance Framework for Green and Social Debt",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:57:40+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "tanzaniainvest-com",
+    "sources": [
+      {
+        "name": "TanzaniaInvest",
+        "title": "Tanzania Establishes First Sovereign Sustainable Finance Framework for Green and Social Debt",
+        "url": "https://www.tanzaniainvest.com/finance/capitalmarkets/sovereign-sustainable-finance-framework-green-social-debt",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-59db17a15b2ea7e23d39b8d7",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Ghana buys back 44.1% of February 2027 DDEP bonds in first round of offer",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:56:11+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "Ghana buys back 44.1% of February 2027 DDEP bonds in first round of offer",
+        "url": "https://cms.cnbcafrica.com/2026/ghana-buys-back-44-1-of-february-2027-ddep-bonds-in-first-round-of-offer/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-9ff291dab02cf5887e4bd11c",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The real promise of AI in insurance is better value for customers",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:49:46+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "The real promise of AI in insurance is better value for customers",
+        "url": "https://techcentral.co.za/ai-insurance-customer-value-old-mutual-insure/288721/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-91ee84435f7abae024667669",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The fiscal scissors: How agentic AI could hollow out the tax base",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:38:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "The fiscal scissors: How agentic AI could hollow out the tax base",
+        "url": "https://www.itweb.co.za/article/the-fiscal-scissors-how-agentic-ai-could-hollow-out-the-tax-base/5yONP7ErjedMXWrb",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-851585ba21a0507d12a3ab89",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Outgrown software: A recipe for headaches and real business risk",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:37:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Outgrown software: A recipe for headaches and real business risk",
+        "url": "https://www.itweb.co.za/article/outgrown-software-a-recipe-for-headaches-and-real-business-risk/JN1gP7OARPoqjL6m",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-279ddef8503fe71051e8ef4a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The shared drive isn’t a document management strategy",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:36:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "The shared drive isn’t a document management strategy",
+        "url": "https://www.itweb.co.za/article/the-shared-drive-isnt-a-document-management-strategy/rxP3jqBEJB3MA2ye",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-e2f348ce12a1bed28a2d74da",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Mastercard committed to safeguarding the digital ecosystem",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:35:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Mastercard committed to safeguarding the digital ecosystem",
+        "url": "https://www.itweb.co.za/article/mastercard-committed-to-safeguarding-the-digital-ecosystem/P3gQ2qGAVea7nRD1",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-3b4d621c8dc5a969358d9976",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The printer costs that can put business delivery at risk",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:34:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "The printer costs that can put business delivery at risk",
+        "url": "https://www.itweb.co.za/article/the-printer-costs-that-can-put-business-delivery-at-risk/Gb3BwMWaGVpv2k6V",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-5711d49874c942274cd424a6",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Westcon-Comstor becomes AWS distributor for sub-Saharan Africa",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:33:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Westcon-Comstor becomes AWS distributor for sub-Saharan Africa",
+        "url": "https://www.itweb.co.za/article/westcon-comstor-becomes-aws-distributor-for-sub-saharan-africa/kLgB1MezQ12q59N4",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-327b3ea3b5f9726369afafd4",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Common cyber security mistakes and the habits that can prevent them",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:32:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Common cyber security mistakes and the habits that can prevent them",
+        "url": "https://www.itweb.co.za/article/common-cyber-security-mistakes-and-the-habits-that-can-prevent-them/raYAyqorm58MJ38N",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-c0ec2ceb89238ff29f408529",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s AfCFTA gains depend on factories, not trade agreements, NEXIM Bank says",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:31:07+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Nigeria’s AfCFTA gains depend on factories, not trade agreements, NEXIM Bank says",
+        "url": "https://nairametrics.com/2026/11/27/nigerias-afcfta-gains-depend-on-factories-not-trade-agreements-nexim-bank-says/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-0441f804925d7fc36a6edd83",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Where backups fit in the bigger resilience picture",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:31:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "itweb-co-za",
+    "sources": [
+      {
+        "name": "ITWeb",
+        "title": "Where backups fit in the bigger resilience picture",
+        "url": "https://www.itweb.co.za/article/where-backups-fit-in-the-bigger-resilience-picture/o1Jr5qxPRZAqKdWL",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-4a249482f5a7fd96be668808",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tinubu approves free trade zone licence for Anambra Industrial City",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:11:47+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Tinubu approves free trade zone licence for Anambra Industrial City",
+        "url": "https://nairametrics.com/2026/11/27/tinubu-approves-free-trade-zone-licence-for-anambra-industrial-city/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-b9871c52373d9050d43d5b80",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "👨🏿‍🚀TechCabal Daily – La Visa loca",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Cameroon",
+    "region": "Central Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:06:53+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "👨🏿‍🚀TechCabal Daily – La Visa loca",
+        "url": "https://techcabal.com/2026/11/27/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-la-visa-loca/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-6fb4dd1a45f9edf86f7edb46",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s Omata AI turns WhatsApp into a business operating system for SMEs",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:00:10+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "disruptafrica-com",
+    "sources": [
+      {
+        "name": "Disrupt Africa",
+        "title": "Nigeria’s Omata AI turns WhatsApp into a business operating system for SMEs",
+        "url": "https://disruptafrica.com/2026/11/27/nigerias-omata-ai-turns-whatsapp-into-a-business-operating-system-for-smes/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-2a102ab0ab4f207c990f7b21",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tanzania Budget Execution 2025/26 Shows Revenue 20% Above Target and Deficit at 2.6% of GDP",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T06:00:00+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "tanzaniainvest-com",
+    "sources": [
+      {
+        "name": "TanzaniaInvest",
+        "title": "Tanzania Budget Execution 2025/26 Shows Revenue 20% Above Target and Deficit at 2.6% of GDP",
+        "url": "https://www.tanzaniainvest.com/economy/budget-execution-2025-2026",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-afae2698ae1251721ed2ab59",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Altron CTO Andy Mabaso takes home two CIO Awards",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T05:59:07+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "Altron CTO Andy Mabaso takes home two CIO Awards",
+        "url": "https://techcentral.co.za/altron-andy-mabaso-cio-awards/288781/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-cfe7dbe5169dbd699f46ca16",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "SAP moves to cut at least 10,000 jobs globally in AI-driven restructuring",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T05:53:58+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "SAP moves to cut at least 10,000 jobs globally in AI-driven restructuring",
+        "url": "https://nairametrics.com/2026/11/27/sap-moves-to-cut-at-least-10000-jobs-globally-in-ai-driven-restructuring/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-0297e57e5895673c699904bd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria, Togo target up to $50 million investment in joint data park project",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T05:44:25+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Nigeria, Togo target up to $50 million investment in joint data park project",
+        "url": "https://nairametrics.com/2026/11/27/nigeria-togo-target-up-to-50-million-investment-in-joint-data-park-project/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-b50e050b3b2f24f029ad4392",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "The world is getting nervous about smart glasses",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T05:43:58+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "techcentral-co-za",
+    "sources": [
+      {
+        "name": "TechCentral",
+        "title": "The world is getting nervous about smart glasses",
+        "url": "https://techcentral.co.za/world-nervous-smart-glasses/288775/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-25dc581eedba079582736f8a",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Oando, Others Lift Stock Market by 0.04%",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T05:29:25+00:00",
+    "collectedAt": "2026-11-27T13:43:42+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Oando, Others Lift Stock Market by 0.04%",
+        "url": "https://businesspost.ng/economy/oando-others-lift-stock-market-by-0-04/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "feed-3bbaa7bfafa400dc9f45228e",
     "kind": "syndicated",
     "status": "published",
