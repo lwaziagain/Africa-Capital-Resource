@@ -2,34 +2,34 @@
   "sources": {
     "nairametrics-com": {
       "feed": "https://nairametrics.com/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "W/\"a861a1e7006cf0aec936a4604c827304\"",
       "lastModified": "Thu, 26 Nov 2026 21:05:56 GMT"
     },
     "businesstech-co-za": {
-      "failures": 9
+      "failures": 10
     },
     "techcentral-co-za": {
       "feed": "https://techcentral.co.za/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "",
       "lastModified": ""
     },
     "techcabal-com": {
       "feed": "https://techcabal.com/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
-      "etag": "\"ab15eae355b83d6934722aae2cb6adf1\"",
-      "lastModified": "Thu, 26 Nov 2026 14:28:48 GMT"
+      "etag": "\"ff866dcc063518e0f769b6d43fc55193\"",
+      "lastModified": "Thu, 26 Nov 2026 22:51:49 GMT"
     },
     "techpoint-africa": {
-      "failures": 9
+      "failures": 10
     },
     "disruptafrica-com": {
       "feed": "https://disruptafrica.com/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "\"2d1a8a65de9dd815abf9a9bf021f5359\"",
       "lastModified": "Thu, 26 Nov 2026 10:22:14 GMT"
@@ -37,15 +37,15 @@
     "itweb-co-za": {
       "failures": 0,
       "feed": "https://www.itweb.co.za/rss",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "etag": "",
       "lastModified": ""
     },
     "mybroadband-co-za": {
-      "failures": 9
+      "failures": 10
     },
     "dailyinvestor-com": {
-      "failures": 9
+      "failures": 10
     },
     "miningweekly-com": {
       "failures": 4
@@ -55,48 +55,48 @@
     },
     "miningmx-com": {
       "feed": "https://miningmx.com/atom/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "",
-      "lastModified": "Thu, 26 Nov 2026 21:41:24 GMT"
+      "lastModified": "Fri, 27 Nov 2026 03:05:44 GMT"
     },
     "bizcommunity-com": {
       "failures": 0,
       "feed": "https://www.bizcommunity.africa/rss/410/1/ct-1.html",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "etag": "",
-      "lastModified": "Thu, 26 Nov 2026 21:51:19 GMT"
+      "lastModified": "Fri, 27 Nov 2026 04:04:00 GMT"
     },
     "businessday-ng": {
       "feed": "https://businessday.ng/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
-      "etag": "\"af412136b5450f0758326a9429e10d09\"",
-      "lastModified": "Thu, 26 Nov 2026 21:24:54 GMT"
+      "etag": "\"43261e5da7bbcf34d7ceb4accfadff9e\"",
+      "lastModified": "Fri, 27 Nov 2026 03:42:18 GMT"
     },
     "businesspost-ng": {
       "failures": 0,
       "feed": "https://businesspost.ng/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
-      "etag": "\"d17d99bcfdbdc887c877989549dac948\"",
-      "lastModified": "Thu, 26 Nov 2026 16:20:29 GMT"
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
+      "etag": "\"da43ce5f8e344ec27f0ea44a66262781\"",
+      "lastModified": "Fri, 27 Nov 2026 01:45:00 GMT"
     },
     "thebrief-com-na": {
-      "failures": 9
+      "failures": 10
     },
     "tanzaniainvest-com": {
       "feed": "https://www.tanzaniainvest.com/feed",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "W/\"819b1d08a0a88af1673269f227fa395e\"",
       "lastModified": "Thu, 26 Nov 2026 07:34:25 GMT"
     },
     "kenyanwallstreet-com": {
-      "failures": 9
+      "failures": 10
     },
     "techmoran-com": {
       "feed": "https://techmoran.com/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "W/\"e53c23b4a37b15b758f60de1a3eb8648\"",
       "lastModified": "Thu, 26 Nov 2026 10:32:20 GMT"
@@ -106,14 +106,14 @@
     },
     "techafricanews-com": {
       "feed": "https://techafricanews.com/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "\"4adaa83419cedc8c5b38a99b4bd5d33a\"",
       "lastModified": "Thu, 26 Nov 2026 15:02:26 GMT"
     },
     "africaprivateequitynews-com": {
       "feed": "https://africaprivateequitynews.com/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "\"4486ac9f3ebecbbaf00cde6e49bad928\"",
       "lastModified": "Fri, 01 Dec 2023 13:45:47 GMT"
@@ -121,13 +121,13 @@
     "cnbcafrica-com": {
       "failures": 0,
       "feed": "https://cms.cnbcafrica.com/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "etag": "\"df27e22ffef52668d2e235db19c8dc5a\"",
       "lastModified": "Thu, 26 Nov 2026 14:21:40 GMT"
     },
     "dailynewsegypt-com": {
       "feed": "https://dailynewsegypt.com/feed/",
-      "lastSuccess": "2026-11-26T21:51:11+00:00",
+      "lastSuccess": "2026-11-27T04:03:50+00:00",
       "failures": 0,
       "etag": "\"a1105198e201b05ef5040c4ef0cf0599\"",
       "lastModified": "Thu, 26 Nov 2026 16:06:29 GMT"

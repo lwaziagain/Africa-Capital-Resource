@@ -1,5 +1,179 @@
 [
   {
+    "id": "feed-3bbaa7bfafa400dc9f45228e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Africa’s startup hangover deepens as boom-era companies struggle to raise again",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "startups",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T03:00:15+00:00",
+    "collectedAt": "2026-11-27T04:03:50+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Africa’s startup hangover deepens as boom-era companies struggle to raise again",
+        "url": "https://businessday.ng/technology/article/africas-startup-hangover-deepens-as-boom-era-companies-struggle-to-raise-again/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-b0a44dce32f9e769ffb23e47",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Lekki port delays trap exporters’ cash in unshipped cargo",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "infrastructure",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T02:40:25+00:00",
+    "collectedAt": "2026-11-27T04:03:50+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Lekki port delays trap exporters’ cash in unshipped cargo",
+        "url": "https://businessday.ng/maritime/article/lekki-port-delays-trap-exporters-cash-in-unshipped-cargo/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-06a10bfca04457324b9ada2f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Poor sports infrastructure keeps Nigeria out of $21bn World Cup opportunity",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "infrastructure",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T02:30:28+00:00",
+    "collectedAt": "2026-11-27T04:03:50+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Poor sports infrastructure keeps Nigeria out of $21bn World Cup opportunity",
+        "url": "https://businessday.ng/sports/article/poor-sports-infrastructure-keeps-nigeria-out-of-21bn-world-cup-opportunity/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-19a476ec3d1cb0f1065b5a46",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Higher T-bill yields threaten cheaper credit to businesses",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T02:15:36+00:00",
+    "collectedAt": "2026-11-27T04:03:50+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Higher T-bill yields threaten cheaper credit to businesses",
+        "url": "https://businessday.ng/business-economy/article/higher-t-bill-yields-threaten-cheaper-credit-to-businesses/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-0b9640bd7fdb65e23737c818",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Can Nigerian films turn global commercial hits without losing their cultural identity?",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T02:00:04+00:00",
+    "collectedAt": "2026-11-27T04:03:50+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Can Nigerian films turn global commercial hits without losing their cultural identity?",
+        "url": "https://businessday.ng/life-arts/article/can-nigerian-films-turn-global-commercial-hits-without-losing-their-cultural-identity/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-d251ed67c32dded0e7af970d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Rooted in the source markets, “Poetic and Picturesque Zhejiang” makes its move into Southeast Asia",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T01:45:00+00:00",
+    "collectedAt": "2026-11-27T04:03:50+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Rooted in the source markets, “Poetic and Picturesque Zhejiang” makes its move into Southeast Asia",
+        "url": "https://businesspost.ng/media-outreach/rooted-in-the-source-markets-poetic-and-picturesque-zhejiang-makes-its-move-into-southeast-asia/",
+        "date": "2026-11-27",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "feed-7eb407bea57c1d8ac149cb5a",
     "kind": "syndicated",
     "status": "published",
@@ -1131,6 +1305,35 @@
     ]
   },
   {
+    "id": "feed-2b7c6c970246b71fb572602d",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Life Sciences: From Lab to Landscape – How the Evolution of Life Sciences is Transforming Real Estate Demand on the Chinese Mainland",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:35:00+00:00",
+    "collectedAt": "2026-11-27T04:03:50+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Life Sciences: From Lab to Landscape – How the Evolution of Life Sciences is Transforming Real Estate Demand on the Chinese Mainland",
+        "url": "https://businesspost.ng/media-outreach/life-sciences-from-lab-to-landscape-how-the-evolution-of-life-sciences-is-transforming-real-estate-demand-on-the-chinese-mainland/",
+        "date": "2026-11-26",
+        "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "feed-8211abdc916fc022dc36feb8",
     "kind": "syndicated",
     "status": "published",
@@ -1185,6 +1388,35 @@
         "url": "https://cms.cnbcafrica.com/2026/china-railway-resources-group-plans-600-million-investment-in-zimbabwe-gold-mines/",
         "date": "2026-11-26",
         "checked": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "feed-0e69a130f24f9f33aa2a0df8",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "SeABank officially appoints CEO and Standing Deputy CEO",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-27",
+    "eventDate": "",
+    "publishedAt": "2026-11-26T13:15:00+00:00",
+    "collectedAt": "2026-11-27T04:03:50+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "SeABank officially appoints CEO and Standing Deputy CEO",
+        "url": "https://businesspost.ng/media-outreach/seabank-officially-appoints-ceo-and-standing-deputy-ceo/",
+        "date": "2026-11-26",
+        "checked": "2026-11-27"
       }
     ]
   },
