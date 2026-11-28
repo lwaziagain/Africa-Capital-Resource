@@ -1,5 +1,730 @@
 [
   {
+    "id": "feed-32493a186a1294220406a02b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Dar es Salaam Stock Exchange Week 48 of 2026: Equity Turnover Drops -19.46% to TZS 21.28 Billion as TOL (+16.10%) Leads as Best Stock Performer",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T12:42:12+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "tanzaniainvest-com",
+    "sources": [
+      {
+        "name": "TanzaniaInvest",
+        "title": "Dar es Salaam Stock Exchange Week 48 of 2026: Equity Turnover Drops -19.46% to TZS 21.28 Billion as TOL (+16.10%) Leads as Best Stock Performer",
+        "url": "https://www.tanzaniainvest.com/finance/capitalmarkets/dse-exchange-report-week-48-2026",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-0c4025c6c886241ce270046f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "FrieslandCampina, CSCS Drive NASD Index to Fourth Straight Growth",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T12:37:48+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "FrieslandCampina, CSCS Drive NASD Index to Fourth Straight Growth",
+        "url": "https://businesspost.ng/economy/frieslandcampina-cscs-drive-nasd-index-to-fourth-straight-growth/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-0ba1d528c39d5962f9fd49aa",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Customs Street Rallies 0.34% as Investors Cherry-pick Sound Stocks",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T12:28:21+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Customs Street Rallies 0.34% as Investors Cherry-pick Sound Stocks",
+        "url": "https://businesspost.ng/economy/customs-street-rallies-0-34-as-investors-cherry-pick-sound-stocks/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-535a8c48820d129ba704331b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "CBN pushes market-led liquidity management with repo, swap markets",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T12:10:55+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "CBN pushes market-led liquidity management with repo, swap markets",
+        "url": "https://businessday.ng/news/article/cbn-pushes-market-led-liquidity-management-with-repo-swap-markets/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-55eb8009c15343842438dc63",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigerian startup targets Africa’s cybersecurity gaps with $2m funding",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "startups",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T12:05:03+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Nigerian startup targets Africa’s cybersecurity gaps with $2m funding",
+        "url": "https://businessday.ng/news/article/nigerian-startup-targets-africas-cybersecurity-gaps-with-2m-funding/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-fa80a84d727283cfd8bdc666",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "CBN plans doubling credit to private sector in new growth push",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T11:52:45+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "CBN plans doubling credit to private sector in new growth push",
+        "url": "https://businessday.ng/business-economy/article/cbn-plans-doubling-credit-to-private-sector-in-growth-push/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-056fcd2d93c14e801b5006dd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Naira Trades N1,367/$1 at Official Market on Improved FX Liquidity",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T11:45:12+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Naira Trades N1,367/$1 at Official Market on Improved FX Liquidity",
+        "url": "https://businesspost.ng/economy/naira-trades-n1367-1-at-official-market-on-improved-fx-liquidity/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-07073305fe28f4001b724785",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Kenya Airways targets $1.5 billion strategic investment by mid-2027",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T11:34:23+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Kenya Airways targets $1.5 billion strategic investment by mid-2027",
+        "url": "https://nairametrics.com/2026/11/28/kenya-airways-targets-1-5-billion-strategic-investment-by-mid-2027/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-8222e4d2cc4d014f5f0e915b",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Naija Liquor strengthens partnership with Celebr8Lyfe through product training",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T11:19:20+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Naija Liquor strengthens partnership with Celebr8Lyfe through product training",
+        "url": "https://businessday.ng/life/article/naija-liquor-strengthens-partnership-with-celebr8lyfe-through-product-training/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-c522840053194868dc896ee9",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "AI will not replace workers who learn to govern it – Olayinka James",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T11:16:37+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "AI will not replace workers who learn to govern it – Olayinka James",
+        "url": "https://nairametrics.com/2026/11/28/ai-will-not-replace-workers-who-learn-to-govern-it-olayinka-james/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-6963834def2696a5e0adfb78",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "FCC lifts suspension of Customs recruitment training, exercise to resume",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T11:15:50+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "FCC lifts suspension of Customs recruitment training, exercise to resume",
+        "url": "https://nairametrics.com/2026/11/28/fcc-lifts-suspension-of-customs-recruitment-training-exercise-to-resume/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-7056d679d1b8e275e53e5e4e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "How two brothers turned a brokerage business into a cross-border payments fintech",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T10:42:24+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "techcabal-com",
+    "sources": [
+      {
+        "name": "TechCabal",
+        "title": "How two brothers turned a brokerage business into a cross-border payments fintech",
+        "url": "https://techcabal.com/2026/11/28/80eight-day-1-1000/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-abf26fa009d99d75910f519e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Crude Oil Records First Weekly Gain in November on Supply Fears",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T10:39:37+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Crude Oil Records First Weekly Gain in November on Supply Fears",
+        "url": "https://businesspost.ng/economy/crude-oil-records-first-weekly-gain-in-november-on-supply-fears/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-21e6606fea8e9e967e75ce7f",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tinubu sees Nigeria’s admission into Global Bioenergy Partnership reducing dependence on petrol and diesel",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T10:32:55+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "Tinubu sees Nigeria’s admission into Global Bioenergy Partnership reducing dependence on petrol and diesel",
+        "url": "https://businessday.ng/news/article/tinubu-sees-nigerias-admission-into-global-bioenergy-partnership-reducing-dependence-on-petrol-and-diesel/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-b2d0251ed42dece33f3fb5b9",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "CEO Weekends: WorldRemit Founder’s $5 Million Bet on Odola",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T09:30:16+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "techmoran-com",
+    "sources": [
+      {
+        "name": "TechMoran",
+        "title": "CEO Weekends: WorldRemit Founder’s $5 Million Bet on Odola",
+        "url": "https://techmoran.com/2026/11/28/ceo-weekends-worldremit-founders-5-million-bet-on-odola/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-bf506194fd4b277b5aa22999",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria must buy medicines as one market",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T09:00:42+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Nigeria must buy medicines as one market",
+        "url": "https://nairametrics.com/2026/11/28/nigeria-must-buy-medicines-as-one-market/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-54561afa05330de6d05a02e7",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "TCN announces 10-hour planned power outage in parts of Abuja",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T08:43:44+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "TCN announces 10-hour planned power outage in parts of Abuja",
+        "url": "https://nairametrics.com/2026/11/28/tcn-announces-10-hour-planned-power-outage-in-parts-of-abuja/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-67a3c40b598bb0d499c87eb0",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Detty December: See movies coming to Nigerian cinemas this festive season",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T07:38:30+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Detty December: See movies coming to Nigerian cinemas this festive season",
+        "url": "https://nairametrics.com/2026/11/28/detty-december-see-movies-coming-to-nigerian-cinemas-this-festive-season/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-0d8adc8369f034c77eaa1a2e",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Ovia, Elumelu, Oshin among top shareholders earning N709.7 billion in interim dividends",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T07:31:56+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Ovia, Elumelu, Oshin among top shareholders earning N709.7 billion in interim dividends",
+        "url": "https://nairametrics.com/2026/11/28/ovia-elumelu-oshin-among-top-shareholders-earning-n709-7-billion-in-interim-dividends/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-8b26bdc53870c3062ed699a3",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "NGX suspends trading in Coronation Insurance shares ahead of voluntary delisting",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T07:24:39+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "NGX suspends trading in Coronation Insurance shares ahead of voluntary delisting",
+        "url": "https://nairametrics.com/2026/11/28/ngx-suspends-trading-in-coronation-insurance-shares-ahead-of-voluntary-delisting/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-1e21ee8be9db143004616fd4",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "S&P lifts South Africa ratings on improving fiscal position",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "economy",
+    "also": [],
+    "country": "South Africa",
+    "region": "Southern Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T07:16:14+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "cnbcafrica-com",
+    "sources": [
+      {
+        "name": "CNBC Africa",
+        "title": "S&P lifts South Africa ratings on improving fiscal position",
+        "url": "https://cms.cnbcafrica.com/2026/sp-lifts-south-africa-ratings-on-improving-fiscal-position/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-532733ef63ec8e56652973c7",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Naira extends recovery to N1,376/$ as Interbank FX turnover crashes 55%",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T07:07:43+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Naira extends recovery to N1,376/$ as Interbank FX turnover crashes 55%",
+        "url": "https://nairametrics.com/2026/11/28/naira-extends-recovery-to-n1376-as-interbank-fx-turnover-crashes-55/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-b7b1e980a8d3e16d4a8f0fec",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "FAAN opens new departure bridge at Lagos MMIA ahead of festive season",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T06:42:42+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "FAAN opens new departure bridge at Lagos MMIA ahead of festive season",
+        "url": "https://nairametrics.com/2026/11/28/faan-opens-new-departure-bridge-at-lagos-mmia-ahead-of-festive-season/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-82965ed3e315446d2d113dfb",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "JSE targets secondary listing of Dangote Refinery in Johannesburg",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "markets",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T06:16:33+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "JSE targets secondary listing of Dangote Refinery in Johannesburg",
+        "url": "https://nairametrics.com/2026/11/28/jse-targets-secondary-listing-of-dangote-refinery-in-johannesburg/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-4fe7dc43db815ea6ee12c7cd",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "eCitizen Data Leak Threatens Privacy of 32 Million Kenyans",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Kenya",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T05:57:00+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "techmoran-com",
+    "sources": [
+      {
+        "name": "TechMoran",
+        "title": "eCitizen Data Leak Threatens Privacy of 32 Million Kenyans",
+        "url": "https://techmoran.com/2026/11/28/ecitizen-data-leak-threatens-privacy-of-32-million-kenyans/",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "feed-95fa4ff17d12915ec16cc6a6",
     "kind": "syndicated",
     "status": "published",
@@ -112,6 +837,35 @@
         "url": "https://nairametrics.com/2026/11/27/breaking-nigerias-monthly-remittances-hit-1-billion-cbn-sets-new-1-5-billion-target/",
         "date": "2026-11-27",
         "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-95b26c3445bedae2b90bfbde",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Nigeria’s monthly remittances hit $1 billion, CBN sets new $1.5 billion target",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T21:06:15+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "nairametrics-com",
+    "sources": [
+      {
+        "name": "Nairametrics",
+        "title": "Nigeria’s monthly remittances hit $1 billion, CBN sets new $1.5 billion target",
+        "url": "https://nairametrics.com/2026/11/27/nigerias-monthly-remittances-hit-1-billion-cbn-sets-new-1-5-billion-target/",
+        "date": "2026-11-27",
+        "checked": "2026-11-28"
       }
     ]
   },
@@ -638,6 +1392,35 @@
     ]
   },
   {
+    "id": "feed-88cf3aeed442e2c0a31dbc78",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Fulum Announces Interim Results",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T16:05:00+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "Fulum Announces Interim Results",
+        "url": "https://businesspost.ng/media-outreach/fulum-announces-interim-results/",
+        "date": "2026-11-27",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "feed-857fdef4d084f42604a35923",
     "kind": "syndicated",
     "status": "published",
@@ -692,6 +1475,35 @@
         "url": "https://nairametrics.com/2026/11/27/samsung-and-sims-nigeria-announce-massive-black-friday-sales-campaign-with-up-to-80-off-premium-products/",
         "date": "2026-11-27",
         "checked": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "feed-3691cd707a5cc74d65680220",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "APC Promises 7,500MW Power, $15bn Annual Non-Oil Exports by 2031",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Nigeria",
+    "region": "West Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T15:46:18+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "businesspost-ng",
+    "sources": [
+      {
+        "name": "Business Post Nigeria",
+        "title": "APC Promises 7,500MW Power, $15bn Annual Non-Oil Exports by 2031",
+        "url": "https://businesspost.ng/general/apc-promises-7500mw-power-15bn-annual-non-oil-exports-by-2031/",
+        "date": "2026-11-27",
+        "checked": "2026-11-28"
       }
     ]
   },
@@ -16356,6 +17168,35 @@
     ]
   },
   {
+    "id": "feed-1f7c07a66d0c8b646131f113",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tanzania Sisal Waste to Animal Feed and Fertiliser Pilot Advances to Investor Talks",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-17T04:23:11+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "tanzaniainvest-com",
+    "sources": [
+      {
+        "name": "TanzaniaInvest",
+        "title": "Tanzania Sisal Waste to Animal Feed and Fertiliser Pilot Advances to Investor Talks",
+        "url": "https://www.tanzaniainvest.com/agriculture/sisal-waste-animal-feed-fertiliser",
+        "date": "2026-11-17",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "feed-2c1054ebb5e5951e1d7ab97f",
     "kind": "syndicated",
     "status": "published",
@@ -16990,6 +17831,35 @@
         "url": "https://www.tanzaniainvest.com/industry/industrial-development-programme-unido-2026-2031",
         "date": "2026-11-08",
         "checked": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "feed-7b727d44bc2a857dca8ebbc4",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "AfDB Approves USD 60 Million Loan for Tanzania Agricultural Bank Recapitalisation Targeting 8,000 Jobs",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "banking",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-08T04:15:27+00:00",
+    "collectedAt": "2026-11-28T13:30:04+00:00",
+    "sourceId": "tanzaniainvest-com",
+    "sources": [
+      {
+        "name": "TanzaniaInvest",
+        "title": "AfDB Approves USD 60 Million Loan for Tanzania Agricultural Bank Recapitalisation Targeting 8,000 Jobs",
+        "url": "https://www.tanzaniainvest.com/agriculture/afdb-tadb-recapitalisation",
+        "date": "2026-11-08",
+        "checked": "2026-11-28"
       }
     ]
   },
