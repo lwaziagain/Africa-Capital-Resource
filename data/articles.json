@@ -1,5 +1,63 @@
 [
   {
+    "id": "feed-95fa4ff17d12915ec16cc6a6",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "Tanzania to Deploy Geospatial Science and AI in Land Surveying",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "tech",
+    "also": [],
+    "country": "Tanzania",
+    "region": "East Africa",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-28T04:00:20+00:00",
+    "collectedAt": "2026-11-28T04:12:34+00:00",
+    "sourceId": "tanzaniainvest-com",
+    "sources": [
+      {
+        "name": "TanzaniaInvest",
+        "title": "Tanzania to Deploy Geospatial Science and AI in Land Surveying",
+        "url": "https://www.tanzaniainvest.com/construction/realestate/geospatial-ai-land-surveying",
+        "date": "2026-11-28",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "id": "feed-5bac625067d4180581e953b7",
+    "kind": "syndicated",
+    "status": "published",
+    "type": "Source story",
+    "headline": "CAF introduces VAR for Champions League, Confederation Cup matches",
+    "standfirst": "",
+    "summary": "",
+    "body": [],
+    "category": "companies",
+    "also": [],
+    "country": "Pan-African",
+    "region": "Pan-African",
+    "companies": [],
+    "acsDate": "2026-11-28",
+    "eventDate": "",
+    "publishedAt": "2026-11-27T21:54:30+00:00",
+    "collectedAt": "2026-11-28T04:12:34+00:00",
+    "sourceId": "businessday-ng",
+    "sources": [
+      {
+        "name": "BusinessDay",
+        "title": "CAF introduces VAR for Champions League, Confederation Cup matches",
+        "url": "https://businessday.ng/sports/article/caf-introduces-var-for-champions-league-confederation-cup-matches/",
+        "date": "2026-11-27",
+        "checked": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "feed-0fd14012fa843b9495e6b5af",
     "kind": "syndicated",
     "status": "published",

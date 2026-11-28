@@ -1,16 +1,16 @@
 {
-  "checkedAt": "2026-11-27T22:37:08+00:00",
-  "newArticles": 37,
+  "checkedAt": "2026-11-28T04:12:34+00:00",
+  "newArticles": 2,
   "sources": [
     {
       "id": "nairametrics-com",
       "name": "Nairametrics",
       "website": "https://nairametrics.com/",
-      "new": 17,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "new": 0,
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://nairametrics.com/feed/",
-      "entries": 20
+      "entries": 0
     },
     {
       "id": "businesstech-co-za",
@@ -25,8 +25,8 @@
       "id": "techcentral-co-za",
       "name": "TechCentral",
       "website": "https://techcentral.co.za/",
-      "new": 1,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "new": 0,
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://techcentral.co.za/feed/",
       "entries": 20
@@ -36,10 +36,10 @@
       "name": "TechCabal",
       "website": "https://techcabal.com/",
       "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://techcabal.com/feed/",
-      "entries": 10
+      "entries": 0
     },
     {
       "id": "techpoint-africa",
@@ -55,7 +55,7 @@
       "name": "Disrupt Africa",
       "website": "https://disruptafrica.com/",
       "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://disruptafrica.com/feed/",
       "entries": 0
@@ -65,7 +65,7 @@
       "name": "ITWeb",
       "website": "https://www.itweb.co.za/",
       "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://www.itweb.co.za/rss",
       "entries": 37
@@ -93,7 +93,7 @@
       "name": "Miningmx",
       "website": "https://miningmx.com/",
       "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://miningmx.com/atom/",
       "entries": 50
@@ -103,7 +103,7 @@
       "name": "Bizcommunity",
       "website": "https://www.bizcommunity.com/",
       "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://www.bizcommunity.africa/rss/410/1/ct-1.html",
       "entries": 10
@@ -112,8 +112,8 @@
       "id": "businessday-ng",
       "name": "BusinessDay",
       "website": "https://businessday.ng/",
-      "new": 5,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "new": 1,
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://businessday.ng/feed/",
       "entries": 5
@@ -122,11 +122,11 @@
       "id": "businesspost-ng",
       "name": "Business Post Nigeria",
       "website": "https://businesspost.ng/",
-      "new": 8,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "new": 0,
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://businesspost.ng/feed/",
-      "entries": 10
+      "entries": 0
     },
     {
       "id": "thebrief-com-na",
@@ -141,8 +141,8 @@
       "id": "tanzaniainvest-com",
       "name": "TanzaniaInvest",
       "website": "https://tanzaniainvest.com/",
-      "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "new": 1,
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://www.tanzaniainvest.com/feed",
       "entries": 98
@@ -161,27 +161,27 @@
       "name": "TechMoran",
       "website": "https://techmoran.com/",
       "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://techmoran.com/feed/",
-      "entries": 0
+      "entries": 15
     },
     {
       "id": "techafricanews-com",
       "name": "TechAfrica News",
       "website": "https://techafricanews.com/",
-      "new": 1,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "new": 0,
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://techafricanews.com/feed/",
-      "entries": 12
+      "entries": 0
     },
     {
       "id": "africaprivateequitynews-com",
       "name": "Africa Private Equity News",
       "website": "https://africaprivateequitynews.com/",
       "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://africaprivateequitynews.com/feed/",
       "entries": 0
@@ -190,18 +190,18 @@
       "id": "cnbcafrica-com",
       "name": "CNBC Africa",
       "website": "https://www.cnbcafrica.com/",
-      "new": 5,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "new": 0,
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://cms.cnbcafrica.com/feed/",
-      "entries": 25
+      "entries": 0
     },
     {
       "id": "dailynewsegypt-com",
       "name": "Daily News Egypt",
       "website": "https://dailynewsegypt.com/",
       "new": 0,
-      "lastSuccess": "2026-11-27T22:37:08+00:00",
+      "lastSuccess": "2026-11-28T04:12:34+00:00",
       "status": "ok",
       "feed": "https://dailynewsegypt.com/feed/",
       "entries": 0
@@ -209,6 +209,6 @@
   ],
   "healthySources": 15,
   "totalSources": 21,
-  "totalArticles": 607,
+  "totalArticles": 609,
   "status": "partial"
 }
